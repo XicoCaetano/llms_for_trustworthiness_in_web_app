@@ -1,0 +1,60 @@
+Given the following Java function:
+
+{content}
+
+Evaluate the function **only** according to the following OWASP secure coding practice of input validation and the associated CWEs to help you:
+
+[13] Validate that all input conforms to expected data lengths.
+
+Associated CWEs: 
+1. CWE-20: Improper Input Validation;
+2. CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer;
+3. CWE-120: Buffer Copy without Checking Size of Input ('Classic Buffer Overflow');
+4. CWE-170: Improper Null Termination;
+5. CWE-1286: Improper Validation of Syntactic Correctness of Input;
+
+Look at the following examples of bad practices AS A BASELINE to determine whether the given function follow or not rule 13:
+
+BAD Examples:
+
+- Example (CWE-20 - Improper Input Validation):
+private void buildList ( int untrustedListSize ) {{
+    if ( 0 > untrustedListSize ) {{
+        die("Negative value supplied for list size, die evil hacker!");
+    }}
+    Widget[] list = new Widget [ untrustedListSize ];
+    list[0] = new Widget();
+}}
+
+- Example (CWE-120 - Buffer Copy without Checking Size):
+public void copyData(byte[] src) {{
+    byte[] buffer = new byte[10];
+    System.arraycopy(src, 0, buffer, 0, src.length); // no length check, may overflow
+}}
+
+- Example (CWE-170 - Improper Null Termination):
+public void processInput(String input) {{
+    // no length validation
+    store(input);
+}}
+
+- Example (CWE-1286 - Improper Validation of Syntactic Correctness of Input):
+// Read DOM
+try {{
+...
+    DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
+    factory.setValidating( false );
+    ....
+    c_dom = factory.newDocumentBuilder().parse( xmlFile );
+}} catch(Exception ex) {{
+    ...
+}}
+
+---
+
+Format your response like this:
+1. Does the function FOLLOW OWASP Rule 13 of Input Validation? Answer with "Yes" or "No" only.
+- If yes, respond: "1. Yes;"
+- If no, respond: "1. No;"
+
+Only respond with the line shown above. **End your response with a semicolon (;)** and nothing else.

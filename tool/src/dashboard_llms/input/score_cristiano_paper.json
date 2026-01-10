@@ -1,0 +1,82 @@
+{"NewCustomer":
+    {"Vx0": {
+        "process": 0.53,
+        "getAddressID": 0.89,
+        "createAddress": 0.89,
+        "getCOID": 1,
+        "insertCostumer": 1,
+        "final": 0.85
+    },
+    "Vx101": {
+        "process": 0.53,
+        "getAddressID": 0.48,
+        "createAddress": 0.89,
+        "getCOID": 1,
+        "insertCostumer": 1,
+        "final": 0.75
+    },
+    "Vx138": {
+        "process": 0.53,
+        "getAddressID": 0.89,
+        "createAddress": 0.48,
+        "getCOID": 1,
+        "insertCostumer": 1,
+        "final": 0.75
+    },
+    "Vx158": {
+        "process": 0.53,
+        "getAddressID": 0.89,
+        "createAddress": 0.89,
+        "getCOID": 0.48,
+        "insertCostumer": 1,
+        "final": 0.75
+    },
+    "Vx197": {
+        "process": 0.53,
+        "getAddressID": 0.89,
+        "createAddress": 0.89,
+        "getCOID": 1,
+        "insertCostumer": 0.48,
+        "final": 0.75
+    },
+    "VxA": {
+        "process": 0,
+        "getAddressID": 0,
+        "createAddress": 0,
+        "getCOID": 0,
+        "insertCostumer": 0,
+        "final": 0
+    }
+},
+"CreateNewCustomer":
+    {"Vx0": {
+        "createNewCustomer": 0.72,
+        "enterAddress": 1,
+        "final": 0.85
+    },
+    "Vx078": {
+        "createNewCustomer": 0,
+        "enterAddress": 0,
+        "final": 0
+    },
+    "Vx103": {
+        "createNewCustomer": 0.72,
+        "enterAddress": 0.95,
+        "final": 0.82
+    },
+    "Vx113": {
+        "createNewCustomer": 0,
+        "enterAddress": 0,
+        "final": 0
+    },
+    "Vx132": {
+        "createNewCustomer": 0,
+        "enterAddress": 0,
+        "final": 0
+    },
+    "VxA": {
+        "createNewCustomer": 0,
+        "enterAddress": 0,
+        "final": 0
+    }
+}}

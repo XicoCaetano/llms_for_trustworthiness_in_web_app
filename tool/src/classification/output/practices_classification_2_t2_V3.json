@@ -1,0 +1,3953 @@
+{
+  "LongWrapper.java::getValue": {
+    "cwes": [
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "LongWrapper.java::setValue": {
+    "cwes": [
+      "CWE-93",
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "Pov.java::call": {
+    "cwes": [
+      "CWE-184",
+      "CWE-807",
+      "CWE-20",
+      "CWE-602"
+    ]
+  },
+  "ChangePaymentMethod.java::changePaymentMethod_Vx0": {
+    "cwes": [
+      "CWE-1284",
+      "CWE-602",
+      "CWE-807",
+      "CWE-20",
+      "CWE-601",
+      "CWE-184"
+    ]
+  },
+  "ChangePaymentMethod.java::changePaymentMethod_VxA": {
+    "cwes": [
+      "CWE-602",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "NewCustomer.java::newCustomer_Vx0": {
+    "cwes": [
+      "CWE-1284",
+      "CWE-602",
+      "CWE-807",
+      "CWE-20",
+      "CWE-601",
+      "CWE-184"
+    ]
+  },
+  "NewCustomer.java::newCustomer_Vx101": {
+    "cwes": []
+  },
+  "NewCustomer.java::newCustomer_Vx138": {
+    "cwes": []
+  },
+  "NewCustomer.java::newCustomer_Vx158": {
+    "cwes": [
+      "CWE-1284",
+      "CWE-602",
+      "CWE-807",
+      "CWE-20",
+      "CWE-601",
+      "CWE-184"
+    ]
+  },
+  "NewCustomer.java::newCustomer_Vx197": {
+    "cwes": [
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "NewCustomer.java::newCustomer_VxA": {
+    "cwes": [
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "NewProducts.java::newProducts_Vx0": {
+    "cwes": [
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "NewProducts.java::newProducts_VxA": {
+    "cwes": [
+      "CWE-807",
+      "CWE-20",
+      "CWE-602"
+    ]
+  },
+  "ProductDetail.java::productDetail_Vx0": {
+    "cwes": []
+  },
+  "ProductDetail.java::productDetail_VxA": {
+    "cwes": [
+      "CWE-807",
+      "CWE-20",
+      "CWE-602"
+    ]
+  },
+  "ChangePaymentMethodInput.java::getCreditInfo": {
+    "cwes": []
+  },
+  "ChangePaymentMethodInput.java::setCreditInfo": {
+    "cwes": [
+      "CWE-93",
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "ChangePaymentMethodInput.java::getCustomerId": {
+    "cwes": []
+  },
+  "ChangePaymentMethodInput.java::setCustomerId": {
+    "cwes": []
+  },
+  "ChangePaymentMethodInput.java::getPaymentMethod": {
+    "cwes": [
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "ChangePaymentMethodInput.java::setPaymentMethod": {
+    "cwes": []
+  },
+  "ChangePaymentMethodInput.java::getPoId": {
+    "cwes": [
+      "CWE-807",
+      "CWE-20",
+      "CWE-602"
+    ]
+  },
+  "ChangePaymentMethodInput.java::setPoId": {
+    "cwes": []
+  },
+  "ChangePaymentMethodInput.java::getThreadId": {
+    "cwes": [
+      "CWE-1284",
+      "CWE-602",
+      "CWE-807",
+      "CWE-20",
+      "CWE-601",
+      "CWE-184"
+    ]
+  },
+  "ChangePaymentMethodInput.java::setThreadId": {
+    "cwes": []
+  },
+  "NewCustomerInput.java::getBillingAddr1": {
+    "cwes": [
+      "CWE-1284",
+      "CWE-602",
+      "CWE-807",
+      "CWE-20",
+      "CWE-601",
+      "CWE-184"
+    ]
+  },
+  "NewCustomerInput.java::setBillingAddr1": {
+    "cwes": [
+      "CWE-184",
+      "CWE-807",
+      "CWE-20",
+      "CWE-602"
+    ]
+  },
+  "NewCustomerInput.java::getBillingAddr2": {
+    "cwes": []
+  },
+  "NewCustomerInput.java::setBillingAddr2": {
+    "cwes": [
+      "CWE-93",
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "NewCustomerInput.java::getBillingCity": {
+    "cwes": []
+  },
+  "NewCustomerInput.java::setBillingCity": {
+    "cwes": [
+      "CWE-1284",
+      "CWE-602",
+      "CWE-807",
+      "CWE-20",
+      "CWE-601",
+      "CWE-184"
+    ]
+  },
+  "NewCustomerInput.java::getBillingCountry": {
+    "cwes": [
+      "CWE-20",
+      "CWE-602"
+    ]
+  },
+  "NewCustomerInput.java::setBillingCountry": {
+    "cwes": []
+  },
+  "NewCustomerInput.java::getBillingState": {
+    "cwes": []
+  },
+  "NewCustomerInput.java::setBillingState": {
+    "cwes": []
+  },
+  "NewCustomerInput.java::getBillingZip": {
+    "cwes": [
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-20",
+      "CWE-601",
+      "CWE-184"
+    ]
+  },
+  "NewCustomerInput.java::setBillingZip": {
+    "cwes": []
+  },
+  "NewCustomerInput.java::getBusinessInfo": {
+    "cwes": [
+      "CWE-184",
+      "CWE-807",
+      "CWE-20",
+      "CWE-602"
+    ]
+  },
+  "NewCustomerInput.java::setBusinessInfo": {
+    "cwes": [
+      "CWE-176",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-601",
+      "CWE-184"
+    ]
+  },
+  "NewCustomerInput.java::getBusinessName": {
+    "cwes": [
+      "CWE-1284",
+      "CWE-602",
+      "CWE-807",
+      "CWE-20",
+      "CWE-601",
+      "CWE-184"
+    ]
+  },
+  "NewCustomerInput.java::setBusinessName": {
+    "cwes": []
+  },
+  "NewCustomerInput.java::getContactEmail": {
+    "cwes": [
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "NewCustomerInput.java::setContactEmail": {
+    "cwes": []
+  },
+  "NewCustomerInput.java::getContactFName": {
+    "cwes": []
+  },
+  "NewCustomerInput.java::setContactFName": {
+    "cwes": [
+      "CWE-184",
+      "CWE-807",
+      "CWE-20",
+      "CWE-602"
+    ]
+  },
+  "NewCustomerInput.java::getContactLName": {
+    "cwes": [
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "NewCustomerInput.java::setContactLName": {
+    "cwes": [
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "NewCustomerInput.java::getContactPhone": {
+    "cwes": []
+  },
+  "NewCustomerInput.java::setContactPhone": {
+    "cwes": [
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-20",
+      "CWE-601",
+      "CWE-184"
+    ]
+  },
+  "NewCustomerInput.java::getCreditInfo": {
+    "cwes": []
+  },
+  "NewCustomerInput.java::setCreditInfo": {
+    "cwes": [
+      "CWE-93",
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "NewCustomerInput.java::getPassword": {
+    "cwes": [
+      "CWE-93",
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "NewCustomerInput.java::setPassword": {
+    "cwes": [
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "NewCustomerInput.java::getPaymentMethod": {
+    "cwes": [
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "NewCustomerInput.java::setPaymentMethod": {
+    "cwes": [
+      "CWE-93",
+      "CWE-176",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-601",
+      "CWE-184"
+    ]
+  },
+  "NewCustomerInput.java::getPoId": {
+    "cwes": []
+  },
+  "NewCustomerInput.java::setPoId": {
+    "cwes": [
+      "CWE-1284",
+      "CWE-602",
+      "CWE-807",
+      "CWE-20",
+      "CWE-601",
+      "CWE-184"
+    ]
+  },
+  "NewCustomerInput.java::getThreadId": {
+    "cwes": [
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-601",
+      "CWE-184"
+    ]
+  },
+  "NewCustomerInput.java::setThreadId": {
+    "cwes": [
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "NewProductsInput.java::getCutOffDuration": {
+    "cwes": []
+  },
+  "NewProductsInput.java::setCutOffDuration": {
+    "cwes": [
+      "CWE-93",
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "NewProductsInput.java::getItemLimit": {
+    "cwes": []
+  },
+  "NewProductsInput.java::setItemLimit": {
+    "cwes": [
+      "CWE-93",
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "NewProductsInput.java::getSubjectString": {
+    "cwes": []
+  },
+  "NewProductsInput.java::setSubjectString": {
+    "cwes": [
+      "CWE-93",
+      "CWE-176",
+      "CWE-602",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "ProductDetailInput.java::getItemIds": {
+    "cwes": []
+  },
+  "ProductDetailInput.java::setItemIds": {
+    "cwes": [
+      "CWE-93",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "ChangePaymentMethodOutput.java::getCurrPaymentMethod": {
+    "cwes": [
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "ChangePaymentMethodOutput.java::setCurrPaymentMethod": {
+    "cwes": []
+  },
+  "NewCustomerOutput.java::getCustomerId": {
+    "cwes": [
+      "CWE-93",
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "NewCustomerOutput.java::setCustomerId": {
+    "cwes": [
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "NewProduct.java::getAuthorFName": {
+    "cwes": [
+      "CWE-184",
+      "CWE-807",
+      "CWE-20",
+      "CWE-602"
+    ]
+  },
+  "NewProduct.java::setAuthorFName": {
+    "cwes": [
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "NewProduct.java::getAuthorLName": {
+    "cwes": [
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "NewProduct.java::setAuthorLName": {
+    "cwes": [
+      "CWE-1284",
+      "CWE-602",
+      "CWE-807",
+      "CWE-20",
+      "CWE-601",
+      "CWE-184"
+    ]
+  },
+  "NewProduct.java::getItemId": {
+    "cwes": []
+  },
+  "NewProduct.java::setItemId": {
+    "cwes": []
+  },
+  "NewProduct.java::getItemTitle": {
+    "cwes": []
+  },
+  "NewProduct.java::setItemTitle": {
+    "cwes": []
+  },
+  "NewProductsOutput.java::getNewProductsList": {
+    "cwes": [
+      "CWE-93",
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "NewProductsOutput.java::setNewProductsList": {
+    "cwes": []
+  },
+  "ProductDetailOutput.java::getDetailedProductsList": {
+    "cwes": [
+      "CWE-176",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-601",
+      "CWE-184"
+    ]
+  },
+  "ProductDetailOutput.java::setDetailedProductsList": {
+    "cwes": [
+      "CWE-184",
+      "CWE-807",
+      "CWE-20",
+      "CWE-602"
+    ]
+  },
+  "ProductDetailPojo.java::getAuthorFName": {
+    "cwes": [
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "ProductDetailPojo.java::setAuthorFName": {
+    "cwes": [
+      "CWE-1284",
+      "CWE-602",
+      "CWE-807",
+      "CWE-20",
+      "CWE-601",
+      "CWE-184"
+    ]
+  },
+  "ProductDetailPojo.java::getAuthorLName": {
+    "cwes": []
+  },
+  "ProductDetailPojo.java::setAuthorLName": {
+    "cwes": [
+      "CWE-93",
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "ProductDetailPojo.java::getItemAvail": {
+    "cwes": [
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-184"
+    ]
+  },
+  "ProductDetailPojo.java::setItemAvail": {
+    "cwes": []
+  },
+  "ProductDetailPojo.java::getItemBacking": {
+    "cwes": []
+  },
+  "ProductDetailPojo.java::setItemBacking": {
+    "cwes": []
+  },
+  "ProductDetailPojo.java::getItemCost": {
+    "cwes": [
+      "CWE-184",
+      "CWE-807",
+      "CWE-20",
+      "CWE-602"
+    ]
+  },
+  "ProductDetailPojo.java::setItemCost": {
+    "cwes": [
+      "CWE-93",
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "ProductDetailPojo.java::getItemDesc": {
+    "cwes": [
+      "CWE-93",
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "ProductDetailPojo.java::setItemDesc": {
+    "cwes": []
+  },
+  "ProductDetailPojo.java::getItemDimensions": {
+    "cwes": [
+      "CWE-93",
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "ProductDetailPojo.java::setItemDimensions": {
+    "cwes": [
+      "CWE-93",
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "ProductDetailPojo.java::getItemId": {
+    "cwes": [
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "ProductDetailPojo.java::setItemId": {
+    "cwes": [
+      "CWE-602",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "ProductDetailPojo.java::getItemIsbn": {
+    "cwes": []
+  },
+  "ProductDetailPojo.java::setItemIsbn": {
+    "cwes": [
+      "CWE-93",
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "ProductDetailPojo.java::getItemPage": {
+    "cwes": [
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "ProductDetailPojo.java::setItemPage": {
+    "cwes": [
+      "CWE-93",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "ProductDetailPojo.java::getItemPubDate": {
+    "cwes": [
+      "CWE-1284",
+      "CWE-602",
+      "CWE-807",
+      "CWE-20",
+      "CWE-601",
+      "CWE-184"
+    ]
+  },
+  "ProductDetailPojo.java::setItemPubDate": {
+    "cwes": [
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "ProductDetailPojo.java::getItemPublisher": {
+    "cwes": [
+      "CWE-1284",
+      "CWE-602",
+      "CWE-807",
+      "CWE-20",
+      "CWE-601",
+      "CWE-184"
+    ]
+  },
+  "ProductDetailPojo.java::setItemPublisher": {
+    "cwes": [
+      "CWE-93",
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "ProductDetailPojo.java::getItemSrp": {
+    "cwes": [
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "ProductDetailPojo.java::setItemSrp": {
+    "cwes": [
+      "CWE-93",
+      "CWE-176",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "ProductDetailPojo.java::getItemSubject": {
+    "cwes": [
+      "CWE-93",
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "ProductDetailPojo.java::setItemSubject": {
+    "cwes": [
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "ProductDetailPojo.java::getItemTitle": {
+    "cwes": [
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "ProductDetailPojo.java::setItemTitle": {
+    "cwes": []
+  },
+  "ProductDetailPojo.java::getImageBytes": {
+    "cwes": []
+  },
+  "ProductDetailPojo.java::setImageBytes": {
+    "cwes": []
+  },
+  "ChangePaymentMethod_Vx0.java::process": {
+    "cwes": []
+  },
+  "ChangePaymentMethod_Vx0.java::updateCPM": {
+    "cwes": [
+      "CWE-184",
+      "CWE-807",
+      "CWE-20",
+      "CWE-602"
+    ]
+  },
+  "ChangePaymentMethod_Vx0.java::getBusiName": {
+    "cwes": []
+  },
+  "ChangePaymentMethod_VxA.java::process": {
+    "cwes": [
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "ChangePaymentMethod_VxA.java::updateCPM": {
+    "cwes": []
+  },
+  "ChangePaymentMethod_VxA.java::getBusiName": {
+    "cwes": []
+  },
+  "NewCustomer_Vx0.java::process": {
+    "cwes": [
+      "CWE-1284",
+      "CWE-602",
+      "CWE-807",
+      "CWE-20",
+      "CWE-601",
+      "CWE-184"
+    ]
+  },
+  "NewCustomer_Vx0.java::getAddressID": {
+    "cwes": [
+      "CWE-93",
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "NewCustomer_Vx0.java::createAddress": {
+    "cwes": [
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-20",
+      "CWE-601",
+      "CWE-184"
+    ]
+  },
+  "NewCustomer_Vx0.java::getCOID": {
+    "cwes": [
+      "CWE-1284",
+      "CWE-602",
+      "CWE-807",
+      "CWE-20",
+      "CWE-601",
+      "CWE-184"
+    ]
+  },
+  "NewCustomer_Vx0.java::insertCostumer": {
+    "cwes": []
+  },
+  "NewCustomer_Vx101.java::process": {
+    "cwes": [
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180"
+    ]
+  },
+  "NewCustomer_Vx101.java::getAddressID": {
+    "cwes": []
+  },
+  "NewCustomer_Vx101.java::createAddress": {
+    "cwes": []
+  },
+  "NewCustomer_Vx101.java::getCOID": {
+    "cwes": []
+  },
+  "NewCustomer_Vx101.java::insertCostumer": {
+    "cwes": [
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "NewCustomer_Vx138.java::process": {
+    "cwes": [
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "NewCustomer_Vx138.java::getAddressID": {
+    "cwes": [
+      "CWE-93",
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "NewCustomer_Vx138.java::createAddress": {
+    "cwes": [
+      "CWE-1284",
+      "CWE-602",
+      "CWE-807",
+      "CWE-20",
+      "CWE-601",
+      "CWE-184"
+    ]
+  },
+  "NewCustomer_Vx138.java::getCOID": {
+    "cwes": [
+      "CWE-807",
+      "CWE-20",
+      "CWE-602"
+    ]
+  },
+  "NewCustomer_Vx138.java::insertCostumer": {
+    "cwes": []
+  },
+  "NewCustomer_Vx158.java::process": {
+    "cwes": [
+      "CWE-93",
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "NewCustomer_Vx158.java::getAddressID": {
+    "cwes": []
+  },
+  "NewCustomer_Vx158.java::createAddress": {
+    "cwes": [
+      "CWE-602",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "NewCustomer_Vx158.java::getCOID": {
+    "cwes": [
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "NewCustomer_Vx158.java::insertCostumer": {
+    "cwes": [
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-602"
+    ]
+  },
+  "NewCustomer_Vx197.java::process": {
+    "cwes": [
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180"
+    ]
+  },
+  "NewCustomer_Vx197.java::getAddressID": {
+    "cwes": [
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "NewCustomer_Vx197.java::createAddress": {
+    "cwes": [
+      "CWE-93",
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "NewCustomer_Vx197.java::getCOID": {
+    "cwes": []
+  },
+  "NewCustomer_Vx197.java::insertCostumer": {
+    "cwes": []
+  },
+  "NewCustomer_VxA.java::process": {
+    "cwes": [
+      "CWE-93",
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "NewCustomer_VxA.java::getAddressID": {
+    "cwes": [
+      "CWE-1284",
+      "CWE-602",
+      "CWE-807",
+      "CWE-20",
+      "CWE-601",
+      "CWE-184"
+    ]
+  },
+  "NewCustomer_VxA.java::createAddress": {
+    "cwes": [
+      "CWE-1284",
+      "CWE-602",
+      "CWE-807",
+      "CWE-20",
+      "CWE-601",
+      "CWE-184"
+    ]
+  },
+  "NewCustomer_VxA.java::getCOID": {
+    "cwes": [
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "NewCustomer_VxA.java::insertCostumer": {
+    "cwes": [
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "NewProducts_Vx0.java::process": {
+    "cwes": [
+      "CWE-807",
+      "CWE-20",
+      "CWE-602"
+    ]
+  },
+  "NewProducts_Vx0.java::getData": {
+    "cwes": [
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "NewProducts_VxA.java::process": {
+    "cwes": [
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "NewProducts_VxA.java::getData": {
+    "cwes": [
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "ProductDetail_Vx0.java::process": {
+    "cwes": []
+  },
+  "ProductDetail_Vx0.java::getData": {
+    "cwes": [
+      "CWE-1284",
+      "CWE-807",
+      "CWE-20",
+      "CWE-601",
+      "CWE-184"
+    ]
+  },
+  "ProductDetail_VxA.java::process": {
+    "cwes": []
+  },
+  "ProductDetail_VxA.java::getData": {
+    "cwes": [
+      "CWE-1284",
+      "CWE-602",
+      "CWE-807",
+      "CWE-20",
+      "CWE-601",
+      "CWE-184"
+    ]
+  },
+  "Delivery.java::deliveryTransaction_Vx0": {
+    "cwes": [
+      "CWE-1284",
+      "CWE-602",
+      "CWE-807",
+      "CWE-20",
+      "CWE-601",
+      "CWE-184"
+    ]
+  },
+  "Delivery.java::deliveryTransaction_VxA": {
+    "cwes": [
+      "CWE-1284",
+      "CWE-602",
+      "CWE-807",
+      "CWE-20",
+      "CWE-601",
+      "CWE-184"
+    ]
+  },
+  "Delivery.java::deliveryTransaction_Vx051": {
+    "cwes": [
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "Delivery.java::deliveryTransaction_Vx075": {
+    "cwes": [
+      "CWE-93",
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "Delivery.java::deliveryTransaction_Vx099": {
+    "cwes": [
+      "CWE-807",
+      "CWE-20",
+      "CWE-602"
+    ]
+  },
+  "Delivery.java::deliveryTransaction_Vx123": {
+    "cwes": [
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "Delivery.java::deliveryTransaction_Vx138": {
+    "cwes": [
+      "CWE-93",
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "Delivery.java::deliveryTransaction_Vx154": {
+    "cwes": [
+      "CWE-93",
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "Delivery.java::deliveryTransaction_Vx176": {
+    "cwes": [
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-601",
+      "CWE-184"
+    ]
+  },
+  "NewOrder.java::newOrderTransaction_Vx0": {
+    "cwes": [
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "NewOrder.java::newOrderTransaction_VxA": {
+    "cwes": [
+      "CWE-176",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "NewOrder.java::newOrderTransaction_Vx056": {
+    "cwes": []
+  },
+  "NewOrder.java::newOrderTransaction_Vx081": {
+    "cwes": [
+      "CWE-1284",
+      "CWE-602",
+      "CWE-807",
+      "CWE-20",
+      "CWE-601",
+      "CWE-184"
+    ]
+  },
+  "NewOrder.java::newOrderTransaction_Vx103": {
+    "cwes": []
+  },
+  "NewOrder.java::newOrderTransaction_Vx119": {
+    "cwes": [
+      "CWE-93",
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "NewOrder.java::newOrderTransaction_Vx144": {
+    "cwes": [
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "OrderStatus.java::orderStatusTransaction_Vx0": {
+    "cwes": [
+      "CWE-1284",
+      "CWE-602",
+      "CWE-807",
+      "CWE-20",
+      "CWE-601",
+      "CWE-184"
+    ]
+  },
+  "OrderStatus.java::orderStatusTransaction_VxA": {
+    "cwes": [
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "OrderStatus.java::orderStatusTransaction_Vx046": {
+    "cwes": [
+      "CWE-93",
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "OrderStatus.java::orderStatusTransaction_Vx066": {
+    "cwes": [
+      "CWE-93",
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "OrderStatus.java::orderStatusTransaction_Vx096": {
+    "cwes": [
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "OrderStatus.java::orderStatusTransaction_Vx122": {
+    "cwes": [
+      "CWE-1284",
+      "CWE-602",
+      "CWE-807",
+      "CWE-20",
+      "CWE-601",
+      "CWE-184"
+    ]
+  },
+  "OrderStatus.java::orderStatusTransaction_Vx143": {
+    "cwes": [
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "Payment.java::paymentTransaction_Vx0": {
+    "cwes": []
+  },
+  "Payment.java::paymentTransaction_VxA": {
+    "cwes": []
+  },
+  "Payment.java::paymentTransaction_Vx043": {
+    "cwes": []
+  },
+  "Payment.java::paymentTransaction_Vx057": {
+    "cwes": [
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "Payment.java::paymentTransaction_Vx078": {
+    "cwes": []
+  },
+  "Payment.java::paymentTransaction_Vx091": {
+    "cwes": [
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "Payment.java::paymentTransaction_Vx115": {
+    "cwes": [
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "Payment.java::paymentTransaction_Vx136": {
+    "cwes": []
+  },
+  "Payment.java::paymentTransaction_Vx177": {
+    "cwes": [
+      "CWE-93",
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "Payment.java::paymentTransaction_Vx212": {
+    "cwes": []
+  },
+  "Payment.java::paymentTransaction_Vx241": {
+    "cwes": []
+  },
+  "Payment.java::paymentTransaction_Vx257": {
+    "cwes": [
+      "CWE-93",
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "Payment.java::paymentTransaction_Vx290": {
+    "cwes": [
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "StockLevel.java::stockLevelTransaction_Vx0": {
+    "cwes": []
+  },
+  "StockLevel.java::stockLevelTransaction_Vx033": {
+    "cwes": [
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "StockLevel.java::stockLevelTransaction_Vx057": {
+    "cwes": [
+      "CWE-93",
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "StockLevel.java::stockLevelTransaction_VxA": {
+    "cwes": []
+  },
+  "DeliveryResult.java::getW_id": {
+    "cwes": []
+  },
+  "DeliveryResult.java::getO_carrier_id": {
+    "cwes": []
+  },
+  "DeliveryResult.java::getSkippedDeliveries": {
+    "cwes": [
+      "CWE-93",
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "DeliveryResult.java::getDistrictDeliveryList": {
+    "cwes": []
+  },
+  "DeliveryResult.java::setW_id": {
+    "cwes": [
+      "CWE-176",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "DeliveryResult.java::setO_carrier_id": {
+    "cwes": []
+  },
+  "DeliveryResult.java::setSkippedDeliveries": {
+    "cwes": [
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "DeliveryResult.java::setDistrictDeliveryList": {
+    "cwes": [
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "DistrictDelivery.java::getDistrict": {
+    "cwes": [
+      "CWE-184",
+      "CWE-807",
+      "CWE-20",
+      "CWE-602"
+    ]
+  },
+  "DistrictDelivery.java::setDistrict": {
+    "cwes": [
+      "CWE-176",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-601",
+      "CWE-184"
+    ]
+  },
+  "DistrictDelivery.java::getOrderid": {
+    "cwes": [
+      "CWE-1284",
+      "CWE-602",
+      "CWE-807",
+      "CWE-20",
+      "CWE-601",
+      "CWE-184"
+    ]
+  },
+  "DistrictDelivery.java::setOrderid": {
+    "cwes": [
+      "CWE-93",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "Order.java::getO_id": {
+    "cwes": [
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-184"
+    ]
+  },
+  "Order.java::setO_id": {
+    "cwes": []
+  },
+  "Order.java::getC_id": {
+    "cwes": [
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "Order.java::setC_id": {
+    "cwes": [
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "Order.java::getEntdate": {
+    "cwes": []
+  },
+  "Order.java::setEntdate": {
+    "cwes": [
+      "CWE-184",
+      "CWE-807",
+      "CWE-20",
+      "CWE-602"
+    ]
+  },
+  "Order.java::getO_carrier_id": {
+    "cwes": [
+      "CWE-1284",
+      "CWE-602",
+      "CWE-807",
+      "CWE-20",
+      "CWE-601",
+      "CWE-184"
+    ]
+  },
+  "Order.java::setO_carrier_id": {
+    "cwes": []
+  },
+  "Order.java::getOrderLines": {
+    "cwes": []
+  },
+  "Order.java::setOrderLines": {
+    "cwes": [
+      "CWE-93",
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "OrderLine.java::getOl_supply_w_id": {
+    "cwes": [
+      "CWE-176",
+      "CWE-602",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-184"
+    ]
+  },
+  "OrderLine.java::setOl_supply_w_id": {
+    "cwes": [
+      "CWE-93",
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "OrderLine.java::getOl_i_id": {
+    "cwes": [
+      "CWE-93",
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "OrderLine.java::setOl_i_id": {
+    "cwes": [
+      "CWE-93",
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "OrderLine.java::getOl_quantity": {
+    "cwes": [
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "OrderLine.java::setOl_quantity": {
+    "cwes": [
+      "CWE-93",
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "OrderLine.java::getOl_amount": {
+    "cwes": [
+      "CWE-1284",
+      "CWE-602",
+      "CWE-807",
+      "CWE-20",
+      "CWE-601",
+      "CWE-184"
+    ]
+  },
+  "OrderLine.java::setOl_amount": {
+    "cwes": [
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "OrderLine.java::getOl_delivery_d": {
+    "cwes": [
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "OrderLine.java::setOl_delivery_d": {
+    "cwes": [
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-20",
+      "CWE-601",
+      "CWE-184"
+    ]
+  },
+  "OrderLine.java::toString": {
+    "cwes": []
+  },
+  "PaymentResult.java::getW_id": {
+    "cwes": [
+      "CWE-1173",
+      "CWE-20",
+      "CWE-602"
+    ]
+  },
+  "PaymentResult.java::getW_street_1": {
+    "cwes": [
+      "CWE-93",
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "PaymentResult.java::getW_street_2": {
+    "cwes": [
+      "CWE-93",
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "PaymentResult.java::getW_city": {
+    "cwes": [
+      "CWE-807",
+      "CWE-20",
+      "CWE-602"
+    ]
+  },
+  "PaymentResult.java::getW_state": {
+    "cwes": [
+      "CWE-176",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-601",
+      "CWE-184"
+    ]
+  },
+  "PaymentResult.java::getW_zip": {
+    "cwes": []
+  },
+  "PaymentResult.java::getD_id": {
+    "cwes": []
+  },
+  "PaymentResult.java::getD_street_1": {
+    "cwes": [
+      "CWE-602",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "PaymentResult.java::getD_street_2": {
+    "cwes": [
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "PaymentResult.java::getD_city": {
+    "cwes": [
+      "CWE-93",
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "PaymentResult.java::getD_state": {
+    "cwes": [
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "PaymentResult.java::getD_zip": {
+    "cwes": []
+  },
+  "PaymentResult.java::getC_id": {
+    "cwes": [
+      "CWE-93",
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "PaymentResult.java::getC_first": {
+    "cwes": [
+      "CWE-184",
+      "CWE-807",
+      "CWE-20",
+      "CWE-602"
+    ]
+  },
+  "PaymentResult.java::getC_middle": {
+    "cwes": [
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "PaymentResult.java::getC_last": {
+    "cwes": [
+      "CWE-1284",
+      "CWE-602",
+      "CWE-807",
+      "CWE-20",
+      "CWE-601",
+      "CWE-184"
+    ]
+  },
+  "PaymentResult.java::getC_street_1": {
+    "cwes": [
+      "CWE-176",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-601",
+      "CWE-184"
+    ]
+  },
+  "PaymentResult.java::getC_street_2": {
+    "cwes": [
+      "CWE-184",
+      "CWE-807",
+      "CWE-20",
+      "CWE-602"
+    ]
+  },
+  "PaymentResult.java::getC_city": {
+    "cwes": [
+      "CWE-93",
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "PaymentResult.java::getC_state": {
+    "cwes": []
+  },
+  "PaymentResult.java::getC_zip": {
+    "cwes": []
+  },
+  "PaymentResult.java::getC_since": {
+    "cwes": []
+  },
+  "PaymentResult.java::getC_credit": {
+    "cwes": []
+  },
+  "PaymentResult.java::getC_discount": {
+    "cwes": [
+      "CWE-184",
+      "CWE-807",
+      "CWE-20",
+      "CWE-602"
+    ]
+  },
+  "PaymentResult.java::getC_phone": {
+    "cwes": [
+      "CWE-93",
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "PaymentResult.java::getH_amount": {
+    "cwes": []
+  },
+  "PaymentResult.java::getC_credit_lim": {
+    "cwes": []
+  },
+  "PaymentResult.java::getC_balance": {
+    "cwes": [
+      "CWE-93",
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "PaymentResult.java::getC_data": {
+    "cwes": [
+      "CWE-1284",
+      "CWE-602",
+      "CWE-807",
+      "CWE-20",
+      "CWE-601",
+      "CWE-184"
+    ]
+  },
+  "PaymentResult.java::setW_id": {
+    "cwes": [
+      "CWE-93",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "PaymentResult.java::setW_street_1": {
+    "cwes": [
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "PaymentResult.java::setW_street_2": {
+    "cwes": [
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "PaymentResult.java::setW_city": {
+    "cwes": [
+      "CWE-1284",
+      "CWE-602",
+      "CWE-807",
+      "CWE-20",
+      "CWE-601",
+      "CWE-184"
+    ]
+  },
+  "PaymentResult.java::setW_state": {
+    "cwes": []
+  },
+  "PaymentResult.java::setW_zip": {
+    "cwes": [
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "PaymentResult.java::setD_id": {
+    "cwes": [
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "PaymentResult.java::setD_street_1": {
+    "cwes": [
+      "CWE-184",
+      "CWE-807",
+      "CWE-20",
+      "CWE-602"
+    ]
+  },
+  "PaymentResult.java::setD_street_2": {
+    "cwes": []
+  },
+  "PaymentResult.java::setD_city": {
+    "cwes": [
+      "CWE-1284",
+      "CWE-602",
+      "CWE-807",
+      "CWE-20",
+      "CWE-601",
+      "CWE-184"
+    ]
+  },
+  "PaymentResult.java::setD_state": {
+    "cwes": [
+      "CWE-807",
+      "CWE-20",
+      "CWE-602"
+    ]
+  },
+  "PaymentResult.java::setD_zip": {
+    "cwes": [
+      "CWE-1284",
+      "CWE-602",
+      "CWE-807",
+      "CWE-20",
+      "CWE-601",
+      "CWE-184"
+    ]
+  },
+  "PaymentResult.java::setC_id": {
+    "cwes": [
+      "CWE-602",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "PaymentResult.java::setC_first": {
+    "cwes": []
+  },
+  "PaymentResult.java::setC_middle": {
+    "cwes": []
+  },
+  "PaymentResult.java::setC_last": {
+    "cwes": [
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "PaymentResult.java::setC_street_1": {
+    "cwes": []
+  },
+  "PaymentResult.java::setC_street_2": {
+    "cwes": [
+      "CWE-1284",
+      "CWE-602",
+      "CWE-807",
+      "CWE-20",
+      "CWE-601",
+      "CWE-184"
+    ]
+  },
+  "PaymentResult.java::setC_city": {
+    "cwes": [
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-20",
+      "CWE-601",
+      "CWE-184"
+    ]
+  },
+  "PaymentResult.java::setC_state": {
+    "cwes": []
+  },
+  "PaymentResult.java::setC_zip": {
+    "cwes": []
+  },
+  "PaymentResult.java::setC_since": {
+    "cwes": [
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "PaymentResult.java::setC_credit": {
+    "cwes": []
+  },
+  "PaymentResult.java::setC_discount": {
+    "cwes": []
+  },
+  "PaymentResult.java::setC_phone": {
+    "cwes": [
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "PaymentResult.java::setH_amount": {
+    "cwes": [
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "PaymentResult.java::setC_credit_lim": {
+    "cwes": [
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "PaymentResult.java::setC_balance": {
+    "cwes": []
+  },
+  "PaymentResult.java::setC_data": {
+    "cwes": []
+  },
+  "ShortOrder.java::getO_id": {
+    "cwes": [
+      "CWE-1284",
+      "CWE-602",
+      "CWE-807",
+      "CWE-20",
+      "CWE-601",
+      "CWE-184"
+    ]
+  },
+  "ShortOrder.java::setO_id": {
+    "cwes": [
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "ShortOrder.java::getTotal_amount": {
+    "cwes": [
+      "CWE-93",
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "ShortOrder.java::setTotal_amount": {
+    "cwes": [
+      "CWE-176",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "Delivery_Vx0.java::deliveryTransaction": {
+    "cwes": [
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "Delivery_Vx051.java::deliveryTransaction": {
+    "cwes": [
+      "CWE-184",
+      "CWE-807",
+      "CWE-20",
+      "CWE-602"
+    ]
+  },
+  "Delivery_Vx075.java::deliveryTransaction": {
+    "cwes": []
+  },
+  "Delivery_Vx099.java::deliveryTransaction": {
+    "cwes": [
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "Delivery_Vx123.java::deliveryTransaction": {
+    "cwes": [
+      "CWE-184",
+      "CWE-807",
+      "CWE-20",
+      "CWE-602"
+    ]
+  },
+  "Delivery_Vx138.java::deliveryTransaction": {
+    "cwes": [
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "Delivery_Vx154.java::deliveryTransaction": {
+    "cwes": [
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "Delivery_Vx176.java::deliveryTransaction": {
+    "cwes": [
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "Delivery_VxA.java::deliveryTransaction": {
+    "cwes": [
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "NewOrder_Vx0.java::newOrderTransaction": {
+    "cwes": [
+      "CWE-1284",
+      "CWE-602",
+      "CWE-807",
+      "CWE-20",
+      "CWE-601",
+      "CWE-184"
+    ]
+  },
+  "NewOrder_Vx056.java::newOrderTransaction": {
+    "cwes": [
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "NewOrder_Vx081.java::newOrderTransaction": {
+    "cwes": [
+      "CWE-93",
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "NewOrder_Vx103.java::newOrderTransaction": {
+    "cwes": [
+      "CWE-93",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-601",
+      "CWE-184"
+    ]
+  },
+  "NewOrder_Vx119.java::newOrderTransaction": {
+    "cwes": []
+  },
+  "NewOrder_Vx144.java::newOrderTransaction": {
+    "cwes": []
+  },
+  "NewOrder_VxA.java::newOrderTransaction": {
+    "cwes": [
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "OrderStatus_Vx0.java::orderStatusTransaction": {
+    "cwes": [
+      "CWE-176",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-601",
+      "CWE-184"
+    ]
+  },
+  "OrderStatus_Vx046.java::orderStatusTransaction": {
+    "cwes": [
+      "CWE-1284",
+      "CWE-602",
+      "CWE-807",
+      "CWE-20",
+      "CWE-601",
+      "CWE-184"
+    ]
+  },
+  "OrderStatus_Vx066.java::orderStatusTransaction": {
+    "cwes": [
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "OrderStatus_Vx096.java::orderStatusTransaction": {
+    "cwes": [
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "OrderStatus_Vx122.java::orderStatusTransaction": {
+    "cwes": [
+      "CWE-93",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-807",
+      "CWE-20",
+      "CWE-601",
+      "CWE-184"
+    ]
+  },
+  "OrderStatus_Vx143.java::orderStatusTransaction": {
+    "cwes": []
+  },
+  "OrderStatus_VxA.java::orderStatusTransaction": {
+    "cwes": [
+      "CWE-176",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-601",
+      "CWE-184"
+    ]
+  },
+  "Payment_Vx0.java::paymentTransaction": {
+    "cwes": [
+      "CWE-93",
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "Payment_Vx043.java::paymentTransaction": {
+    "cwes": [
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-601",
+      "CWE-184"
+    ]
+  },
+  "Payment_Vx057.java::paymentTransaction": {
+    "cwes": [
+      "CWE-93",
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "Payment_Vx078.java::paymentTransaction": {
+    "cwes": [
+      "CWE-93",
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "Payment_Vx091.java::paymentTransaction": {
+    "cwes": [
+      "CWE-93",
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "Payment_Vx115.java::paymentTransaction": {
+    "cwes": [
+      "CWE-602",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180"
+    ]
+  },
+  "Payment_Vx136.java::paymentTransaction": {
+    "cwes": [
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "Payment_Vx177.java::paymentTransaction": {
+    "cwes": []
+  },
+  "Payment_Vx212.java::paymentTransaction": {
+    "cwes": [
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "Payment_Vx241.java::paymentTransaction": {
+    "cwes": []
+  },
+  "Payment_Vx257.java::paymentTransaction": {
+    "cwes": []
+  },
+  "Payment_Vx290.java::paymentTransaction": {
+    "cwes": [
+      "CWE-93",
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "Payment_VxA.java::paymentTransaction": {
+    "cwes": [
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "StockLevel_Vx0.java::stockLevelTransaction": {
+    "cwes": [
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "StockLevel_Vx033.java::stockLevelTransaction": {
+    "cwes": [
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "StockLevel_Vx057.java::stockLevelTransaction": {
+    "cwes": []
+  },
+  "StockLevel_VxA.java::stockLevelTransaction": {
+    "cwes": [
+      "CWE-93",
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "AdminUpdate.java::adminUpdate_Vx0": {
+    "cwes": [
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-601",
+      "CWE-184"
+    ]
+  },
+  "AdminUpdate.java::adminUpdate_VxA": {
+    "cwes": []
+  },
+  "CreateNewCustomer.java::createNewCustomer_Vx0": {
+    "cwes": [
+      "CWE-1284",
+      "CWE-602",
+      "CWE-807",
+      "CWE-20",
+      "CWE-601",
+      "CWE-184"
+    ]
+  },
+  "CreateNewCustomer.java::createNewCustomer_VxA": {
+    "cwes": []
+  },
+  "CreateNewCustomer.java::createNewCustomer_Vx078": {
+    "cwes": [
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "CreateNewCustomer.java::createNewCustomer_Vx103": {
+    "cwes": [
+      "CWE-184",
+      "CWE-20",
+      "CWE-602"
+    ]
+  },
+  "CreateNewCustomer.java::createNewCustomer_Vx113": {
+    "cwes": [
+      "CWE-1284",
+      "CWE-602",
+      "CWE-807",
+      "CWE-20",
+      "CWE-601",
+      "CWE-184"
+    ]
+  },
+  "CreateNewCustomer.java::createNewCustomer_Vx132": {
+    "cwes": [
+      "CWE-1284",
+      "CWE-602",
+      "CWE-807",
+      "CWE-20",
+      "CWE-601",
+      "CWE-184"
+    ]
+  },
+  "CreateShoppingCart.java::createShoppingCart_Vx0": {
+    "cwes": [
+      "CWE-93",
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "CreateShoppingCart.java::createShoppingCart_VxA": {
+    "cwes": [
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "DoAuthorSearch.java::doAuthorSearch_VxA": {
+    "cwes": [
+      "CWE-807",
+      "CWE-20",
+      "CWE-602"
+    ]
+  },
+  "DoAuthorSearch.java::doAuthorSearch_Vx0": {
+    "cwes": [
+      "CWE-93",
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "DoSubjectSearch.java::doSubjectSearch_Vx0": {
+    "cwes": [
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-601",
+      "CWE-184"
+    ]
+  },
+  "DoSubjectSearch.java::doSubjectSearch_VxA": {
+    "cwes": []
+  },
+  "DoTitleSearch.java::doTitleSearch_Vx0": {
+    "cwes": [
+      "CWE-93",
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "DoTitleSearch.java::doTitleSearch_VxA": {
+    "cwes": [
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180"
+    ]
+  },
+  "GetBestSellers.java::getBestSellers_Vx0": {
+    "cwes": [
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "GetBestSellers.java::getBestSellers_VxA": {
+    "cwes": [
+      "CWE-176",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-601",
+      "CWE-184"
+    ]
+  },
+  "GetCustomer.java::getCustomer_Vx0": {
+    "cwes": [
+      "CWE-602",
+      "CWE-1173",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180"
+    ]
+  },
+  "GetCustomer.java::getCustomer_VxA": {
+    "cwes": []
+  },
+  "GetMostRecentOrder.java::getMostRecentOrder_Vx0": {
+    "cwes": [
+      "CWE-184",
+      "CWE-807",
+      "CWE-20",
+      "CWE-602"
+    ]
+  },
+  "GetMostRecentOrder.java::getMostRecentOrder_VxA": {
+    "cwes": [
+      "CWE-1284",
+      "CWE-602",
+      "CWE-807",
+      "CWE-20",
+      "CWE-601",
+      "CWE-184"
+    ]
+  },
+  "GetNewProducts.java::getNewProducts_Vx0": {
+    "cwes": [
+      "CWE-93",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-807",
+      "CWE-20",
+      "CWE-601",
+      "CWE-184"
+    ]
+  },
+  "GetNewProducts.java::getNewProducts_VxA": {
+    "cwes": [
+      "CWE-1284",
+      "CWE-602",
+      "CWE-807",
+      "CWE-20",
+      "CWE-601",
+      "CWE-184"
+    ]
+  },
+  "GetPassword.java::getPassword_Vx0": {
+    "cwes": []
+  },
+  "GetPassword.java::getPassword_VxA": {
+    "cwes": [
+      "CWE-1284",
+      "CWE-602",
+      "CWE-807",
+      "CWE-20",
+      "CWE-601",
+      "CWE-184"
+    ]
+  },
+  "GetUsername.java::getUserName_Vx0": {
+    "cwes": [
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "GetUsername.java::getUserName_VxA": {
+    "cwes": [
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "AdminUpdate_Vx0.java::adminUpdate": {
+    "cwes": []
+  },
+  "AdminUpdate_VxA.java::adminUpdate": {
+    "cwes": [
+      "CWE-1284",
+      "CWE-602",
+      "CWE-807",
+      "CWE-20",
+      "CWE-601",
+      "CWE-184"
+    ]
+  },
+  "CreateNewCustomer_Vx0.java::createNewCustomer": {
+    "cwes": []
+  },
+  "CreateNewCustomer_Vx0.java::enterAddress": {
+    "cwes": []
+  },
+  "CreateNewCustomer_Vx078.java::createNewCustomer": {
+    "cwes": [
+      "CWE-93",
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "CreateNewCustomer_Vx078.java::enterAddress": {
+    "cwes": [
+      "CWE-184",
+      "CWE-807",
+      "CWE-20",
+      "CWE-602"
+    ]
+  },
+  "CreateNewCustomer_Vx103.java::createNewCustomer": {
+    "cwes": [
+      "CWE-93",
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "CreateNewCustomer_Vx103.java::enterAddress": {
+    "cwes": [
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "CreateNewCustomer_Vx113.java::createNewCustomer": {
+    "cwes": [
+      "CWE-93",
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "CreateNewCustomer_Vx113.java::enterAddress": {
+    "cwes": []
+  },
+  "CreateNewCustomer_Vx132.java::createNewCustomer": {
+    "cwes": []
+  },
+  "CreateNewCustomer_Vx132.java::enterAddress": {
+    "cwes": [
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "CreateNewCustomer_VxA.java::createNewCustomer": {
+    "cwes": []
+  },
+  "CreateNewCustomer_VxA.java::enterAddress": {
+    "cwes": []
+  },
+  "CreateShoppingCart_Vx0.java::createShoppingCart": {
+    "cwes": []
+  },
+  "CreateShoppingCart_Vx0.java::createEmptyCart": {
+    "cwes": []
+  },
+  "CreateShoppingCart_Vx0.java::doCart": {
+    "cwes": [
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "CreateShoppingCart_Vx0.java::addItem": {
+    "cwes": []
+  },
+  "CreateShoppingCart_Vx0.java::refreshCart": {
+    "cwes": [
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "CreateShoppingCart_Vx0.java::addRandomItemToCartIfNecessary": {
+    "cwes": [
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-602"
+    ]
+  },
+  "CreateShoppingCart_Vx0.java::getRelated1": {
+    "cwes": [
+      "CWE-1284",
+      "CWE-602",
+      "CWE-20",
+      "CWE-601",
+      "CWE-184"
+    ]
+  },
+  "CreateShoppingCart_Vx0.java::resetCartTime": {
+    "cwes": [
+      "CWE-93",
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "CreateShoppingCart_Vx0.java::getCart": {
+    "cwes": [
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "CreateShoppingCart_VxA.java::createShoppingCart": {
+    "cwes": []
+  },
+  "CreateShoppingCart_VxA.java::createEmptyCart": {
+    "cwes": [
+      "CWE-93",
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "CreateShoppingCart_VxA.java::doCart": {
+    "cwes": [
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-602"
+    ]
+  },
+  "CreateShoppingCart_VxA.java::addItem": {
+    "cwes": []
+  },
+  "CreateShoppingCart_VxA.java::refreshCart": {
+    "cwes": []
+  },
+  "CreateShoppingCart_VxA.java::addRandomItemToCartIfNecessary": {
+    "cwes": [
+      "CWE-602",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "CreateShoppingCart_VxA.java::getRelated1": {
+    "cwes": []
+  },
+  "CreateShoppingCart_VxA.java::resetCartTime": {
+    "cwes": []
+  },
+  "CreateShoppingCart_VxA.java::getCart": {
+    "cwes": [
+      "CWE-176",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-601",
+      "CWE-184"
+    ]
+  },
+  "DoAuthorSearch_Vx0.java::doAuthorSearch": {
+    "cwes": [
+      "CWE-93",
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "DoAuthorSearch_VxA.java::doAuthorSearch": {
+    "cwes": [
+      "CWE-93",
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "DoSubjectSearch_Vx0.java::doSubjectSearch": {
+    "cwes": [
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "DoSubjectSearch_VxA.java::doSubjectSearch": {
+    "cwes": [
+      "CWE-93",
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "DoTitleSearch_Vx0.java::doTitleSearch": {
+    "cwes": []
+  },
+  "DoTitleSearch_VxA.java::doTitleSearch": {
+    "cwes": [
+      "CWE-93",
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "GetBestSellers_Vx0.java::getBestSellers": {
+    "cwes": [
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "GetBestSellers_VxA.java::getBestSellers": {
+    "cwes": [
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "GetCustomer_Vx0.java::getCustomer": {
+    "cwes": [
+      "CWE-93",
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "GetCustomer_VxA.java::getCustomer": {
+    "cwes": []
+  },
+  "GetMostRecentOrder_Vx0.java::getMostRecentOrder": {
+    "cwes": [
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "GetMostRecentOrder_VxA.java::getMostRecentOrder": {
+    "cwes": [
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "GetNewProducts_Vx0.java::getNewProducts": {
+    "cwes": [
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "GetNewProducts_VxA.java::getNewProducts": {
+    "cwes": [
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "GetPassword_Vx0.java::getPassword": {
+    "cwes": [
+      "CWE-1284",
+      "CWE-602",
+      "CWE-807",
+      "CWE-20",
+      "CWE-601",
+      "CWE-184"
+    ]
+  },
+  "GetPassword_VxA.java::getPassword": {
+    "cwes": []
+  },
+  "GetUsername_Vx0.java::getUserName": {
+    "cwes": [
+      "CWE-602",
+      "CWE-1173",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "GetUsername_VxA.java::getUserName": {
+    "cwes": [
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "TPCWUtil.java::DigSyl": {
+    "cwes": []
+  },
+  "TPCWUtil.java::formatDate": {
+    "cwes": [
+      "CWE-93",
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "TPCWUtil.java::getRandomI_ID": {
+    "cwes": [
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "Database.java::pickConnection": {
+    "cwes": []
+  },
+  "Database.java::relaseConnection": {
+    "cwes": [
+      "CWE-176",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-601",
+      "CWE-184"
+    ]
+  },
+  "Database.java::createStatement": {
+    "cwes": [
+      "CWE-93",
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "Logging.java::info": {
+    "cwes": [
+      "CWE-93",
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "Logging.java::trace": {
+    "cwes": [
+      "CWE-807",
+      "CWE-20",
+      "CWE-602"
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "1": ["server-side validation", "validate on server", "trusted system"],
+  "2": ["data source", "untrusted input", "external data", "file stream"],
+  "3": ["centralized validation", "shared validation routine"],
+  "4": ["character set", "charset", "utf-8", "input encoding"],
+  "5": ["canonicalization", "normalize encoding", "decode before validate"],
+  "6": ["reject input", "validation failure", "input rejection"],
+  "7": ["utf-8 decoding", "validate after decoding"],
+  "8": ["client input", "http header", "url parameter", "cookie input"],
+  "9": ["ascii header", "ascii only", "ascii characters in protocol"],
+  "10": ["redirect input", "validate redirect", "open redirect"],
+  "11": ["whitelist data type", "allowed data types"],
+  "12": ["input range", "value out of range", "check range"],
+  "13": ["input length", "maximum length", "data length exceeded"],
+  "14": ["whitelist characters", "allowed characters", "allowed charset"],
+  "15": ["hazardous character", "<script>", "<", ">", "\"", "'", "&", "%", "\\"],
+  "16": ["null byte", "newline character", "path traversal", "../", "double encoding", "obfuscated input"]
+}

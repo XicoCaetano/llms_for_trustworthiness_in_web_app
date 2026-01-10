@@ -1,0 +1,70 @@
+Given the following Java function:
+
+{content}
+
+Evaluate the function **only** according to the following OWASP secure coding practice of input validation and the associated CWEs to help you:
+
+[8] Validate all client-provided data before processing, including parameters, URLs, and HTTP headers (e.g., cookies, automated postbacks via JavaScript or Flash).
+
+Associated CWEs: 
+1. CWE-20: Improper Input Validation;
+2. CWE-113: Improper Neutralization of CRLF Sequences in HTTP Headers ('HTTP Request/Response Splitting');
+3. CWE-116: Improper Encoding or Escaping of Output;
+4. CWE-601: URL Redirection to Untrusted Site ('Open Redirect');
+5. CWE-642: External Control of Critical State Data;
+6. CWE-707: Improper Neutralization;
+
+Look at the following examples of bad practices AS A BASELINE to determine whether the given function follow or not rule 8:
+
+BAD Examples:
+
+- Example (CWE-20 - Improper Input Validation):
+public static final double price = 20.00;
+int quantity = currentUser.getAttribute("quantity");
+double total = price * quantity;
+chargeUser(total);
+
+- Example (CWE-113 - Improper Neutralization of CRLF Sequences in HTTP Headers):
+String author = request.getParameter(AUTHOR_PARAM);
+Cookie cookie = new Cookie("author", author);
+cookie.setMaxAge(cookieExpiration);
+response.addCookie(cookie);
+
+- Example (CWE-116 - Improper Encoding or Escaping of Output):
+public void readFile(String path) throws IOException {{
+    BufferedReader reader = new BufferedReader(
+        new InputStreamReader(new FileInputStream(path)) // no charset specified
+    );
+    String line;
+    while ((line = reader.readLine()) != null) {{
+        process(line);
+    }}
+    reader.close();
+}}
+
+- Example (CWE-601 - URL Redirection to Untrusted Site):
+public class RedirectServlet extends HttpServlet {{
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {{
+        String query = request.getQueryString();
+        if (query.contains("url")) {{
+            String url = request.getParameter("url");
+            response.sendRedirect(url);
+        }}
+    }}
+}}
+
+- Example (CWE-642 - Insecure Direct Object Reference):
+@GetMapping("/download")
+public ResponseEntity<?> downloadFile(@RequestParam String filePath) {{
+    File file = new File("/files/" + filePath); // filePath not validated
+    return ResponseEntity.ok(file);
+}}
+
+---
+
+Format your response like this:
+1. Does the function FOLLOW OWASP Rule 8 of Input Validation? Answer with "Yes" or "No" only.
+- If yes, respond: "1. Yes;"
+- If no, respond: "1. No;"
+
+Only respond with the line shown above. **End your response with a semicolon (;)** and nothing else.

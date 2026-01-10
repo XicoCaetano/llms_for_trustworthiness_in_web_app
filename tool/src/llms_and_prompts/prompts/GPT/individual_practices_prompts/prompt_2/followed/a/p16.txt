@@ -1,0 +1,68 @@
+Given the following Java function:
+
+{content}
+
+Evaluate the function **only** according to the following OWASP secure coding practice of input validation and the associated CWEs to help you:
+
+[16] If standard validation cannot handle certain inputs, apply discrete checks for:
+
+    - Null bytes (%00);
+    - Newline characters (%0d, %0a, \r, \n);
+    - Path traversal (../, ..\);
+    - Double-encoded or obfuscated inputs (%c0%ae%c0%ae/, etc.) using canonicalization.
+
+Associated CWEs: 
+1. CWE-23: Relative Path Traversal;
+2. CWE-73: External Control of File Name or Path;
+3. CWE-176: Improper Handling of Unicode Encoding;
+4. CWE-177: Improper Handling of URL Encoding (Hex Encoding);
+5. CWE-178: Improper Handling of Case Sensitivity;
+6. CWE-179: Incorrect Behavior Order: Early Validation;
+7. CWE-180: Incorrect Behavior Order: Validate Before Canonicalize;
+
+Look at the following examples of bad practices AS A BASELINE to determine whether the given function follow or not rule 16:
+
+BAD Examples:
+
+- Example (CWE-23 - Relative Path Traversal):
+public void openFile(String filename) throws IOException {{
+    File file = new File("/base/" + filename); // no normalization or checks
+    FileInputStream fis = new FileInputStream(file);
+    // ...
+}}
+
+- Example (CWE-73 - External Control of File Name or Path):
+String rName = request.getParameter("reportName");
+File rFile = new File("/usr/local/apfr/reports/" + rName);
+...
+rFile.delete();
+
+- Example (CWE-176 - Improper Handling of Unicode Encoding):
+public void handleUnicode(String input) {{
+    // assumes UTF-8 but does not specify encoding
+    byte[] bytes = input.getBytes();
+    String decoded = new String(bytes); // may not handle multi-byte characters correctly
+    process(decoded);
+}}
+
+- Example (CWE-177 - Improper Handling of URL Encoding (Hex Encoding)):
+public void handleInput(String input) {{
+    // accepts input directly without canonicalization
+    process(input); 
+}}
+
+- Example (CWE-179 - Incorrect Behavior Order: Early Validation):
+String path = getInputPath();
+if (path.startsWith("/safe_dir/")) {{
+    File f = new File(path);
+    return f.getCanonicalPath();
+}}
+
+---
+
+Format your response like this:
+1. Does the function FOLLOW OWASP Rule 16 of Input Validation? Answer with "Yes" or "No" only.
+- If yes, respond: "1. Yes;"
+- If no, respond: "1. No;"
+
+Only respond with the line shown above. **End your response with a semicolon (;)** and nothing else.

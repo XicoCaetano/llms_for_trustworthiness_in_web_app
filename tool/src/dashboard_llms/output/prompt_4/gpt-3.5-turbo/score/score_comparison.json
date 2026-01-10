@@ -1,0 +1,338 @@
+[
+  {
+    "Parent File":"tpcapp",
+    "FileName":"NewCustomer_Vx0",
+    "Method":"createAddress",
+    "score_qm":0.771142,
+    "score_equal_weights":0.625,
+    "score_paper":0.89
+  },
+  {
+    "Parent File":"tpcapp",
+    "FileName":"NewCustomer_Vx0",
+    "Method":"getAddressID",
+    "score_qm":0.370055,
+    "score_equal_weights":0.1,
+    "score_paper":0.89
+  },
+  {
+    "Parent File":"tpcapp",
+    "FileName":"NewCustomer_Vx0",
+    "Method":"getCOID",
+    "score_qm":0.625292,
+    "score_equal_weights":0.6,
+    "score_paper":1.0
+  },
+  {
+    "Parent File":"tpcapp",
+    "FileName":"NewCustomer_Vx0",
+    "Method":"insertCostumer",
+    "score_qm":0.987589,
+    "score_equal_weights":0.875,
+    "score_paper":1.0
+  },
+  {
+    "Parent File":"tpcapp",
+    "FileName":"NewCustomer_Vx0",
+    "Method":"process",
+    "score_qm":0.816138,
+    "score_equal_weights":0.4375,
+    "score_paper":0.53
+  },
+  {
+    "Parent File":"tpcapp",
+    "FileName":"NewCustomer_Vx101",
+    "Method":"createAddress",
+    "score_qm":0.55392,
+    "score_equal_weights":0.6,
+    "score_paper":0.89
+  },
+  {
+    "Parent File":"tpcapp",
+    "FileName":"NewCustomer_Vx101",
+    "Method":"getAddressID",
+    "score_qm":0.0962,
+    "score_equal_weights":0.3,
+    "score_paper":0.48
+  },
+  {
+    "Parent File":"tpcapp",
+    "FileName":"NewCustomer_Vx101",
+    "Method":"getCOID",
+    "score_qm":0.825447,
+    "score_equal_weights":0.4375,
+    "score_paper":1.0
+  },
+  {
+    "Parent File":"tpcapp",
+    "FileName":"NewCustomer_Vx101",
+    "Method":"insertCostumer",
+    "score_qm":0.987589,
+    "score_equal_weights":0.875,
+    "score_paper":1.0
+  },
+  {
+    "Parent File":"tpcapp",
+    "FileName":"NewCustomer_Vx101",
+    "Method":"process",
+    "score_qm":0.995347,
+    "score_equal_weights":0.925,
+    "score_paper":0.53
+  },
+  {
+    "Parent File":"tpcapp",
+    "FileName":"NewCustomer_Vx138",
+    "Method":"createAddress",
+    "score_qm":0.968194,
+    "score_equal_weights":0.6875,
+    "score_paper":0.48
+  },
+  {
+    "Parent File":"tpcapp",
+    "FileName":"NewCustomer_Vx138",
+    "Method":"getAddressID",
+    "score_qm":0.015517,
+    "score_equal_weights":0.1375,
+    "score_paper":0.89
+  },
+  {
+    "Parent File":"tpcapp",
+    "FileName":"NewCustomer_Vx138",
+    "Method":"getCOID",
+    "score_qm":0.610552,
+    "score_equal_weights":0.4875,
+    "score_paper":1.0
+  },
+  {
+    "Parent File":"tpcapp",
+    "FileName":"NewCustomer_Vx138",
+    "Method":"insertCostumer",
+    "score_qm":0.626844,
+    "score_equal_weights":0.6375,
+    "score_paper":1.0
+  },
+  {
+    "Parent File":"tpcapp",
+    "FileName":"NewCustomer_Vx138",
+    "Method":"process",
+    "score_qm":0.620638,
+    "score_equal_weights":0.6375,
+    "score_paper":0.53
+  },
+  {
+    "Parent File":"tpcapp",
+    "FileName":"NewCustomer_Vx158",
+    "Method":"createAddress",
+    "score_qm":0.837085,
+    "score_equal_weights":0.6375,
+    "score_paper":0.89
+  },
+  {
+    "Parent File":"tpcapp",
+    "FileName":"NewCustomer_Vx158",
+    "Method":"getAddressID",
+    "score_qm":0.474012,
+    "score_equal_weights":0.325,
+    "score_paper":0.89
+  },
+  {
+    "Parent File":"tpcapp",
+    "FileName":"NewCustomer_Vx158",
+    "Method":"getCOID",
+    "score_qm":0.970521,
+    "score_equal_weights":0.725,
+    "score_paper":0.48
+  },
+  {
+    "Parent File":"tpcapp",
+    "FileName":"NewCustomer_Vx158",
+    "Method":"insertCostumer",
+    "score_qm":0.712182,
+    "score_equal_weights":0.8875,
+    "score_paper":1.0
+  },
+  {
+    "Parent File":"tpcapp",
+    "FileName":"NewCustomer_Vx158",
+    "Method":"process",
+    "score_qm":0.878977,
+    "score_equal_weights":0.575,
+    "score_paper":0.53
+  },
+  {
+    "Parent File":"tpcapp",
+    "FileName":"NewCustomer_Vx197",
+    "Method":"createAddress",
+    "score_qm":0.766487,
+    "score_equal_weights":0.55,
+    "score_paper":0.89
+  },
+  {
+    "Parent File":"tpcapp",
+    "FileName":"NewCustomer_Vx197",
+    "Method":"getAddressID",
+    "score_qm":0.371607,
+    "score_equal_weights":0.1375,
+    "score_paper":0.89
+  },
+  {
+    "Parent File":"tpcapp",
+    "FileName":"NewCustomer_Vx197",
+    "Method":"getCOID",
+    "score_qm":0.825447,
+    "score_equal_weights":0.4375,
+    "score_paper":1.0
+  },
+  {
+    "Parent File":"tpcapp",
+    "FileName":"NewCustomer_Vx197",
+    "Method":"insertCostumer",
+    "score_qm":0.687356,
+    "score_equal_weights":0.6875,
+    "score_paper":0.48
+  },
+  {
+    "Parent File":"tpcapp",
+    "FileName":"NewCustomer_Vx197",
+    "Method":"process",
+    "score_qm":0.968194,
+    "score_equal_weights":0.7375,
+    "score_paper":0.53
+  },
+  {
+    "Parent File":"tpcapp",
+    "FileName":"NewCustomer_VxA",
+    "Method":"createAddress",
+    "score_qm":0.699769,
+    "score_equal_weights":0.7625,
+    "score_paper":0.0
+  },
+  {
+    "Parent File":"tpcapp",
+    "FileName":"NewCustomer_VxA",
+    "Method":"getAddressID",
+    "score_qm":0.535299,
+    "score_equal_weights":0.4375,
+    "score_paper":0.0
+  },
+  {
+    "Parent File":"tpcapp",
+    "FileName":"NewCustomer_VxA",
+    "Method":"getCOID",
+    "score_qm":0.699769,
+    "score_equal_weights":0.7625,
+    "score_paper":0.0
+  },
+  {
+    "Parent File":"tpcapp",
+    "FileName":"NewCustomer_VxA",
+    "Method":"insertCostumer",
+    "score_qm":0.697442,
+    "score_equal_weights":0.725,
+    "score_paper":0.0
+  },
+  {
+    "Parent File":"tpcapp",
+    "FileName":"NewCustomer_VxA",
+    "Method":"process",
+    "score_qm":0.903803,
+    "score_equal_weights":0.675,
+    "score_paper":0.0
+  },
+  {
+    "Parent File":"tpcw",
+    "FileName":"CreateNewCustomer_Vx0",
+    "Method":"createNewCustomer",
+    "score_qm":0.689684,
+    "score_equal_weights":0.4625,
+    "score_paper":0.72
+  },
+  {
+    "Parent File":"tpcw",
+    "FileName":"CreateNewCustomer_Vx0",
+    "Method":"enterAddress",
+    "score_qm":0.018621,
+    "score_equal_weights":0.2125,
+    "score_paper":1.0
+  },
+  {
+    "Parent File":"tpcw",
+    "FileName":"CreateNewCustomer_Vx078",
+    "Method":"createNewCustomer",
+    "score_qm":0.692011,
+    "score_equal_weights":0.7625,
+    "score_paper":0.0
+  },
+  {
+    "Parent File":"tpcw",
+    "FileName":"CreateNewCustomer_Vx078",
+    "Method":"enterAddress",
+    "score_qm":0.68115,
+    "score_equal_weights":0.3125,
+    "score_paper":0.0
+  },
+  {
+    "Parent File":"tpcw",
+    "FileName":"CreateNewCustomer_Vx103",
+    "Method":"createNewCustomer",
+    "score_qm":0.757954,
+    "score_equal_weights":0.5125,
+    "score_paper":0.72
+  },
+  {
+    "Parent File":"tpcw",
+    "FileName":"CreateNewCustomer_Vx103",
+    "Method":"enterAddress",
+    "score_qm":0.809155,
+    "score_equal_weights":0.35,
+    "score_paper":0.95
+  },
+  {
+    "Parent File":"tpcw",
+    "FileName":"CreateNewCustomer_Vx113",
+    "Method":"createNewCustomer",
+    "score_qm":0.558575,
+    "score_equal_weights":0.675,
+    "score_paper":0.0
+  },
+  {
+    "Parent File":"tpcw",
+    "FileName":"CreateNewCustomer_Vx113",
+    "Method":"enterAddress",
+    "score_qm":0.389451,
+    "score_equal_weights":0.325,
+    "score_paper":0.0
+  },
+  {
+    "Parent File":"tpcw",
+    "FileName":"CreateNewCustomer_Vx132",
+    "Method":"createNewCustomer",
+    "score_qm":0.541507,
+    "score_equal_weights":0.525,
+    "score_paper":0.0
+  },
+  {
+    "Parent File":"tpcw",
+    "FileName":"CreateNewCustomer_Vx132",
+    "Method":"enterAddress",
+    "score_qm":0.302561,
+    "score_equal_weights":0.2625,
+    "score_paper":0.0
+  },
+  {
+    "Parent File":"tpcw",
+    "FileName":"CreateNewCustomer_VxA",
+    "Method":"createNewCustomer",
+    "score_qm":0.987589,
+    "score_equal_weights":0.875,
+    "score_paper":0.0
+  },
+  {
+    "Parent File":"tpcw",
+    "FileName":"CreateNewCustomer_VxA",
+    "Method":"enterAddress",
+    "score_qm":0.531422,
+    "score_equal_weights":0.5375,
+    "score_paper":0.0
+  }
+]

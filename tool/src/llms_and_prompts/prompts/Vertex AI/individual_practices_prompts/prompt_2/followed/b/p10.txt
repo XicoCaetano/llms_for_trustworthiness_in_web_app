@@ -1,0 +1,45 @@
+Given the following Java function:
+
+{{ content }}
+
+Evaluate the function **only** according to the following OWASP secure coding practice of input validation and the associated CWEs to help you:
+
+[10] Validate all input received through redirects (to prevent bypassing pre-redirect validation).
+
+Associated CWEs: 
+1. CWE-285: Improper Authorization;
+2. CWE-601: URL Redirection to Untrusted Site ('Open Redirect');
+3. CWE-807: Reliance on Untrusted Inputs in a Security Decision;
+
+Look for the following examples of bad practices to determine if the function follows the OWASP rule:
+
+- BAD Examples:
+
+Example (CWE-601 - URL Redirection to Untrusted Site ('Open Redirect')):
+public class RedirectServlet extends HttpServlet {{
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {{
+        String query = request.getQueryString();
+        if (query.contains("url")) {{
+            String url = request.getParameter("url");
+            response.sendRedirect(url);
+        }}
+    }}
+}}
+
+Example (CWE-807 - Reliance on Untrusted Inputs in a Security Decision):
+Cookie[] cookies = request.getCookies();
+for (int i =0; i< cookies.length; i++) {{  
+    Cookie c = cookies[i];
+    if (c.getName().equals("authenticated") && Boolean.TRUE.equals(c.getValue())) {{
+        authenticated = true;
+    }}
+}}
+
+---
+
+Format your response like this:
+10. Does the function FOLLOW OWASP Rule 10 of Input Validation? Answer with "Yes" or "No" only.
+- If yes, respond: "10. Yes;"
+- If no, respond: "10. No;"
+
+Only respond with the line shown above. **End your response with a semicolon (;)** and nothing else.

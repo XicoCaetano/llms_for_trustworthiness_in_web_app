@@ -1,0 +1,67 @@
+Given the following Java function:
+
+{content}
+
+Evaluate the function **only** according to the following OWASP secure coding practice of input validation and the associated CWEs to help you:
+
+[14] Validate input using a whitelist of allowed characters whenever possible.
+
+Associated CWEs: 
+1. CWE-20: Improper Input Validation;
+2. CWE-74: Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection');
+3. CWE-77: Improper Neutralization of Special Elements used in a Command ('Command Injection');
+4. CWE-79: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting');
+5. CWE-89: Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection');
+6. CWE-95: Improper Neutralization of Directives in Dynamically Evaluated Code ('Eval Injection');
+7. CWE-116: Improper Encoding or Escaping of Output;
+
+Look at the following examples of bad practices AS A BASELINE to determine whether the given function follow or not rule 14:
+
+BAD Examples:
+
+- Example (CWE-20 - Improper Input Validation):
+private void buildList ( int untrustedListSize ) {{
+    if ( 0 > untrustedListSize ) {{
+        die("Negative value supplied for list size, die evil hacker!");
+    }}
+    Widget[] list = new Widget [ untrustedListSize ];
+    list[0] = new Widget();
+}}
+
+- Example (CWE-74 - Improper Neutralization of Special Elements in Output Used by a Downstream Component):
+String author = request.getParameter(AUTHOR_PARAM);
+Cookie cookie = new Cookie("author", author);
+cookie.setMaxAge(cookieExpiration);
+response.addCookie(cookie);
+
+- Example (CWE-79 - Cross-Site Scripting):
+public void display(String input) {{
+    out.println(input); // no character filtering or encoding
+}}
+
+- Example (CWE-89 - SQL Injection):
+public void queryUser(String userInput) {{
+    String query = "SELECT * FROM users WHERE name = '" + userInput + "'";
+    executeQuery(query); // no whitelist, vulnerable to injection
+}}
+
+- Example (CWE-116 - Improper Encoding or Escaping of Output):
+public void readFile(String path) throws IOException {{
+    BufferedReader reader = new BufferedReader(
+        new InputStreamReader(new FileInputStream(path)) // no charset specified
+    );
+    String line;
+    while ((line = reader.readLine()) != null) {{
+        process(line);
+    }}
+    reader.close();
+}}
+
+---
+
+Format your response like this:
+1. Does the function FOLLOW OWASP Rule 14 of Input Validation? Answer with "Yes" or "No" only.
+- If yes, respond: "1. Yes;"
+- If no, respond: "1. No;"
+
+Only respond with the line shown above. **End your response with a semicolon (;)** and nothing else.

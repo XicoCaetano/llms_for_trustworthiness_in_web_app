@@ -1,0 +1,314 @@
+{
+  "tpcapp:ProductDetail:VxA:getData": {
+    "real": 0
+  },
+  "tpcapp:NewProducts:VxA:getData": {
+    "real": 1
+  },
+  "tpcapp:NewCustomer:VxA:getAddressID": {
+    "real": 1
+  },
+  "tpcapp:NewCustomer:VxA:createAddress": {
+    "real": 1
+  },
+  "tpcapp:NewCustomer:VxA:getCOID": {
+    "real": 1
+  },
+  "tpcapp:NewCustomer:VxA:insertCostumer": {
+    "real": 1
+  },
+  "tpcapp:ChangePaymentMethod:VxA:updateCPM": {
+    "real": 1
+  },
+  "tpcapp:ChangePaymentMethod:VxA:getBusiName": {
+    "real": 0
+  },
+  "tpcc:Delivery:VxA:deliveryTransaction": {
+    "real": 1
+  },
+  "tpcc:NewOrder:VxA:newOrderTransaction": {
+    "real": 0
+  },
+  "tpcc:OrderStatus:VxA:orderStatusTransaction": {
+    "real": 1
+  },
+  "tpcc:Payment:VxA:paymentTransaction": {
+    "real": 1
+  },
+  "tpcc:StockLevel:VxA:stockLevelTransaction": {
+    "real": 1
+  },
+  "tpcw:CreateNewCustomer:VxA:createNewCustomer": {
+    "real": 1
+  },
+  "tpcw:CreateNewCustomer:VxA:enterAddress": {
+    "real": 1
+  },
+  "tpcw:CreateShoppingCart:VxA:createEmptyCart": {
+    "real": 0
+  },
+  "tpcw:CreateShoppingCart:VxA:getRelated1": {
+    "real": 0
+  },
+  "tpcw:CreateShoppingCart:VxA:getCart": {
+    "real": 0
+  },
+  "tpcw:DoAuthorSearch:VxA:doAuthorSearch": {
+    "real": 1
+  },
+  "tpcw:DoSubjectSearch:VxA:doSubjectSearch": {
+    "real": 1
+  },
+  "tpcw:DoTitleSearch:VxA:doTitleSearch": {
+    "real": 1
+  },
+  "tpcw:GetBestSellers:VxA:getBestSellers": {
+    "real": 1
+  },
+  "tpcw:GetCustomer:VxA:getCustomer": {
+    "real": 1
+  },
+  "tpcw:GetMostRecentOrder:VxA:getMostRecentOrder": {
+    "real": 0
+  },
+  "tpcw:GetNewProducts:VxA:getNewProducts": {
+    "real": 1
+  },
+  "tpcw:GetPassword:VxA:getPassword": {
+    "real": 1
+  },
+  "tpcw:GetUsername:VxA:getUserName": {
+    "real": 0
+  },
+  "tpcapp:NewCustomer:Vx101:getAddressID": {
+    "real": 1
+  },
+  "tpcapp:NewCustomer:Vx101:createAddress": {
+    "real": 0
+  },
+  "tpcapp:NewCustomer:Vx101:getCOID": {
+    "real": 0
+  },
+  "tpcapp:NewCustomer:Vx101:insertCostumer": {
+    "real": 0
+  },
+  "tpcapp:NewCustomer:Vx138:createAddress": {
+    "real": 1
+  },
+  "tpcapp:NewCustomer:Vx138:getCOID": {
+    "real": 0
+  },
+  "tpcapp:NewCustomer:Vx138:insertCostumer": {
+    "real": 0
+  },
+  "tpcapp:NewCustomer:Vx158:getCOID": {
+    "real": 1
+  },
+  "tpcapp:NewCustomer:Vx158:createAddress": {
+    "real": 0
+  },
+  "tpcapp:NewCustomer:Vx158:insertCostumer": {
+    "real": 0
+  },
+  "tpcapp:NewCustomer:Vx197:insertCostumer": {
+    "real": 1
+  },
+  "tpcapp:NewCustomer:Vx197:createAddress": {
+    "real": 0
+  },
+  "tpcapp:NewCustomer:Vx197:getCOID": {
+    "real": 0
+  },
+  "tpcc:Delivery:Vx051:deliveryTransaction": {
+    "real": 0
+  },
+  "tpcc:Delivery:Vx075:deliveryTransaction": {
+    "real": 0
+  },
+  "tpcc:Delivery:Vx099:deliveryTransaction": {
+    "real": 0
+  },
+  "tpcc:Delivery:Vx123:deliveryTransaction": {
+    "real": 0
+  },
+  "tpcc:Delivery:Vx138:deliveryTransaction": {
+    "real": 0
+  },
+  "tpcc:Delivery:Vx154:deliveryTransaction": {
+    "real": 0
+  },
+  "tpcc:Delivery:Vx176:deliveryTransaction": {
+    "real": 1
+  },
+  "tpcc:NewOrder:Vx056:newOrderTransaction": {
+    "real": 0
+  },
+  "tpcc:NewOrder:Vx081:newOrderTransaction": {
+    "real": 0
+  },
+  "tpcc:NewOrder:Vx103:newOrderTransaction": {
+    "real": 0
+  },
+  "tpcc:NewOrder:Vx119:newOrderTransaction": {
+    "real": 0
+  },
+  "tpcc:NewOrder:Vx144:newOrderTransaction": {
+    "real": 0
+  },
+  "tpcc:OrderStatus:Vx046:orderStatusTransaction": {
+    "real": 0
+  },
+  "tpcc:OrderStatus:Vx066:orderStatusTransaction": {
+    "real": 0
+  },
+  "tpcc:OrderStatus:Vx096:orderStatusTransaction": {
+    "real": 0
+  },
+  "tpcc:OrderStatus:Vx122:orderStatusTransaction": {
+    "real": 0
+  },
+  "tpcc:OrderStatus:Vx143:orderStatusTransaction": {
+    "real": 1
+  },
+  "tpcc:Payment:Vx043:paymentTransaction": {
+    "real": 0
+  },
+  "tpcc:Payment:Vx057:paymentTransaction": {
+    "real": 0
+  },
+  "tpcc:Payment:Vx078:paymentTransaction": {
+    "real": 0
+  },
+  "tpcc:Payment:Vx091:paymentTransaction": {
+    "real": 0
+  },
+  "tpcc:Payment:Vx115:paymentTransaction": {
+    "real": 0
+  },
+  "tpcc:Payment:Vx136:paymentTransaction": {
+    "real": 0
+  },
+  "tpcc:Payment:Vx177:paymentTransaction": {
+    "real": 0
+  },
+  "tpcc:Payment:VX212:paymentTransaction": {
+    "real": 0
+  },
+  "tpcc:Payment:VX241:paymentTransaction": {
+    "real": 0
+  },
+  "tpcc:Payment:VX257:paymentTransaction": {
+    "real": 0
+  },
+  "tpcc:Payment:VX290:paymentTransaction": {
+    "real": 1
+  },
+  "tpcc:StockLevel:Vx033:stockLevelTransaction": {
+    "real": 1
+  },
+  "tpcw:CreateNewCustomer:Vx078:createNewCustomer": {
+    "real": 1
+  },
+  "tpcw:CreateNewCustomer:Vx078:enterAddress": {
+    "real": 0
+  },
+  "tpcw:CreateNewCustomer:Vx103:createNewCustomer": {
+    "real": 0
+  },
+  "tpcw:CreateNewCustomer:Vx103:enterAddress": {
+    "real": 0
+  },
+  "tpcw:CreateNewCustomer:Vx113:createNewCustomer": {
+    "real": 0
+  },
+  "tpcw:CreateNewCustomer:Vx113:enterAddress": {
+    "real": 0
+  },
+  "tpcw:CreateNewCustomer:Vx132:createNewCustomer": {
+    "real": 0
+  },
+  "tpcw:CreateNewCustomer:Vx132:enterAddress": {
+    "real": 1
+  },
+  "tpcapp:ProductDetail:Vx0:getData": {
+    "real": 0
+  },
+  "tpcapp:NewProducts:Vx0:getData": {
+    "real": 0
+  },
+  "tpcapp:NewCustomer:Vx0:getAddressID": {
+    "real": 0
+  },
+  "tpcapp:NewCustomer:Vx0:createAddress": {
+    "real": 0
+  },
+  "tpcapp:NewCustomer:Vx0:getCOID": {
+    "real": 0
+  },
+  "tpcapp:NewCustomer:Vx0:insertCostumer": {
+    "real": 0
+  },
+  "tpcapp:ChangePaymentMethod:Vx0:updateCPM": {
+    "real": 0
+  },
+  "tpcapp:ChangePaymentMethod:Vx0:getBusiName": {
+    "real": 0
+  },
+  "tpcc:Delivery:Vx0:deliveryTransaction": {
+    "real": 0
+  },
+  "tpcc:NewOrder:Vx0:newOrderTransaction": {
+    "real": 0
+  },
+  "tpcc:OrderStatus:Vx0:orderStatusTransaction": {
+    "real": 0
+  },
+  "tpcc:Payment:Vx0:paymentTransaction": {
+    "real": 0
+  },
+  "tpcc:StockLevel:Vx0:stockLevelTransaction": {
+    "real": 0
+  },
+  "tpcw:CreateNewCustomer:Vx0:createNewCustomer": {
+    "real": 0
+  },
+  "tpcw:CreateNewCustomer:Vx0:enterAddress": {
+    "real": 0
+  },
+  "tpcw:CreateShoppingCart:Vx0:createEmptyCart": {
+    "real": 0
+  },
+  "tpcw:CreateShoppingCart:Vx0:getRelated1": {
+    "real": 0
+  },
+  "tpcw:CreateShoppingCart:Vx0:getCart": {
+    "real": 0
+  },
+  "tpcw:DoAuthorSearch:Vx0:doAuthorSearch": {
+    "real": 0
+  },
+  "tpcw:DoSubjectSearch:Vx0:doSubjectSearch": {
+    "real": 0
+  },
+  "tpcw:DoTitleSearch:Vx0:doTitleSearch": {
+    "real": 0
+  },
+  "tpcw:GetBestSellers:Vx0:getBestSellers": {
+    "real": 0
+  },
+  "tpcw:GetCustomer:Vx0:getCustomer": {
+    "real": 0
+  },
+  "tpcw:GetMostRecentOrder:Vx0:getMostRecentOrder": {
+    "real": 0
+  },
+  "tpcw:GetNewProducts:Vx0:getNewProducts": {
+    "real": 0
+  },
+  "tpcw:GetPassword:Vx0:getPassword": {
+    "real": 0
+  },
+  "tpcw:GetUsername:Vx0:getUserName": {
+    "real": 0
+  }
+}

@@ -1,0 +1,80 @@
+Given the following Java function:
+
+{content}
+
+Evaluate the function **only** according to the following OWASP secure coding practice of input validation and the associated CWEs to help you:
+
+[2] Identify all data sources and classify them into trusted and untrusted. Validate all data from untrusted sources (e.g., databases, file streams).
+
+Associated CWEs: 
+1. CWE-20: Improper Input Validation;
+2. CWE-73: External Control of File Name or Path;
+3. CWE-184: Incomplete List of Disallowed Inputs;
+4. CWE-601: URL Redirection to Untrusted Site ('Open Redirect');
+5. CWE-707: Improper Neutralization;
+6. CWE-807: Reliance on Untrusted Inputs in a Security Decision;
+7. CWE-1173: Improper Use of Validation Framework;
+
+Look at the following examples of bad practices AS A BASELINE to determine whether the given function follow or not rule 2:
+
+BAD Examples:
+
+- Example (CWE-20 - Improper Input Validation):
+public static final double price = 20.00;
+int quantity = currentUser.getAttribute("quantity");
+double total = price * quantity;
+chargeUser(total);
+
+- Example (CWE-73 - External Control of File Name or Path):
+public void loadFile(String filePath) {{
+    File file = new File(filePath); // filePath not validated
+    read(file);
+}}
+
+- Example (CWE-184 - Incomplete List of Disallowed Inputs):
+public void processInput(String input) {{
+    if (input.contains("..") || input.contains("/")) {{
+        throw new IllegalArgumentException("Invalid input");
+    }}
+    // No further validation
+    execute(input);
+}}
+
+- Example (CWE-601 - URL Redirection to Untrusted Site ('Open Redirect')):
+public String redirectTo(String targetUrl) {{
+    return "redirect:" + targetUrl; // targetUrl not validated
+}}
+
+- Example (CWE-707 - Improper Neutralization):
+public void setHeader(String headerValue, HttpServletResponse response) {{  
+    response.setHeader("X-Custom", headerValue); // headerValue not validated
+}}
+
+- Example (CWE-807 - Reliance on Untrusted Inputs in a Security Decision):
+Cookie[] cookies = request.getCookies();
+for (int i =0; i< cookies.length; i++) {{
+    Cookie c = cookies[i];
+    if (c.getName().equals("role")) {{
+        userRole = c.getValue();
+    }}
+}}
+
+- Example (CWE-1173 - Improper Use of Validation Framework):
+public void validateUserInput(String input) {{
+    Validator validator = Validation.buildDefaultValidatorFactory().getValidator();
+    Set<ConstraintViolation<String>> violations = validator.validate(input);
+    if (!violations.isEmpty()) {{
+        throw new IllegalArgumentException("Invalid input");
+    }}
+    // No further validation
+    process(input);
+}}
+
+---
+
+Format your response like this:
+1. Does the function FOLLOW OWASP Rule 2 of Input Validation? Answer with "Yes" or "No" only.
+- If yes, respond: "1. Yes;"
+- If no, respond: "1. No;"
+
+Only respond with the line shown above. **End your response with a semicolon (;)** and nothing else.

@@ -1,0 +1,43 @@
+{
+  "Input Validation": {
+    "weight": 1.0,
+    "children": {
+      "Validation Procedure": {
+        "weight": 0.30,
+        "children": {
+          "3": { "weight": 0.0375 },
+          "4": { "weight": 0.0375 },
+          "5": { "weight": 0.0375 },
+          "6": { "weight": 0.0375 },
+          "7": { "weight": 0.0375 },
+          "14": { "weight": 0.0375 },
+          "15": { "weight": 0.0375 },
+          "16": { "weight": 0.0375 }
+        }
+      },
+      "Data Source": {
+        "weight": 0.15,
+        "children": {
+          "1": { "weight": 0.075 },
+          "2": { "weight": 0.075 }
+        }
+      },
+      "Input Entry": {
+        "weight": 0.50,
+        "children": {
+          "8": { "weight": 0.125 },
+          "11": { "weight": 0.125 },
+          "12": { "weight": 0.125 },
+          "13": { "weight": 0.125 }
+        }
+      },
+      "App Request": {
+        "weight": 0.05,
+        "children": {
+          "9": { "weight": 0.025 },
+          "10": { "weight": 0.025 }
+        }
+      }
+    }
+  }
+}

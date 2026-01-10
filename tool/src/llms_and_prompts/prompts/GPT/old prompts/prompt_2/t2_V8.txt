@@ -1,0 +1,25 @@
+Given the following Java function:
+
+{{{{ content }}}}
+
+    Evaluate according to the OWASP secure coding checklist described earlier.
+
+    Note:
+    - The system role contains GOOD and BAD examples for each rule, based in some CWEs of the rule.
+    - Use these examples as reference to determine whether a rule is **violated**.
+    - A rule is considered **violated** if the function’s behavior resembles the BAD example, or lacks any logic matching the GOOD example.
+    - If the rule is not clearly violated or not relevant to the function’s context, do not list it.
+    - Do not assume a rule is followed based on variable names, comments, or intentions — check for actual enforcement in logic.
+
+    DONT DEVOLVE ANY CODE.
+
+    ### Format your response like this:
+    1. Does the function follow the secure practices outlined above? Answer with "YES" or "NO" only (not more, just "YES" or "NO").
+    - If the answer is yes, respond as: "1. Yes;"
+    - If the answer is no, respond as: "1. No;"
+
+    2. Explain your answer in the following format (Answer with only the NUMBERS):
+        - If the answer is "NO", respond as, for example: "2. 1, 13, 16;"
+        - If the answer is "YES", respond as, for example: "2. Yes;"
+
+    ALWAYS PUT ";" AT THE END OF YOUR RESPONSE. NO EXTRA COMMENT OR TEXT OR CODE EXPLANATION.

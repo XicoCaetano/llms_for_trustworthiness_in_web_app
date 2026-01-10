@@ -1,0 +1,23 @@
+Given the following Java function:
+
+{content}
+
+Evaluate the function **only** according to the following OWASP secure coding practice of input validation and the associated CWEs to help you:
+
+[12] Validate that all input falls within expected data ranges.
+
+Associated CWEs: 
+1. CWE-129: Improper Validation of Array Index;
+2. CWE-125: Out-of-bounds Read;
+3. CWE-190: Integer Overflow or Wraparound;
+4. CWE-787: Out-of-bounds Write;
+5. CWE-1284: Improper Validation of Specified Quantity in Input;
+
+---
+
+Format your response like this:
+1. Does the OWASP Rule 12 of Input Validation practice is applicable? Answer with "Yes" or "No" only.
+- If yes, respond: "1. Yes;"
+- If no, respond: "1. No;"
+
+Only respond with the line shown above. **End your response with a semicolon (;)** and nothing else.

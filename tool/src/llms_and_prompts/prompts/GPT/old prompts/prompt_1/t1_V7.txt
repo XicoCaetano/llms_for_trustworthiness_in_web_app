@@ -1,0 +1,52 @@
+Given the following Java function:
+
+{{ content }}
+
+Evaluate this function strictly against the OWASP Secure Coding Practices Checklist provided below. Your evaluation must:
+
+- Consider **only practices directly applicable to the context and behavior of this specific function** (based on its inputs, outputs, and data handling).
+- **Prioritize critical security practices** that, if missing, would introduce real risks or vulnerabilities in this function.
+- **Exclude any practices that are irrelevant** to this function or expected to be handled by other layers (e.g., client-side validation, infrastructure).
+- Provide a concise, prioritized assessment focusing on **both presence and absence** of applicable practices.
+
+---
+
+Use this OWASP Secure Coding Practices checklist:
+
+1. Conduct all input validation on a trusted system (server side, not client side).
+2. Identify all data sources and classify them into trusted and untrusted.
+3. Validate all data from untrusted sources (databases, file streams, etc.).
+4. Use a centralized input validation routine for the whole application.
+5. Specify character sets, such as UTF-8, for all input sources (canonicalization).
+6. Encode input to a common character set before validating.
+7. All validation failures should result in input rejection.
+8. If the system supports UTF-8 extended character sets, validate after UTF-8 decoding is completed.
+9. Validate all client-provided data before processing.
+10. Verify that protocol header values in both requests and responses contain only ASCII characters.
+11. Validate data from redirects.
+12. Validate for expected data types using an "allow" list rather than a "deny" list.
+13. Validate data range.
+14. Validate data length.
+15. If any potentially hazardous input must be allowed, implement additional controls.
+16. If the standard validation routine cannot address some inputs, use extra discrete checks.
+17. Utilize canonicalization to address obfuscation attacks.
+
+---
+
+Instructions for your response:
+
+1. Answer "YES" or "NO" if the function follows **all applicable** secure coding practices:
+    - If yes, respond exactly: "1. Yes;"
+    - If no, respond exactly: "1. No;"
+
+2. If the answer is "NO", list **only the numbers of applicable secure coding practices that the function does NOT follow**.
+    - Do NOT include irrelevant practices.
+    - Example: "2. 3, 7, 9, 13;"
+
+3. If the answer is "YES", respond with: "2. Yes;"
+
+4. End your entire response with a semicolon ";"
+
+---
+
+Please ensure your answer focuses on **critical missing practices** and avoids listing minor or irrelevant ones.

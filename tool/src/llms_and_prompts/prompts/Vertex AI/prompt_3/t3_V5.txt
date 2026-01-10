@@ -1,0 +1,14 @@
+Given the following Java function:
+
+{{ content1 }}
+
+Use the following list exactly as provided. It is your own practice-by-practice verdict for the function:
+
+{{ content2 }}
+
+TASK:
+Provide your subjective trustworthiness score for the function, and a short explanation of why you chose that score.  
+Your justification must be based ONLY on the RESULTS list (do not infer beyond it).
+
+OUTPUT FORMAT
+- Line 1: The score, e.g. "1. 0,50;" 

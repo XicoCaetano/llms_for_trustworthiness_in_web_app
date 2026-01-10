@@ -1,0 +1,43 @@
+[1] Conduct all data validation on a trusted system (e.g., the server).
+[2] Identify all data sources and classify them into trusted and untrusted. Validate all data from untrusted sources (e.g., databases, file streams).
+[3] Use a centralized input validation routine for the entire application.
+[4] Specify proper character sets (e.g., UTF-8) for all sources of input.
+[5] Encode input data to a common character set before validating (canonicalization).
+[6] All validation failures must result in immediate input rejection.
+[7] If the system supports UTF-8 extended character sets, validate input after UTF-8 decoding is completed.
+[8] Validate all client-provided data before processing, including parameters, URLs, and HTTP headers (e.g., cookies, automated postbacks via JavaScript or Flash).
+[9] Ensure protocol header values in both requests and responses contain only ASCII characters.
+[10] Validate all input received through redirects (to prevent bypassing pre-redirect validation).
+[11] Validate all input for expected data types using a whitelist approach.
+[12] Validate that all input falls within expected data ranges.
+[13] Validate that all input conforms to expected data lengths.
+[14] Validate input using a whitelist of allowed characters whenever possible.
+[15] If potentially hazardous characters must be allowed (e.g., <, >, ", ', %, &, +, \), ensure strict controls are in place (e.g., output encoding, secure APIs, auditing).
+"15": ["CWE-116", "CWE-79", "CWE-80", "CWE-74"],
+[16] If standard validation cannot handle certain inputs, apply discrete checks for:
+
+    Null bytes (%00)
+
+    Newline characters (%0d, %0a, \r, \n)
+
+    Path traversal (../, ..\)
+
+    Double-encoded or obfuscated inputs (%c0%ae%c0%ae/, etc.) using canonicalization.
+
+
+"1": ["CWE-20", "CWE-602", "CWE-807", "CWE-345"],
+"2": ["CWE-20", "CWE-707", "CWE-601", "CWE-1173", "CWE-807", "CWE-73", "CWE-184"],
+"3": ["CWE-1173", "CWE-20", "CWE-115", "CWE-707", "CWE-693"],
+"4": ["CWE-116", "CWE-172", "CWE-176"],
+"5": ["CWE-180", "CWE-176", "CWE-177", "CWE-178", "CWE-179", "CWE-116"],
+"6": ["CWE-20", "CWE-636", "CWE-703", "CWE-754"],
+"7": ["CWE-176", "CWE-177", "CWE-178", "CWE-180", "CWE-172", "CWE-116"],
+"8": ["CWE-20", "CWE-707", "CWE-601", "CWE-642", "CWE-113", "CWE-116"],
+"9": ["CWE-93", "CWE-116", "CWE-113", "CWE-644"],
+"10": ["CWE-601", "CWE-807", "CWE-285"],
+"11": ["CWE-20", "CWE-119", "CWE-1284", "CWE-129", "CWE-704"],
+"12": ["CWE-1284", "CWE-129", "CWE-190", "CWE-125", "CWE-787"],
+"13": ["CWE-1286", "CWE-170", "CWE-20", "CWE-119", "CWE-120"],
+"14": ["CWE-20", "CWE-89", "CWE-79", "CWE-116", "CWE-74", "CWE-77", "CWE-95"],
+"15": ["CWE-116", "CWE-79", "CWE-80", "CWE-74", "CWE-94", "CWE-117"],
+"16": ["CWE-180", "CWE-73", "CWE-176", "CWE-177", "CWE-178", "CWE-179", "CWE-23"]

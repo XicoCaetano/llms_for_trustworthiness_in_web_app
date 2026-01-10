@@ -1,0 +1,50 @@
+Given the following Java function:
+
+{content}
+
+Evaluate the function **only** according to the following OWASP secure coding practice of input validation and the associated CWEs to help you:
+
+[9] Ensure protocol header values in both requests and responses contain only ASCII characters.
+
+Associated CWEs: 
+1. CWE-93: Improper Neutralization of CRLF Sequences ('CRLF Injection');
+2. CWE-113: Improper Neutralization of CRLF Sequences in HTTP Headers ('HTTP Request/Response Splitting');
+3. CWE-116: Improper Encoding or Escaping of Output;
+4. CWE-644: Improper Neutralization of HTTP Headers for Scripting Syntax;
+
+Look at the following examples of bad practices AS A BASELINE to determine whether the given function follow or not rule 9:
+
+BAD Examples:
+
+- Example (CWE-93 - Improper Neutralization of CRLF Sequences):
+logger.info("User's street address: " + request.getParameter("streetAddress"));
+
+- Example (CWE-113 - HTTP Response Splitting):
+public void handle(HttpServletRequest request, HttpServletResponse response) {{
+    String userAgent = request.getHeader("User-Agent");
+    response.setHeader("X-Agent", userAgent); // no ASCII validation
+}}
+
+- Example (CWE-116 - Improper Encoding or Escaping of Output):
+public void readFile(String path) throws IOException {{
+    BufferedReader reader = new BufferedReader(
+        new InputStreamReader(new FileInputStream(path)) // no charset specified
+    );
+    String line;
+    while ((line = reader.readLine()) != null) {{
+        process(line);
+    }}
+    reader.close();
+}}
+
+- Example (CWE-644 - Improper Neutralization of HTTP Headers for Scripting Syntax):
+response.addHeader(HEADER_NAME, untrustedRawInputData);
+
+---
+
+Format your response like this:
+1. Does the function FOLLOW OWASP Rule 9 of Input Validation? Answer with "Yes" or "No" only.
+- If yes, respond: "1. Yes;"
+- If no, respond: "1. No;"
+
+Only respond with the line shown above. **End your response with a semicolon (;)** and nothing else.

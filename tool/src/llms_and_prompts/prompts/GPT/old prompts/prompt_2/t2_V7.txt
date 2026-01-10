@@ -1,0 +1,238 @@
+Given the following Java code: 
+        
+    {{{{ content }}}}
+
+    Evaluate the provided Java function based on the following rules of secure good practices:
+
+    > IMPORTANT:
+    - Consider only practices that are directly applicable to the specific context and behavior of this method — based on how it handles input, output, database access, and data validation.
+    - Focus on **critical security practices**. A practice is critical if its absence could realistically introduce a security vulnerability in this function.
+    - Your assessment should be **concise, accurate, and limited only to applicable OWASP practices** — do NOT over-penalize.
+    - Understand that all the java functions normally are implemented in a trusted system, so you do not need to check the first rule, it's always true.
+
+    1. Conduct all data validation on a trusted system (CWE-20): Ensure that all inputs are validated on the server side, avoiding reliance on client-side validation.
+
+        Example for CWE-20 (Improper Input Validation):
+        // BAD Example: Validates only on the client side
+        <input type="text" id="username" onkeypress="return checkInput(event)">
+        
+        // GOOD Example: Validates input server-side
+        public boolean validateUsername(String username) {{
+            if (username == null || username.isEmpty() || !username.matches("^[a-zA-Z0-9_]+$")) {{
+                throw new IllegalArgumentException("Invalid username.");
+            }}
+            return true;
+        }}
+
+    2. Identify all data sources and classify them into trusted and untrusted (CWE-20): Clearly distinguish between trusted and untrusted data sources to ensure proper validation.
+
+        Example:
+        // BAD Example: No distinction between trusted and untrusted sources
+        String userInput = request.getParameter("input");
+        
+        // GOOD Example: Classify data sources
+        String userInput = request.getParameter("input");
+        if (isUntrustedSource(userInput)) {{
+            validateInput(userInput);
+        }}
+
+    3. Validate all data from untrusted sources (CWE-20): Ensure that data from untrusted sources (e.g., databases, file streams) is validated before processing.
+
+        Example:
+        // BAD Example: No validation of untrusted data
+        String data = readFromUntrustedFile("input.txt");
+        
+        // GOOD Example: Validate untrusted data
+        String data = readFromUntrustedFile("input.txt");
+        if (!isValidData(data)) {{
+            throw new IllegalArgumentException("Invalid data from untrusted source.");
+        }}
+
+    4. Use a centralized input validation routine for the whole application (CWE-20): Implement a single, consistent validation mechanism to avoid inconsistencies.
+
+        Example:
+        // BAD Example: Validation logic scattered across the code
+        if (!validateUsername(username)) {{
+            throw new IllegalArgumentException("Invalid username.");
+        }}
+        if (!validatePassword(password)) {{
+            throw new IllegalArgumentException("Invalid password.");
+        }}
+        
+        // GOOD Example: Centralized validation
+        public void validateInput(String input, String type) {{
+            if (type.equals("username") && !input.matches("^[a-zA-Z0-9_]+$")) {{
+                throw new IllegalArgumentException("Invalid username.");
+            }}
+            if (type.equals("password") && input.length() < 8) {{
+                throw new IllegalArgumentException("Invalid password.");
+            }}
+        }}
+
+    5. Specify character sets, such as UTF-8, for all input sources (CWE-176): Ensure that input is interpreted correctly by specifying character encoding.
+
+        Example:
+        // BAD Example: No character set specified
+        String input = request.getParameter("input");
+        
+        // GOOD Example: Specify UTF-8 encoding
+        request.setCharacterEncoding("UTF-8");
+        String input = request.getParameter("input");
+
+    6. Encode input to a common character set before validating (CWE-176): Convert input to a standard character set to prevent encoding-related issues.
+
+        Example:
+        // BAD Example: No encoding before validation
+        String input = request.getParameter("input");
+        
+        // GOOD Example: Encode input before validation
+        String input = new String(request.getParameter("input").getBytes("ISO-8859-1"), "UTF-8");
+
+    7. All validation failures should result in input rejection (CWE-20): Ensure that invalid input is always rejected and not processed further.
+
+        Example:
+        // BAD Example: Invalid input is logged but not rejected
+        if (!isValid(input)) {{
+            log("Invalid input: " + input);
+        }}
+        
+        // GOOD Example: Reject invalid input
+        if (!isValid(input)) {{
+            throw new IllegalArgumentException("Invalid input.");
+        }}
+
+    8. If the system supports UTF-8 extended character sets, validate after UTF-8 decoding is completed (CWE-176): Ensure proper handling of extended characters.
+
+        Example:
+        // BAD Example: No validation after UTF-8 decoding
+        String input = new String(request.getParameter("input").getBytes("ISO-8859-1"), "UTF-8");
+        
+        // GOOD Example: Validate after UTF-8 decoding
+        String input = new String(request.getParameter("input").getBytes("ISO-8859-1"), "UTF-8");
+        if (!isValidUTF8(input)) {{
+            throw new IllegalArgumentException("Invalid UTF-8 input.");
+        }}
+
+    9. Validate all client-provided data before processing (CWE-20): Ensure that all data from the client is validated before being used.
+
+        Example:
+        // BAD Example: No validation of client-provided data
+        String userInput = request.getParameter("input");
+        
+        // GOOD Example: Validate client-provided data
+        String userInput = request.getParameter("input");
+        if (!isValid(userInput)) {{
+            throw new IllegalArgumentException("Invalid client input.");
+        }}
+
+    10. Verify that protocol header values in both requests and responses contain only ASCII characters (CWE-113): Prevent injection attacks by restricting headers to ASCII.
+
+        Example:
+        // BAD Example: No validation of header values
+        String header = request.getHeader("User-Agent");
+        
+        // GOOD Example: Validate header values
+        String header = request.getHeader("User-Agent");
+        if (!header.matches("^[\\x00-\\x7F]+$")) {{
+            throw new IllegalArgumentException("Invalid header value.");
+        }}
+
+    11. Validate data from redirects (CWE-601): Ensure that data from redirects is validated to prevent open redirect vulnerabilities.
+
+        Example:
+        // BAD Example: No validation of redirect data
+        String redirectUrl = request.getParameter("url");
+        response.sendRedirect(redirectUrl);
+        
+        // GOOD Example: Validate redirect URL
+        String redirectUrl = request.getParameter("url");
+        if (!isValidRedirectUrl(redirectUrl)) {{
+            throw new IllegalArgumentException("Invalid redirect URL.");
+        }}
+        response.sendRedirect(redirectUrl);
+
+    12. Validate for expected data types using an "allow" list rather than a "deny" list (CWE-183): Use positive validation to ensure only expected data types are accepted.
+
+        Example:
+        // BAD Example: Using a deny list
+        if (input.contains("<script>")) {{
+            throw new IllegalArgumentException("Invalid input.");
+        }}
+        
+        // GOOD Example: Using an allow list
+        if (!input.matches("^[a-zA-Z0-9_]+$")) {{
+            throw new IllegalArgumentException("Invalid input.");
+        }}
+
+    13. Validate data range (CWE-1286): Ensure that numeric input falls within an acceptable range.
+
+        Example:
+        // BAD Example: No range validation
+        int quantity = Integer.parseInt(request.getParameter("quantity"));
+        
+        // GOOD Example: Validate range
+        int quantity = Integer.parseInt(request.getParameter("quantity"));
+        if (quantity < 1 || quantity > 100) {{
+            throw new IllegalArgumentException("Quantity out of acceptable range.");
+        }}
+
+    14. Validate data length (CWE-1286): Ensure that input does not exceed expected length limits.
+
+        Example:
+        // BAD Example: No length validation
+        String input = request.getParameter("input");
+        
+        // GOOD Example: Validate length
+        String input = request.getParameter("input");
+        if (input.length() > 100) {{
+            throw new IllegalArgumentException("Input exceeds maximum length.");
+        }}
+
+    15. If any potentially hazardous input must be allowed, implement additional controls (CWE-20): Apply extra security measures for dangerous inputs.
+
+        Example:
+        // BAD Example: No additional controls for hazardous input
+        String input = request.getParameter("input");
+        
+        // GOOD Example: Apply additional controls
+        String input = request.getParameter("input");
+        if (isHazardous(input)) {{
+            input = sanitizeInput(input);
+        }}
+
+    16. If the standard validation routine cannot address some inputs, use extra discrete checks (CWE-20): Implement additional validation for edge cases.
+
+        Example:
+        // BAD Example: No extra checks for edge cases
+        String input = request.getParameter("input");
+        
+        // GOOD Example: Extra checks for edge cases
+        String input = request.getParameter("input");
+        if (isEdgeCase(input)) {{
+            validateEdgeCase(input);
+        }}
+
+    17. Utilize canonicalization to address obfuscation attacks (CWE-180): Convert input to its simplest form to prevent obfuscation.
+
+        Example:
+        // BAD Example: No canonicalization
+        String input = request.getParameter("input");
+        
+        // GOOD Example: Canonicalize input
+        String input = canonicalize(request.getParameter("input"));
+        if (!isValid(input)) {{
+            throw new IllegalArgumentException("Invalid input.");
+        }}
+
+
+    1. Does the function follow the secure practices outlined above? Answer with "YES" or "NO" only (not more, just "YES" or "NO").
+    - If the answer is yes, respond as: "1. Yes;"
+    - If the answer is no, respond as: "1. No;"
+
+    2. Explain your answer in the following format (Answer with only the NUMBERS):
+        - If the answer is "NO", respond as, for example: "2. 1, 13, 16, 17;"
+        - If the answer is "YES", respond as, for example: "2. Yes;"
+
+    3. If the answer is "YES", it means the given function follows all the secure practices outlined above? Answer with "YES" or "NO" only (not more, just "YES" or "NO"). 
+
+    ALWAYS PUT ";" AT THE END OF YOUR RESPONSE. NO EXTRA COMMENT OR TEXT OR CODE EXPLANATION.

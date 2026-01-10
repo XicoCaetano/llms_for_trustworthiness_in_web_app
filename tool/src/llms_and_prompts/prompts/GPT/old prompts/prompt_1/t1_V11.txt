@@ -1,0 +1,24 @@
+Given the following Java function:
+
+{{ content }}
+
+    Evaluate according to the OWASP secure coding checklist described earlier.
+
+    Instructions:
+    - Never assume anything not explicitly present in the code.
+    - Rule 1 (server-side validation) is always true and should not be evaluated.
+    - Only identify **rules that are applicable** based on the context and behavior of the given method.
+    - For rules not applicable, ignore them. Do not over-penalize.
+    - Respond only with the expected format shown below.
+
+    DONT DEVOLVE ANY CODE.
+
+    ### Format your response like this:
+
+    1. Does the function comply with all applicable secure practices? Answer with **only** "1. Yes;" or "1. No;"
+
+    2. If the answer is **No**, list **only** the numbers of applicable practices that the function does NOT follow. Do **not** include irrelevant items.
+        - If the answer is "NO", respond as, for example: "2. 1, 2, 3, 4, 5;"
+        - If the answer is "YES", respond as, for example: "2. Yes;"
+
+    ALWAYS PUT ";" AT THE END OF YOUR RESPONSE. NO EXTRA COMMENT OR TEXT.

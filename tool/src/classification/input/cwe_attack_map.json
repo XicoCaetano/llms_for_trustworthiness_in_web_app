@@ -1,0 +1,32 @@
+{
+    "CWE-89": {
+      "name": "SQL Injection",
+      "main_practice": "Validate all input data used in SQL queries using allow-lists and parameterized queries.",
+      "related_cwes": {
+        "CWE-20": "Improper Input Validation",
+        "CWE-116": "Improper Encoding or Escaping of Output",
+        "CWE-180": "Incorrect Behavior Order: Validate Before Canonicalize",
+        "CWE-176": "Improper Handling of Unicode Encoding",
+        "CWE-184": "Incomplete List of Disallowed Inputs",
+        "CWE-602": "Client-Side Enforcement of Server-Side Security",
+        "CWE-1284": "Improper Validation of Specified Range",
+        "CWE-807": "Reliance on Untrusted Inputs in a Security Decision",
+        "CWE-1173": "Improper Use of Validation Framework"
+      }
+    },
+    "CWE-79": {
+      "name": "Cross-site Scripting (XSS)",
+      "main_practice": "Sanitize and encode all output data rendered into HTML/JS contexts.",
+      "related_cwes": {
+        "CWE-20": "Improper Input Validation",
+        "CWE-116": "Improper Encoding or Escaping of Output",
+        "CWE-176": "Improper Handling of Unicode Encoding",
+        "CWE-180": "Incorrect Behavior Order: Validate Before Canonicalize",
+        "CWE-184": "Incomplete List of Disallowed Inputs",
+        "CWE-602": "Client-Side Enforcement of Server-Side Security",
+        "CWE-93": "CRLF Injection",
+        "CWE-807": "Reliance on Untrusted Inputs in a Security Decision",
+        "CWE-1173": "Improper Use of Validation Framework"
+      }
+    }
+} 

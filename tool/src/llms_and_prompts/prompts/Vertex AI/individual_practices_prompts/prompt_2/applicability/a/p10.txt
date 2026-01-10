@@ -1,0 +1,21 @@
+Given the following Java function:
+
+{content}
+
+Evaluate the function **only** according to the following OWASP secure coding practice of input validation and the associated CWEs to help you:
+
+[10] Validate all input received through redirects (to prevent bypassing pre-redirect validation).
+
+Associated CWEs: 
+1. CWE-285: Improper Authorization;
+2. CWE-601: URL Redirection to Untrusted Site ('Open Redirect');
+3. CWE-807: Reliance on Untrusted Inputs in a Security Decision;
+
+---
+
+Format your response like this:
+1. Does the OWASP Rule 10 of Input Validation practice is applicable? Answer with "Yes" or "No" only.
+- If yes, respond: "1. Yes;"
+- If no, respond: "1. No;"
+
+Only respond with the line shown above. **End your response with a semicolon (;)** and nothing else.

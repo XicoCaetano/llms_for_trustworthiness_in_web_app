@@ -1,0 +1,1848 @@
+{
+  "NewCustomer": {
+    "Vx0": {
+      "score_qm": {
+        "process": 0.2928181022,
+        "getAddressID": 0.3760087563,
+        "createAddress": 0.2934703046,
+        "getCOID": 0.3174476488,
+        "insertCostumer": 0.2962966255
+      },
+      "score_paper": {
+        "process": 0.53,
+        "getAddressID": 0.89,
+        "createAddress": 0.89,
+        "getCOID": 1.0,
+        "insertCostumer": 1.0
+      },
+      "score_groundtruth_qm": {
+        "process": 0.0070808844,
+        "getAddressID": 0.3044851263,
+        "createAddress": 0.291896324,
+        "getCOID": 0.291896324,
+        "insertCostumer": 0.291896324
+      },
+      "practices": {
+        "process": {
+          "qm": {
+            "Practice 1": 1,
+            "Practice 2": 0,
+            "Practice 3": 0.0,
+            "Practice 4": null,
+            "Practice 5": 0.0,
+            "Practice 6": 0,
+            "Practice 7": null,
+            "Practice 8": 0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": 0,
+            "Practice 12": 0.0,
+            "Practice 13": 0.0,
+            "Practice 14": 0,
+            "Practice 15": 1.0,
+            "Practice 16": 0.0
+          },
+          "groundtruth": {
+            "Practice 1": 1.0,
+            "Practice 2": 0.0,
+            "Practice 3": 0.0,
+            "Practice 4": 0.0,
+            "Practice 5": 0.0,
+            "Practice 6": 1.0,
+            "Practice 7": 0.0,
+            "Practice 8": 0.0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": 0.0,
+            "Practice 12": 0.0,
+            "Practice 13": 0.0,
+            "Practice 14": 0.0,
+            "Practice 15": 0.0,
+            "Practice 16": 0.0
+          }
+        },
+        "getAddressID": {
+          "qm": {
+            "Practice 1": 1,
+            "Practice 2": 0,
+            "Practice 3": 0.0,
+            "Practice 4": 1.0,
+            "Practice 5": 0.0,
+            "Practice 6": 0,
+            "Practice 7": 0.0,
+            "Practice 8": 0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": 0,
+            "Practice 12": null,
+            "Practice 13": null,
+            "Practice 14": 0,
+            "Practice 15": 1.0,
+            "Practice 16": 0.0
+          },
+          "groundtruth": {
+            "Practice 1": 1.0,
+            "Practice 2": 1.0,
+            "Practice 3": 0.0,
+            "Practice 4": 0.0,
+            "Practice 5": 0.0,
+            "Practice 6": 0.0,
+            "Practice 7": 0.0,
+            "Practice 8": 0.0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": 0.0,
+            "Practice 12": 0.0,
+            "Practice 13": 0.0,
+            "Practice 14": 0.0,
+            "Practice 15": 1.0,
+            "Practice 16": 0.0
+          }
+        },
+        "createAddress": {
+          "qm": {
+            "Practice 1": 1,
+            "Practice 2": 0,
+            "Practice 3": 0.0,
+            "Practice 4": 1.0,
+            "Practice 5": 0.0,
+            "Practice 6": 0,
+            "Practice 7": 0.0,
+            "Practice 8": 0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": 0,
+            "Practice 12": 0.0,
+            "Practice 13": 0.0,
+            "Practice 14": 0,
+            "Practice 15": 1.0,
+            "Practice 16": 0.0
+          },
+          "groundtruth": {
+            "Practice 1": 1.0,
+            "Practice 2": 0.0,
+            "Practice 3": 0.0,
+            "Practice 4": 0.0,
+            "Practice 5": 0.0,
+            "Practice 6": 0.0,
+            "Practice 7": 0.0,
+            "Practice 8": 0.0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": 0.0,
+            "Practice 12": 0.0,
+            "Practice 13": 0.0,
+            "Practice 14": 0.0,
+            "Practice 15": 1.0,
+            "Practice 16": 0.0
+          }
+        },
+        "getCOID": {
+          "qm": {
+            "Practice 1": 1,
+            "Practice 2": 0,
+            "Practice 3": 0.0,
+            "Practice 4": null,
+            "Practice 5": 0.0,
+            "Practice 6": 0,
+            "Practice 7": 1.0,
+            "Practice 8": 0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": 0,
+            "Practice 12": null,
+            "Practice 13": 0.0,
+            "Practice 14": 0,
+            "Practice 15": 1.0,
+            "Practice 16": 0.0
+          },
+          "groundtruth": {
+            "Practice 1": 1.0,
+            "Practice 2": 0.0,
+            "Practice 3": 0.0,
+            "Practice 4": 0.0,
+            "Practice 5": 0.0,
+            "Practice 6": 0.0,
+            "Practice 7": 0.0,
+            "Practice 8": 0.0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": 0.0,
+            "Practice 12": 0.0,
+            "Practice 13": 0.0,
+            "Practice 14": 0.0,
+            "Practice 15": 1.0,
+            "Practice 16": 0.0
+          }
+        },
+        "insertCostumer": {
+          "qm": {
+            "Practice 1": 1,
+            "Practice 2": 0,
+            "Practice 3": 0.0,
+            "Practice 4": 1.0,
+            "Practice 5": 0.0,
+            "Practice 6": 0,
+            "Practice 7": null,
+            "Practice 8": 0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": 0,
+            "Practice 12": 0.0,
+            "Practice 13": 0.0,
+            "Practice 14": 0,
+            "Practice 15": 1.0,
+            "Practice 16": 1.0
+          },
+          "groundtruth": {
+            "Practice 1": 1.0,
+            "Practice 2": 0.0,
+            "Practice 3": 0.0,
+            "Practice 4": 0.0,
+            "Practice 5": 0.0,
+            "Practice 6": 0.0,
+            "Practice 7": 0.0,
+            "Practice 8": 0.0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": 0.0,
+            "Practice 12": 0.0,
+            "Practice 13": 0.0,
+            "Practice 14": 0.0,
+            "Practice 15": 1.0,
+            "Practice 16": 0.0
+          }
+        }
+      }
+    },
+    "Vx101": {
+      "score_qm": {
+        "process": 0.0051153499,
+        "getAddressID": 0.0050979609,
+        "createAddress": 0.2923564865,
+        "getCOID": 0.3194565217,
+        "insertCostumer": 0.2947201636
+      },
+      "score_paper": {
+        "process": 0.53,
+        "getAddressID": 0.48,
+        "createAddress": 0.89,
+        "getCOID": 1.0,
+        "insertCostumer": 1.0
+      },
+      "score_groundtruth_qm": {
+        "process": 0.0070808844,
+        "getAddressID": 0.0173097299,
+        "createAddress": 0.291896324,
+        "getCOID": 0.291896324,
+        "insertCostumer": 0.291896324
+      },
+      "practices": {
+        "process": {
+          "qm": {
+            "Practice 1": 1,
+            "Practice 2": 0,
+            "Practice 3": 0.0,
+            "Practice 4": null,
+            "Practice 5": 0.0,
+            "Practice 6": 0,
+            "Practice 7": null,
+            "Practice 8": 0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": 0,
+            "Practice 12": null,
+            "Practice 13": 0.0,
+            "Practice 14": 0,
+            "Practice 15": 0.0,
+            "Practice 16": 0.0
+          },
+          "groundtruth": {
+            "Practice 1": 1.0,
+            "Practice 2": 0.0,
+            "Practice 3": 0.0,
+            "Practice 4": 0.0,
+            "Practice 5": 0.0,
+            "Practice 6": 1.0,
+            "Practice 7": 0.0,
+            "Practice 8": 0.0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": 0.0,
+            "Practice 12": 0.0,
+            "Practice 13": 0.0,
+            "Practice 14": 0.0,
+            "Practice 15": 0.0,
+            "Practice 16": 0.0
+          }
+        },
+        "getAddressID": {
+          "qm": {
+            "Practice 1": 1,
+            "Practice 2": 0,
+            "Practice 3": 0.0,
+            "Practice 4": 0.0,
+            "Practice 5": 0.0,
+            "Practice 6": 0,
+            "Practice 7": 0.0,
+            "Practice 8": 0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": 0,
+            "Practice 12": null,
+            "Practice 13": 0.0,
+            "Practice 14": 0,
+            "Practice 15": 0.0,
+            "Practice 16": 0.0
+          },
+          "groundtruth": {
+            "Practice 1": 1.0,
+            "Practice 2": 1.0,
+            "Practice 3": 0.0,
+            "Practice 4": 0.0,
+            "Practice 5": 0.0,
+            "Practice 6": 0.0,
+            "Practice 7": 0.0,
+            "Practice 8": 0.0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": 0.0,
+            "Practice 12": 0.0,
+            "Practice 13": 0.0,
+            "Practice 14": 0.0,
+            "Practice 15": 0.0,
+            "Practice 16": 0.0
+          }
+        },
+        "createAddress": {
+          "qm": {
+            "Practice 1": 1,
+            "Practice 2": 0,
+            "Practice 3": 0.0,
+            "Practice 4": null,
+            "Practice 5": 0.0,
+            "Practice 6": 0,
+            "Practice 7": 0.0,
+            "Practice 8": 0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": 0,
+            "Practice 12": 0.0,
+            "Practice 13": 0.0,
+            "Practice 14": 0,
+            "Practice 15": 1.0,
+            "Practice 16": 0.0
+          },
+          "groundtruth": {
+            "Practice 1": 1.0,
+            "Practice 2": 0.0,
+            "Practice 3": 0.0,
+            "Practice 4": 0.0,
+            "Practice 5": 0.0,
+            "Practice 6": 0.0,
+            "Practice 7": 0.0,
+            "Practice 8": 0.0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": 0.0,
+            "Practice 12": 0.0,
+            "Practice 13": 0.0,
+            "Practice 14": 0.0,
+            "Practice 15": 1.0,
+            "Practice 16": 0.0
+          }
+        },
+        "getCOID": {
+          "qm": {
+            "Practice 1": 1,
+            "Practice 2": 0,
+            "Practice 3": 0.0,
+            "Practice 4": 1.0,
+            "Practice 5": 0.0,
+            "Practice 6": 0,
+            "Practice 7": 0.0,
+            "Practice 8": 0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": 0,
+            "Practice 12": null,
+            "Practice 13": 0.0,
+            "Practice 14": 0,
+            "Practice 15": 1.0,
+            "Practice 16": 1.0
+          },
+          "groundtruth": {
+            "Practice 1": 1.0,
+            "Practice 2": 0.0,
+            "Practice 3": 0.0,
+            "Practice 4": 0.0,
+            "Practice 5": 0.0,
+            "Practice 6": 0.0,
+            "Practice 7": 0.0,
+            "Practice 8": 0.0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": 0.0,
+            "Practice 12": 0.0,
+            "Practice 13": 0.0,
+            "Practice 14": 0.0,
+            "Practice 15": 1.0,
+            "Practice 16": 0.0
+          }
+        },
+        "insertCostumer": {
+          "qm": {
+            "Practice 1": 1,
+            "Practice 2": 0,
+            "Practice 3": 0.0,
+            "Practice 4": 0.0,
+            "Practice 5": 0.0,
+            "Practice 6": 0,
+            "Practice 7": null,
+            "Practice 8": 0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": 0,
+            "Practice 12": 0.0,
+            "Practice 13": 0.0,
+            "Practice 14": 0,
+            "Practice 15": 1.0,
+            "Practice 16": 1.0
+          },
+          "groundtruth": {
+            "Practice 1": 1.0,
+            "Practice 2": 0.0,
+            "Practice 3": 0.0,
+            "Practice 4": 0.0,
+            "Practice 5": 0.0,
+            "Practice 6": 0.0,
+            "Practice 7": 0.0,
+            "Practice 8": 0.0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": 0.0,
+            "Practice 12": 0.0,
+            "Practice 13": 0.0,
+            "Practice 14": 0.0,
+            "Practice 15": 1.0,
+            "Practice 16": 0.0
+          }
+        }
+      }
+    },
+    "Vx138": {
+      "score_qm": {
+        "process": 0.0073895253,
+        "getAddressID": 0.3157450696,
+        "createAddress": 0.0,
+        "getCOID": 0.3194565217,
+        "insertCostumer": 0.2947201636
+      },
+      "score_paper": {
+        "process": 0.53,
+        "getAddressID": 0.89,
+        "createAddress": 0.48,
+        "getCOID": 1.0,
+        "insertCostumer": 1.0
+      },
+      "score_groundtruth_qm": {
+        "process": 0.0070808844,
+        "getAddressID": 0.3044851263,
+        "createAddress": 0.0047209276,
+        "getCOID": 0.291896324,
+        "insertCostumer": 0.291896324
+      },
+      "practices": {
+        "process": {
+          "qm": {
+            "Practice 1": 1,
+            "Practice 2": 0,
+            "Practice 3": 0.0,
+            "Practice 4": 0.0,
+            "Practice 5": 0.0,
+            "Practice 6": 0,
+            "Practice 7": 0.0,
+            "Practice 8": 0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": 0,
+            "Practice 12": null,
+            "Practice 13": 0.0,
+            "Practice 14": 0,
+            "Practice 15": null,
+            "Practice 16": 0.0
+          },
+          "groundtruth": {
+            "Practice 1": 1.0,
+            "Practice 2": 0.0,
+            "Practice 3": 0.0,
+            "Practice 4": 0.0,
+            "Practice 5": 0.0,
+            "Practice 6": 1.0,
+            "Practice 7": 0.0,
+            "Practice 8": 0.0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": 0.0,
+            "Practice 12": 0.0,
+            "Practice 13": 0.0,
+            "Practice 14": 0.0,
+            "Practice 15": 0.0,
+            "Practice 16": 0.0
+          }
+        },
+        "getAddressID": {
+          "qm": {
+            "Practice 1": 1,
+            "Practice 2": 0,
+            "Practice 3": 0.0,
+            "Practice 4": null,
+            "Practice 5": 0.0,
+            "Practice 6": 0,
+            "Practice 7": 0.0,
+            "Practice 8": 0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": 0,
+            "Practice 12": null,
+            "Practice 13": 0.0,
+            "Practice 14": 0,
+            "Practice 15": 1.0,
+            "Practice 16": 0.0
+          },
+          "groundtruth": {
+            "Practice 1": 1.0,
+            "Practice 2": 1.0,
+            "Practice 3": 0.0,
+            "Practice 4": 0.0,
+            "Practice 5": 0.0,
+            "Practice 6": 0.0,
+            "Practice 7": 0.0,
+            "Practice 8": 0.0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": 0.0,
+            "Practice 12": 0.0,
+            "Practice 13": 0.0,
+            "Practice 14": 0.0,
+            "Practice 15": 1.0,
+            "Practice 16": 0.0
+          }
+        },
+        "createAddress": {
+          "qm": {
+            "Practice 1": 0,
+            "Practice 2": 0,
+            "Practice 3": 0.0,
+            "Practice 4": null,
+            "Practice 5": 0.0,
+            "Practice 6": 0,
+            "Practice 7": 0.0,
+            "Practice 8": 0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": 0,
+            "Practice 12": 0.0,
+            "Practice 13": 0.0,
+            "Practice 14": 0,
+            "Practice 15": 0.0,
+            "Practice 16": null
+          },
+          "groundtruth": {
+            "Practice 1": 1.0,
+            "Practice 2": 0.0,
+            "Practice 3": 0.0,
+            "Practice 4": 0.0,
+            "Practice 5": 0.0,
+            "Practice 6": 0.0,
+            "Practice 7": 0.0,
+            "Practice 8": 0.0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": 0.0,
+            "Practice 12": 0.0,
+            "Practice 13": 0.0,
+            "Practice 14": 0.0,
+            "Practice 15": 0.0,
+            "Practice 16": 0.0
+          }
+        },
+        "getCOID": {
+          "qm": {
+            "Practice 1": 1,
+            "Practice 2": 0,
+            "Practice 3": 0.0,
+            "Practice 4": 1.0,
+            "Practice 5": 0.0,
+            "Practice 6": 0,
+            "Practice 7": 0.0,
+            "Practice 8": 0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": 0,
+            "Practice 12": null,
+            "Practice 13": 0.0,
+            "Practice 14": 0,
+            "Practice 15": 1.0,
+            "Practice 16": 1.0
+          },
+          "groundtruth": {
+            "Practice 1": 1.0,
+            "Practice 2": 0.0,
+            "Practice 3": 0.0,
+            "Practice 4": 0.0,
+            "Practice 5": 0.0,
+            "Practice 6": 0.0,
+            "Practice 7": 0.0,
+            "Practice 8": 0.0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": 0.0,
+            "Practice 12": 0.0,
+            "Practice 13": 0.0,
+            "Practice 14": 0.0,
+            "Practice 15": 1.0,
+            "Practice 16": 0.0
+          }
+        },
+        "insertCostumer": {
+          "qm": {
+            "Practice 1": 1,
+            "Practice 2": 0,
+            "Practice 3": 0.0,
+            "Practice 4": null,
+            "Practice 5": 0.0,
+            "Practice 6": 0,
+            "Practice 7": 0.0,
+            "Practice 8": 0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": 0,
+            "Practice 12": 0.0,
+            "Practice 13": 0.0,
+            "Practice 14": 0,
+            "Practice 15": 1.0,
+            "Practice 16": 1.0
+          },
+          "groundtruth": {
+            "Practice 1": 1.0,
+            "Practice 2": 0.0,
+            "Practice 3": 0.0,
+            "Practice 4": 0.0,
+            "Practice 5": 0.0,
+            "Practice 6": 0.0,
+            "Practice 7": 0.0,
+            "Practice 8": 0.0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": 0.0,
+            "Practice 12": 0.0,
+            "Practice 13": 0.0,
+            "Practice 14": 0.0,
+            "Practice 15": 1.0,
+            "Practice 16": 0.0
+          }
+        }
+      }
+    },
+    "Vx158": {
+      "score_qm": {
+        "process": 0.0051066406,
+        "getAddressID": 0.3747478323,
+        "createAddress": 0.2928181022,
+        "getCOID": 0.0067976463,
+        "insertCostumer": 0.2941645188
+      },
+      "score_paper": {
+        "process": 0.53,
+        "getAddressID": 0.89,
+        "createAddress": 0.89,
+        "getCOID": 0.48,
+        "insertCostumer": 1.0
+      },
+      "score_groundtruth_qm": {
+        "process": 0.0070808844,
+        "getAddressID": 0.3044851263,
+        "createAddress": 0.291896324,
+        "getCOID": 0.0047209276,
+        "insertCostumer": 0.291896324
+      },
+      "practices": {
+        "process": {
+          "qm": {
+            "Practice 1": 1,
+            "Practice 2": 0,
+            "Practice 3": 0.0,
+            "Practice 4": null,
+            "Practice 5": 0.0,
+            "Practice 6": 0,
+            "Practice 7": 0.0,
+            "Practice 8": 0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": 0,
+            "Practice 12": null,
+            "Practice 13": 0.0,
+            "Practice 14": 0,
+            "Practice 15": 0.0,
+            "Practice 16": 0.0
+          },
+          "groundtruth": {
+            "Practice 1": 1.0,
+            "Practice 2": 0.0,
+            "Practice 3": 0.0,
+            "Practice 4": 0.0,
+            "Practice 5": 0.0,
+            "Practice 6": 1.0,
+            "Practice 7": 0.0,
+            "Practice 8": 0.0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": 0.0,
+            "Practice 12": 0.0,
+            "Practice 13": 0.0,
+            "Practice 14": 0.0,
+            "Practice 15": 0.0,
+            "Practice 16": 0.0
+          }
+        },
+        "getAddressID": {
+          "qm": {
+            "Practice 1": 1,
+            "Practice 2": 0,
+            "Practice 3": 0.0,
+            "Practice 4": null,
+            "Practice 5": 0.0,
+            "Practice 6": 0,
+            "Practice 7": 0.0,
+            "Practice 8": 0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": 0,
+            "Practice 12": null,
+            "Practice 13": null,
+            "Practice 14": 0,
+            "Practice 15": 1.0,
+            "Practice 16": 0.0
+          },
+          "groundtruth": {
+            "Practice 1": 1.0,
+            "Practice 2": 1.0,
+            "Practice 3": 0.0,
+            "Practice 4": 0.0,
+            "Practice 5": 0.0,
+            "Practice 6": 0.0,
+            "Practice 7": 0.0,
+            "Practice 8": 0.0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": 0.0,
+            "Practice 12": 0.0,
+            "Practice 13": 0.0,
+            "Practice 14": 0.0,
+            "Practice 15": 1.0,
+            "Practice 16": 0.0
+          }
+        },
+        "createAddress": {
+          "qm": {
+            "Practice 1": 1,
+            "Practice 2": 0,
+            "Practice 3": 0.0,
+            "Practice 4": null,
+            "Practice 5": null,
+            "Practice 6": 0,
+            "Practice 7": 0.0,
+            "Practice 8": 0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": 0,
+            "Practice 12": 0.0,
+            "Practice 13": 0.0,
+            "Practice 14": 0,
+            "Practice 15": 1.0,
+            "Practice 16": 0.0
+          },
+          "groundtruth": {
+            "Practice 1": 1.0,
+            "Practice 2": 0.0,
+            "Practice 3": 0.0,
+            "Practice 4": 0.0,
+            "Practice 5": 0.0,
+            "Practice 6": 0.0,
+            "Practice 7": 0.0,
+            "Practice 8": 0.0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": 0.0,
+            "Practice 12": 0.0,
+            "Practice 13": 0.0,
+            "Practice 14": 0.0,
+            "Practice 15": 1.0,
+            "Practice 16": 0.0
+          }
+        },
+        "getCOID": {
+          "qm": {
+            "Practice 1": 1,
+            "Practice 2": 0,
+            "Practice 3": 0.0,
+            "Practice 4": 1.0,
+            "Practice 5": 0.0,
+            "Practice 6": 0,
+            "Practice 7": 0.0,
+            "Practice 8": 0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": 0,
+            "Practice 12": null,
+            "Practice 13": 0.0,
+            "Practice 14": 0,
+            "Practice 15": 0.0,
+            "Practice 16": 0.0
+          },
+          "groundtruth": {
+            "Practice 1": 1.0,
+            "Practice 2": 0.0,
+            "Practice 3": 0.0,
+            "Practice 4": 0.0,
+            "Practice 5": 0.0,
+            "Practice 6": 0.0,
+            "Practice 7": 0.0,
+            "Practice 8": 0.0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": 0.0,
+            "Practice 12": 0.0,
+            "Practice 13": 0.0,
+            "Practice 14": 0.0,
+            "Practice 15": 0.0,
+            "Practice 16": 0.0
+          }
+        },
+        "insertCostumer": {
+          "qm": {
+            "Practice 1": 1,
+            "Practice 2": 0,
+            "Practice 3": 0.0,
+            "Practice 4": 1.0,
+            "Practice 5": 0.0,
+            "Practice 6": 0,
+            "Practice 7": 0.0,
+            "Practice 8": 0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": 0,
+            "Practice 12": 0.0,
+            "Practice 13": 0.0,
+            "Practice 14": 0,
+            "Practice 15": 1.0,
+            "Practice 16": null
+          },
+          "groundtruth": {
+            "Practice 1": 1.0,
+            "Practice 2": 0.0,
+            "Practice 3": 0.0,
+            "Practice 4": 0.0,
+            "Practice 5": 0.0,
+            "Practice 6": 0.0,
+            "Practice 7": 0.0,
+            "Practice 8": 0.0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": 0.0,
+            "Practice 12": 0.0,
+            "Practice 13": 0.0,
+            "Practice 14": 0.0,
+            "Practice 15": 1.0,
+            "Practice 16": 0.0
+          }
+        }
+      }
+    },
+    "Vx197": {
+      "score_qm": {
+        "process": 0.0051153499,
+        "getAddressID": 0.3157450696,
+        "createAddress": 0.2923564865,
+        "getCOID": 0.7208514132,
+        "insertCostumer": 0.0
+      },
+      "score_paper": {
+        "process": 0.53,
+        "getAddressID": 0.89,
+        "createAddress": 0.89,
+        "getCOID": 1.0,
+        "insertCostumer": 0.48
+      },
+      "score_groundtruth_qm": {
+        "process": 0.0070808844,
+        "getAddressID": 0.3044851263,
+        "createAddress": 0.291896324,
+        "getCOID": 0.291896324,
+        "insertCostumer": 0.0047209276
+      },
+      "practices": {
+        "process": {
+          "qm": {
+            "Practice 1": 1,
+            "Practice 2": 0,
+            "Practice 3": 0.0,
+            "Practice 4": null,
+            "Practice 5": 0.0,
+            "Practice 6": 0,
+            "Practice 7": null,
+            "Practice 8": 0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": 0,
+            "Practice 12": null,
+            "Practice 13": 0.0,
+            "Practice 14": 0,
+            "Practice 15": 0.0,
+            "Practice 16": 0.0
+          },
+          "groundtruth": {
+            "Practice 1": 1.0,
+            "Practice 2": 0.0,
+            "Practice 3": 0.0,
+            "Practice 4": 0.0,
+            "Practice 5": 0.0,
+            "Practice 6": 1.0,
+            "Practice 7": 0.0,
+            "Practice 8": 0.0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": 0.0,
+            "Practice 12": 0.0,
+            "Practice 13": 0.0,
+            "Practice 14": 0.0,
+            "Practice 15": 0.0,
+            "Practice 16": 0.0
+          }
+        },
+        "getAddressID": {
+          "qm": {
+            "Practice 1": 1,
+            "Practice 2": 0,
+            "Practice 3": 0.0,
+            "Practice 4": null,
+            "Practice 5": 0.0,
+            "Practice 6": 0,
+            "Practice 7": 0.0,
+            "Practice 8": 0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": 0,
+            "Practice 12": null,
+            "Practice 13": 0.0,
+            "Practice 14": 0,
+            "Practice 15": 1.0,
+            "Practice 16": 0.0
+          },
+          "groundtruth": {
+            "Practice 1": 1.0,
+            "Practice 2": 1.0,
+            "Practice 3": 0.0,
+            "Practice 4": 0.0,
+            "Practice 5": 0.0,
+            "Practice 6": 0.0,
+            "Practice 7": 0.0,
+            "Practice 8": 0.0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": 0.0,
+            "Practice 12": 0.0,
+            "Practice 13": 0.0,
+            "Practice 14": 0.0,
+            "Practice 15": 1.0,
+            "Practice 16": 0.0
+          }
+        },
+        "createAddress": {
+          "qm": {
+            "Practice 1": 1,
+            "Practice 2": 0,
+            "Practice 3": 0.0,
+            "Practice 4": null,
+            "Practice 5": 0.0,
+            "Practice 6": 0,
+            "Practice 7": 0.0,
+            "Practice 8": 0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": 0,
+            "Practice 12": 0.0,
+            "Practice 13": 0.0,
+            "Practice 14": 0,
+            "Practice 15": 1.0,
+            "Practice 16": 0.0
+          },
+          "groundtruth": {
+            "Practice 1": 1.0,
+            "Practice 2": 0.0,
+            "Practice 3": 0.0,
+            "Practice 4": 0.0,
+            "Practice 5": 0.0,
+            "Practice 6": 0.0,
+            "Practice 7": 0.0,
+            "Practice 8": 0.0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": 0.0,
+            "Practice 12": 0.0,
+            "Practice 13": 0.0,
+            "Practice 14": 0.0,
+            "Practice 15": 1.0,
+            "Practice 16": 0.0
+          }
+        },
+        "getCOID": {
+          "qm": {
+            "Practice 1": 1,
+            "Practice 2": 0,
+            "Practice 3": 0.0,
+            "Practice 4": null,
+            "Practice 5": 0.0,
+            "Practice 6": 0,
+            "Practice 7": 0.0,
+            "Practice 8": 0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": 0,
+            "Practice 12": null,
+            "Practice 13": 0.0,
+            "Practice 14": 1,
+            "Practice 15": 1.0,
+            "Practice 16": 1.0
+          },
+          "groundtruth": {
+            "Practice 1": 1.0,
+            "Practice 2": 0.0,
+            "Practice 3": 0.0,
+            "Practice 4": 0.0,
+            "Practice 5": 0.0,
+            "Practice 6": 0.0,
+            "Practice 7": 0.0,
+            "Practice 8": 0.0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": 0.0,
+            "Practice 12": 0.0,
+            "Practice 13": 0.0,
+            "Practice 14": 0.0,
+            "Practice 15": 1.0,
+            "Practice 16": 0.0
+          }
+        },
+        "insertCostumer": {
+          "qm": {
+            "Practice 1": 0,
+            "Practice 2": 0,
+            "Practice 3": 0.0,
+            "Practice 4": 0.0,
+            "Practice 5": 0.0,
+            "Practice 6": 0,
+            "Practice 7": 0.0,
+            "Practice 8": 0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": 0,
+            "Practice 12": 0.0,
+            "Practice 13": 0.0,
+            "Practice 14": 0,
+            "Practice 15": 0.0,
+            "Practice 16": 0.0
+          },
+          "groundtruth": {
+            "Practice 1": 1.0,
+            "Practice 2": 0.0,
+            "Practice 3": 0.0,
+            "Practice 4": 0.0,
+            "Practice 5": 0.0,
+            "Practice 6": 0.0,
+            "Practice 7": 0.0,
+            "Practice 8": 0.0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": 0.0,
+            "Practice 12": 0.0,
+            "Practice 13": 0.0,
+            "Practice 14": 0.0,
+            "Practice 15": 0.0,
+            "Practice 16": 0.0
+          }
+        }
+      }
+    },
+    "VxA": {
+      "score_qm": {
+        "process": 0.0051153499,
+        "getAddressID": 0.0051066406,
+        "createAddress": 0.0,
+        "getCOID": 0.0051066406,
+        "insertCostumer": 0.0
+      },
+      "score_paper": {
+        "process": 0.0,
+        "getAddressID": 0.0,
+        "createAddress": 0.0,
+        "getCOID": 0.0,
+        "insertCostumer": 0.0
+      },
+      "score_groundtruth_qm": {
+        "process": 0.0070808844,
+        "getAddressID": 0.0173097299,
+        "createAddress": 0.0047209276,
+        "getCOID": 0.0047209276,
+        "insertCostumer": 0.0047209276
+      },
+      "practices": {
+        "process": {
+          "qm": {
+            "Practice 1": 1,
+            "Practice 2": 0,
+            "Practice 3": 0.0,
+            "Practice 4": null,
+            "Practice 5": 0.0,
+            "Practice 6": 0,
+            "Practice 7": null,
+            "Practice 8": 0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": 0,
+            "Practice 12": null,
+            "Practice 13": 0.0,
+            "Practice 14": 0,
+            "Practice 15": 0.0,
+            "Practice 16": 0.0
+          },
+          "groundtruth": {
+            "Practice 1": 1.0,
+            "Practice 2": 0.0,
+            "Practice 3": 0.0,
+            "Practice 4": 0.0,
+            "Practice 5": 0.0,
+            "Practice 6": 1.0,
+            "Practice 7": 0.0,
+            "Practice 8": 0.0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": 0.0,
+            "Practice 12": 0.0,
+            "Practice 13": 0.0,
+            "Practice 14": 0.0,
+            "Practice 15": 0.0,
+            "Practice 16": 0.0
+          }
+        },
+        "getAddressID": {
+          "qm": {
+            "Practice 1": 1,
+            "Practice 2": 0,
+            "Practice 3": 0.0,
+            "Practice 4": null,
+            "Practice 5": 0.0,
+            "Practice 6": 0,
+            "Practice 7": 0.0,
+            "Practice 8": 0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": 0,
+            "Practice 12": null,
+            "Practice 13": 0.0,
+            "Practice 14": 0,
+            "Practice 15": 0.0,
+            "Practice 16": 0.0
+          },
+          "groundtruth": {
+            "Practice 1": 1.0,
+            "Practice 2": 1.0,
+            "Practice 3": 0.0,
+            "Practice 4": 0.0,
+            "Practice 5": 0.0,
+            "Practice 6": 0.0,
+            "Practice 7": 0.0,
+            "Practice 8": 0.0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": 0.0,
+            "Practice 12": 0.0,
+            "Practice 13": 0.0,
+            "Practice 14": 0.0,
+            "Practice 15": 0.0,
+            "Practice 16": 0.0
+          }
+        },
+        "createAddress": {
+          "qm": {
+            "Practice 1": 0,
+            "Practice 2": 0,
+            "Practice 3": 0.0,
+            "Practice 4": null,
+            "Practice 5": 0.0,
+            "Practice 6": 0,
+            "Practice 7": 0.0,
+            "Practice 8": 0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": 0,
+            "Practice 12": 0.0,
+            "Practice 13": 0.0,
+            "Practice 14": 0,
+            "Practice 15": 0.0,
+            "Practice 16": 0.0
+          },
+          "groundtruth": {
+            "Practice 1": 1.0,
+            "Practice 2": 0.0,
+            "Practice 3": 0.0,
+            "Practice 4": 0.0,
+            "Practice 5": 0.0,
+            "Practice 6": 0.0,
+            "Practice 7": 0.0,
+            "Practice 8": 0.0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": 0.0,
+            "Practice 12": 0.0,
+            "Practice 13": 0.0,
+            "Practice 14": 0.0,
+            "Practice 15": 0.0,
+            "Practice 16": 0.0
+          }
+        },
+        "getCOID": {
+          "qm": {
+            "Practice 1": 1,
+            "Practice 2": 0,
+            "Practice 3": 0.0,
+            "Practice 4": null,
+            "Practice 5": 0.0,
+            "Practice 6": 0,
+            "Practice 7": 0.0,
+            "Practice 8": 0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": 0,
+            "Practice 12": null,
+            "Practice 13": 0.0,
+            "Practice 14": 0,
+            "Practice 15": 0.0,
+            "Practice 16": 0.0
+          },
+          "groundtruth": {
+            "Practice 1": 1.0,
+            "Practice 2": 0.0,
+            "Practice 3": 0.0,
+            "Practice 4": 0.0,
+            "Practice 5": 0.0,
+            "Practice 6": 0.0,
+            "Practice 7": 0.0,
+            "Practice 8": 0.0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": 0.0,
+            "Practice 12": 0.0,
+            "Practice 13": 0.0,
+            "Practice 14": 0.0,
+            "Practice 15": 0.0,
+            "Practice 16": 0.0
+          }
+        },
+        "insertCostumer": {
+          "qm": {
+            "Practice 1": 0,
+            "Practice 2": 0,
+            "Practice 3": 0.0,
+            "Practice 4": null,
+            "Practice 5": 0.0,
+            "Practice 6": 0,
+            "Practice 7": 0.0,
+            "Practice 8": 0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": 0,
+            "Practice 12": 0.0,
+            "Practice 13": 0.0,
+            "Practice 14": 0,
+            "Practice 15": 0.0,
+            "Practice 16": 0.0
+          },
+          "groundtruth": {
+            "Practice 1": 1.0,
+            "Practice 2": 0.0,
+            "Practice 3": 0.0,
+            "Practice 4": 0.0,
+            "Practice 5": 0.0,
+            "Practice 6": 0.0,
+            "Practice 7": 0.0,
+            "Practice 8": 0.0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": 0.0,
+            "Practice 12": 0.0,
+            "Practice 13": 0.0,
+            "Practice 14": 0.0,
+            "Practice 15": 0.0,
+            "Practice 16": 0.0
+          }
+        }
+      }
+    }
+  },
+  "CreateNewCustomer": {
+    "Vx0": {
+      "score_qm": {
+        "createNewCustomer": 0.0055455662,
+        "enterAddress": 0.3162835663
+      },
+      "score_paper": {
+        "createNewCustomer": 0.72,
+        "enterAddress": 1.0
+      },
+      "score_groundtruth_qm": {
+        "createNewCustomer": 0.291896324,
+        "enterAddress": 0.291896324
+      },
+      "practices": {
+        "createNewCustomer": {
+          "qm": {
+            "Practice 1": 1,
+            "Practice 2": 0,
+            "Practice 3": 0.0,
+            "Practice 4": null,
+            "Practice 5": 0.0,
+            "Practice 6": 0,
+            "Practice 7": null,
+            "Practice 8": 0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": 0,
+            "Practice 12": 0.0,
+            "Practice 13": null,
+            "Practice 14": 0,
+            "Practice 15": 0.0,
+            "Practice 16": 0.0
+          },
+          "groundtruth": {
+            "Practice 1": 1.0,
+            "Practice 2": 0.0,
+            "Practice 3": 0.0,
+            "Practice 4": 0.0,
+            "Practice 5": 0.0,
+            "Practice 6": 0.0,
+            "Practice 7": 0.0,
+            "Practice 8": 0.0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": 0.0,
+            "Practice 12": 0.0,
+            "Practice 13": 0.0,
+            "Practice 14": 0.0,
+            "Practice 15": 1.0,
+            "Practice 16": 0.0
+          }
+        },
+        "enterAddress": {
+          "qm": {
+            "Practice 1": 1,
+            "Practice 2": 0,
+            "Practice 3": null,
+            "Practice 4": null,
+            "Practice 5": 0.0,
+            "Practice 6": 0,
+            "Practice 7": 0.0,
+            "Practice 8": 0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": 0,
+            "Practice 12": null,
+            "Practice 13": 0.0,
+            "Practice 14": 0,
+            "Practice 15": 1.0,
+            "Practice 16": 0.0
+          },
+          "groundtruth": {
+            "Practice 1": 1.0,
+            "Practice 2": 0.0,
+            "Practice 3": 0.0,
+            "Practice 4": 0.0,
+            "Practice 5": 0.0,
+            "Practice 6": 0.0,
+            "Practice 7": 0.0,
+            "Practice 8": 0.0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": 0.0,
+            "Practice 12": 0.0,
+            "Practice 13": 0.0,
+            "Practice 14": 0.0,
+            "Practice 15": 1.0,
+            "Practice 16": 0.0
+          }
+        }
+      }
+    },
+    "Vx078": {
+      "score_qm": {
+        "createNewCustomer": 0.0047209276,
+        "enterAddress": 0.0066374969
+      },
+      "score_paper": {
+        "createNewCustomer": 0.0,
+        "enterAddress": 0.0
+      },
+      "score_groundtruth_qm": {
+        "createNewCustomer": 0.0047209276,
+        "enterAddress": 0.291896324
+      },
+      "practices": {
+        "createNewCustomer": {
+          "qm": {
+            "Practice 1": 1,
+            "Practice 2": 0,
+            "Practice 3": 0.0,
+            "Practice 4": 0.0,
+            "Practice 5": 0.0,
+            "Practice 6": 0,
+            "Practice 7": 0.0,
+            "Practice 8": 0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": 0,
+            "Practice 12": 0.0,
+            "Practice 13": 0.0,
+            "Practice 14": 0,
+            "Practice 15": 0.0,
+            "Practice 16": 0.0
+          },
+          "groundtruth": {
+            "Practice 1": 1.0,
+            "Practice 2": 0.0,
+            "Practice 3": 0.0,
+            "Practice 4": 0.0,
+            "Practice 5": 0.0,
+            "Practice 6": 0.0,
+            "Practice 7": 0.0,
+            "Practice 8": 0.0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": 0.0,
+            "Practice 12": 0.0,
+            "Practice 13": 0.0,
+            "Practice 14": 0.0,
+            "Practice 15": 0.0,
+            "Practice 16": 0.0
+          }
+        },
+        "enterAddress": {
+          "qm": {
+            "Practice 1": 1,
+            "Practice 2": 0,
+            "Practice 3": 0.0,
+            "Practice 4": null,
+            "Practice 5": 0.0,
+            "Practice 6": 0,
+            "Practice 7": 0.0,
+            "Practice 8": 0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": 0,
+            "Practice 12": 0.0,
+            "Practice 13": 0.0,
+            "Practice 14": 0,
+            "Practice 15": null,
+            "Practice 16": 0.0
+          },
+          "groundtruth": {
+            "Practice 1": 1.0,
+            "Practice 2": 0.0,
+            "Practice 3": 0.0,
+            "Practice 4": 0.0,
+            "Practice 5": 0.0,
+            "Practice 6": 0.0,
+            "Practice 7": 0.0,
+            "Practice 8": 0.0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": 0.0,
+            "Practice 12": 0.0,
+            "Practice 13": 0.0,
+            "Practice 14": 0.0,
+            "Practice 15": 1.0,
+            "Practice 16": 0.0
+          }
+        }
+      }
+    },
+    "Vx103": {
+      "score_qm": {
+        "createNewCustomer": 0.00472837,
+        "enterAddress": 0.0047209276
+      },
+      "score_paper": {
+        "createNewCustomer": 0.72,
+        "enterAddress": 0.95
+      },
+      "score_groundtruth_qm": {
+        "createNewCustomer": 0.291896324,
+        "enterAddress": 0.0047209276
+      },
+      "practices": {
+        "createNewCustomer": {
+          "qm": {
+            "Practice 1": 1,
+            "Practice 2": 0,
+            "Practice 3": 0.0,
+            "Practice 4": 0.0,
+            "Practice 5": 0.0,
+            "Practice 6": 0,
+            "Practice 7": null,
+            "Practice 8": 0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": 0,
+            "Practice 12": 0.0,
+            "Practice 13": 0.0,
+            "Practice 14": 0,
+            "Practice 15": 0.0,
+            "Practice 16": 0.0
+          },
+          "groundtruth": {
+            "Practice 1": 1.0,
+            "Practice 2": 0.0,
+            "Practice 3": 0.0,
+            "Practice 4": 0.0,
+            "Practice 5": 0.0,
+            "Practice 6": 0.0,
+            "Practice 7": 0.0,
+            "Practice 8": 0.0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": 0.0,
+            "Practice 12": 0.0,
+            "Practice 13": 0.0,
+            "Practice 14": 0.0,
+            "Practice 15": 1.0,
+            "Practice 16": 0.0
+          }
+        },
+        "enterAddress": {
+          "qm": {
+            "Practice 1": 1,
+            "Practice 2": 0,
+            "Practice 3": 0.0,
+            "Practice 4": 0.0,
+            "Practice 5": 0.0,
+            "Practice 6": 0,
+            "Practice 7": 0.0,
+            "Practice 8": 0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": 0,
+            "Practice 12": 0.0,
+            "Practice 13": 0.0,
+            "Practice 14": 0,
+            "Practice 15": 0.0,
+            "Practice 16": 0.0
+          },
+          "groundtruth": {
+            "Practice 1": 1.0,
+            "Practice 2": 0.0,
+            "Practice 3": 0.0,
+            "Practice 4": 0.0,
+            "Practice 5": 0.0,
+            "Practice 6": 0.0,
+            "Practice 7": 0.0,
+            "Practice 8": 0.0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": 0.0,
+            "Practice 12": 0.0,
+            "Practice 13": 0.0,
+            "Practice 14": 0.0,
+            "Practice 15": 0.0,
+            "Practice 16": 0.0
+          }
+        }
+      }
+    },
+    "Vx113": {
+      "score_qm": {
+        "createNewCustomer": 0.0047358358,
+        "enterAddress": 0.00472837
+      },
+      "score_paper": {
+        "createNewCustomer": 0.0,
+        "enterAddress": 0.0
+      },
+      "score_groundtruth_qm": {
+        "createNewCustomer": 0.291896324,
+        "enterAddress": 0.0047209276
+      },
+      "practices": {
+        "createNewCustomer": {
+          "qm": {
+            "Practice 1": 1,
+            "Practice 2": 0,
+            "Practice 3": 0.0,
+            "Practice 4": null,
+            "Practice 5": 0.0,
+            "Practice 6": 0,
+            "Practice 7": null,
+            "Practice 8": 0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": 0,
+            "Practice 12": 0.0,
+            "Practice 13": 0.0,
+            "Practice 14": 0,
+            "Practice 15": 0.0,
+            "Practice 16": 0.0
+          },
+          "groundtruth": {
+            "Practice 1": 1.0,
+            "Practice 2": 0.0,
+            "Practice 3": 0.0,
+            "Practice 4": 0.0,
+            "Practice 5": 0.0,
+            "Practice 6": 0.0,
+            "Practice 7": 0.0,
+            "Practice 8": 0.0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": 0.0,
+            "Practice 12": 0.0,
+            "Practice 13": 0.0,
+            "Practice 14": 0.0,
+            "Practice 15": 1.0,
+            "Practice 16": 0.0
+          }
+        },
+        "enterAddress": {
+          "qm": {
+            "Practice 1": 1,
+            "Practice 2": 0,
+            "Practice 3": 0.0,
+            "Practice 4": null,
+            "Practice 5": 0.0,
+            "Practice 6": 0,
+            "Practice 7": 0.0,
+            "Practice 8": 0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": 0,
+            "Practice 12": 0.0,
+            "Practice 13": 0.0,
+            "Practice 14": 0,
+            "Practice 15": 0.0,
+            "Practice 16": 0.0
+          },
+          "groundtruth": {
+            "Practice 1": 1.0,
+            "Practice 2": 0.0,
+            "Practice 3": 0.0,
+            "Practice 4": 0.0,
+            "Practice 5": 0.0,
+            "Practice 6": 0.0,
+            "Practice 7": 0.0,
+            "Practice 8": 0.0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": 0.0,
+            "Practice 12": 0.0,
+            "Practice 13": 0.0,
+            "Practice 14": 0.0,
+            "Practice 15": 0.0,
+            "Practice 16": 0.0
+          }
+        }
+      }
+    },
+    "Vx132": {
+      "score_qm": {
+        "createNewCustomer": 0.0047358358,
+        "enterAddress": 0.0051066406
+      },
+      "score_paper": {
+        "createNewCustomer": 0.0,
+        "enterAddress": 0.0
+      },
+      "score_groundtruth_qm": {
+        "createNewCustomer": 0.291896324,
+        "enterAddress": 0.0047209276
+      },
+      "practices": {
+        "createNewCustomer": {
+          "qm": {
+            "Practice 1": 1,
+            "Practice 2": 0,
+            "Practice 3": 0.0,
+            "Practice 4": null,
+            "Practice 5": 0.0,
+            "Practice 6": 0,
+            "Practice 7": null,
+            "Practice 8": 0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": 0,
+            "Practice 12": 0.0,
+            "Practice 13": 0.0,
+            "Practice 14": 0,
+            "Practice 15": 0.0,
+            "Practice 16": 0.0
+          },
+          "groundtruth": {
+            "Practice 1": 1.0,
+            "Practice 2": 0.0,
+            "Practice 3": 0.0,
+            "Practice 4": 0.0,
+            "Practice 5": 0.0,
+            "Practice 6": 0.0,
+            "Practice 7": 0.0,
+            "Practice 8": 0.0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": 0.0,
+            "Practice 12": 0.0,
+            "Practice 13": 0.0,
+            "Practice 14": 0.0,
+            "Practice 15": 1.0,
+            "Practice 16": 0.0
+          }
+        },
+        "enterAddress": {
+          "qm": {
+            "Practice 1": 1,
+            "Practice 2": 0,
+            "Practice 3": 0.0,
+            "Practice 4": null,
+            "Practice 5": 0.0,
+            "Practice 6": 0,
+            "Practice 7": 0.0,
+            "Practice 8": 0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": 0,
+            "Practice 12": null,
+            "Practice 13": 0.0,
+            "Practice 14": 0,
+            "Practice 15": 0.0,
+            "Practice 16": 0.0
+          },
+          "groundtruth": {
+            "Practice 1": 1.0,
+            "Practice 2": 0.0,
+            "Practice 3": 0.0,
+            "Practice 4": 0.0,
+            "Practice 5": 0.0,
+            "Practice 6": 0.0,
+            "Practice 7": 0.0,
+            "Practice 8": 0.0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": 0.0,
+            "Practice 12": 0.0,
+            "Practice 13": 0.0,
+            "Practice 14": 0.0,
+            "Practice 15": 0.0,
+            "Practice 16": 0.0
+          }
+        }
+      }
+    },
+    "VxA": {
+      "score_qm": {
+        "createNewCustomer": 0.0,
+        "enterAddress": 0.0047209276
+      },
+      "score_paper": {
+        "createNewCustomer": 0.0,
+        "enterAddress": 0.0
+      },
+      "score_groundtruth_qm": {
+        "createNewCustomer": 0.0047209276,
+        "enterAddress": 0.0047209276
+      },
+      "practices": {
+        "createNewCustomer": {
+          "qm": {
+            "Practice 1": 0,
+            "Practice 2": 0,
+            "Practice 3": 0.0,
+            "Practice 4": 0.0,
+            "Practice 5": 0.0,
+            "Practice 6": 0,
+            "Practice 7": 0.0,
+            "Practice 8": 0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": 0,
+            "Practice 12": 0.0,
+            "Practice 13": 0.0,
+            "Practice 14": 0,
+            "Practice 15": 0.0,
+            "Practice 16": 0.0
+          },
+          "groundtruth": {
+            "Practice 1": 1.0,
+            "Practice 2": 0.0,
+            "Practice 3": 0.0,
+            "Practice 4": 0.0,
+            "Practice 5": 0.0,
+            "Practice 6": 0.0,
+            "Practice 7": 0.0,
+            "Practice 8": 0.0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": 0.0,
+            "Practice 12": 0.0,
+            "Practice 13": 0.0,
+            "Practice 14": 0.0,
+            "Practice 15": 0.0,
+            "Practice 16": 0.0
+          }
+        },
+        "enterAddress": {
+          "qm": {
+            "Practice 1": 1,
+            "Practice 2": 0,
+            "Practice 3": 0.0,
+            "Practice 4": 0.0,
+            "Practice 5": 0.0,
+            "Practice 6": 0,
+            "Practice 7": 0.0,
+            "Practice 8": 0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": 0,
+            "Practice 12": 0.0,
+            "Practice 13": 0.0,
+            "Practice 14": 0,
+            "Practice 15": 0.0,
+            "Practice 16": 0.0
+          },
+          "groundtruth": {
+            "Practice 1": 1.0,
+            "Practice 2": 0.0,
+            "Practice 3": 0.0,
+            "Practice 4": 0.0,
+            "Practice 5": 0.0,
+            "Practice 6": 0.0,
+            "Practice 7": 0.0,
+            "Practice 8": 0.0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": 0.0,
+            "Practice 12": 0.0,
+            "Practice 13": 0.0,
+            "Practice 14": 0.0,
+            "Practice 15": 0.0,
+            "Practice 16": 0.0
+          }
+        }
+      }
+    }
+  }
+}

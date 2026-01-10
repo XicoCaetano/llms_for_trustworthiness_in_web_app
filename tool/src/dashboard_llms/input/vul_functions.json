@@ -1,0 +1,124 @@
+{
+    "ChangePaymentMethod": {
+        "Vx0": [],
+        "VxA": ["process", "updateCPM", "getBusiName"]
+    },
+    "NewCustomer": {
+        "Vx0": [],
+        "Vx101": ["getAddressID"],
+        "Vx138": ["createAddress"],
+        "Vx158": ["getCOID"],
+        "Vx197": ["insertCostumer"],
+        "VxA": ["process", "getAddressID", "getCOID", "createAddress", "insertCostumer"]
+    },
+    "NewProducts": {
+        "Vx0": [],
+        "VxA": ["process", "getData"]
+    },
+    "ProductDetails": {
+        "Vx0": [],
+        "VxA": ["process", "getData"]
+    },
+    "Delivery": {
+        "Vx0": [],
+        "Vx051": ["deliveryTransaction"],
+        "Vx075": ["deliveryTransaction"],
+        "Vx099": ["deliveryTransaction"],
+        "Vx123": ["deliveryTransaction"],
+        "Vx128": ["deliveryTransaction"],
+        "Vx154": ["deliveryTransaction"],
+        "Vx178": ["deliveryTransaction"],
+        "VxA": ["deliveryTransaction"]
+    },
+    "NewOrder": {
+        "Vx0": [],
+        "Vx056": ["newOrderTransaction"],
+        "Vx081": ["newOrderTransaction"],
+        "Vx103": ["newOrderTransaction"],
+        "Vx119": ["newOrderTransaction"],
+        "Vx144": ["newOrderTransaction"],
+        "VxA": ["newOrderTransaction"]
+    },
+    "OrderStatus": {
+        "Vx0": [],
+        "Vx046": ["orderStatusTransaction"],
+        "Vx066": ["orderStatusTransaction"],
+        "Vx096": ["orderStatusTransaction"],
+        "Vx122": ["orderStatusTransaction"],
+        "Vx143": ["orderStatusTransaction"],
+        "VxA": ["orderStatusTransaction"]
+    },
+    "Payment": {
+        "Vx0": [],
+        "Vx043": ["paymentTransaction"],
+        "Vx057": ["paymentTransaction"],
+        "Vx078": ["paymentTransaction"],
+        "Vx091": ["paymentTransaction"],
+        "Vx115": ["paymentTransaction"],
+        "Vx136": ["paymentTransaction"],
+        "Vx177": ["paymentTransaction"],
+        "Vx212": ["paymentTransaction"],
+        "Vx241": ["paymentTransaction"],
+        "Vx257": ["paymentTransaction"],
+        "Vx290": ["paymentTransaction"],
+        "VxA": ["paymentTransaction"]
+    },
+    "StockLevel": {
+        "Vx0": [],
+        "Vx033": ["stockLevelTransaction"],
+        "Vx057": ["stockLevelTransaction"],
+        "VxA": ["stockLevelTransaction"]
+    },
+    "AdminUpdate": {
+        "Vx0": [],
+        "VxA": ["adminUpdate"]
+    },
+    "CreateNewCustomer": {
+        "Vx0": [],
+        "Vx078": ["createNewCustomer"],
+        "Vx103": ["enterAddress"],
+        "Vx113": ["enterAddress"],
+        "Vx132": ["enterAddress"],
+        "VxA": ["createNewCustomer", "enterAddress"]
+    },
+    "CreateShoppingCart": {
+        "Vx0": [],
+        "VxA": ["createShoppingCart", "createEmptyCart", "doCart", "addItem", "refreshCart", "addRandomItemToCartIfNecessary", "getRealted1", "resetCartTime", "getCart"]
+    },
+    "DoAuthorSearch": {
+        "Vx0": [],
+        "VxA": ["doAuthorSearch"]
+    },
+    "DoSubjectSearch": {
+        "Vx0": [],
+        "VxA": ["doSubjectSearch"]
+    },
+    "DoTitleSearch": {
+        "Vx0": [],
+        "VxA": ["doTitleSearch"]
+    },
+    "GetBestSellers": {
+        "Vx0": [],
+        "VxA": ["getBestSellers"]
+    },
+    "GetCustomer": {
+        "Vx0": [],
+        "VxA": ["getCustomer"]
+    },
+    "GetMostRecentOrder": {
+        "Vx0": [],
+        "VxA": ["getMostRecentOrder"]
+    },
+    "GetNewProducts": {
+        "Vx0": [],
+        "VxA": ["getNewProducts"]
+    },
+    "GetPassword": {
+        "Vx0": [],
+        "VxA": ["getPassword"]
+    },
+    "GetUsername": {
+        "Vx0": [],
+        "VxA": ["getUsername"]
+    }
+}

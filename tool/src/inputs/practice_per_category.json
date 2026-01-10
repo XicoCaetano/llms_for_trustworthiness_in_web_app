@@ -1,0 +1,36 @@
+{
+  "Input Validation": {
+    "Validation Procedure": {
+      "children": {
+        "3": "Centralized input validation routine",
+        "4": "Specify proper character sets (UTF-8)",
+        "5": "Encode to common character set (Canonicalize)",
+        "6": "All validation failures → input rejection",
+        "7": "Validate after UTF-8 decoding",
+        "14": "Whitelist allowed characters",
+        "15": "Additional controls for hazardous characters",
+        "16": "Discrete checks (null bytes, path traversal, etc.)"
+      }
+    },
+    "Data Source": {
+      "children": {
+        "1": "Validate on trusted system (server)",
+        "2": "Classify and validate untrusted sources"
+      }
+    },
+    "Input Entry": {
+      "children": {
+        "9": "Header values contain only ASCII",
+        "11": "Validate expected data types",
+        "12": "Validate data range",
+        "13": "Validate data length"
+      }
+    },
+    "App Request": {
+      "children": {
+        "8": "Validate client data (params, URLs, headers)",
+        "10": "Validate data from redirects"
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+Given the following Java function:
+
+{content}
+
+Evaluate the function **only** according to the following OWASP secure coding practice of input validation and the associated CWEs to help you:
+
+[6] All validation failures must result in immediate input rejection.
+
+Associated CWEs: 
+1. CWE-20: Improper Input Validation;
+2. CWE-636: Not Failing Securely ('Failing Open');
+3. CWE-703: Improper Check or Handling of Exceptional Conditions;
+4. CWE-754: Improper Check for Unusual or Exceptional Conditions;
+
+---
+
+Format your response like this:
+1. Does the OWASP Rule 6 of Input Validation practice is applicable? Answer with "Yes" or "No" only.
+- If yes, respond: "1. Yes;"
+- If no, respond: "1. No;"
+
+Only respond with the line shown above. **End your response with a semicolon (;)** and nothing else.

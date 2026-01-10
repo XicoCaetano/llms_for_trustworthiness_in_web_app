@@ -1,0 +1,51 @@
+Given the following Java code: 
+
+{{ content }}
+
+Evaluate the provided Java function based on the following rules of secure practices:
+
+1. Conduct all input validation on a trusted system (server side, not client side).
+
+2. Identify all data sources and classify them into trusted and untrusted.
+
+3. Validate all data from untrusted sources (databases, file streams, etc.).
+
+4. Use a centralized input validation routine for the whole application.
+
+5. Specify character sets, such as UTF-8, for all input sources (canonicalization).
+
+6. Encode input to a common character set before validating.
+
+7. All validation failures should result in input rejection.
+
+8. If the system supports UTF-8 extended character sets, validate after UTF-8 decoding is completed.
+
+9. Validate all client-provided data before processing.
+
+10. Verify that protocol header values in both requests and responses contain only ASCII characters.
+
+11. Validate data from redirects.
+
+12. Validate for expected data types using an "allow" list rather than a "deny" list.
+
+13. Validate data range.
+
+14. Validate data length.
+
+15. If any potentially hazardous input must be allowed, implement additional controls.
+
+16. If the standard validation routine cannot address some inputs, use extra discrete checks.
+
+17. Utilize canonicalization to address obfuscation attacks.
+
+Evaluate the provided Java function to determine whether it adheres to the secure coding practices outlined above. Then, answer the following questions:
+
+1. Does the function follow the secure practices outlined above? Answer with "YES" or "NO" only (not more, just "YES" or "NO").
+    - If the answer is yes, respond as: "1. Yes;"
+    - If the answer is no, respond as: "1. No;"
+
+2. Explain your answer in the following format (Answer with only the NUMBERS):
+    - If the answer is "NO", respond as, for example: "2. 1, 2, 3, 4, 5, 6, 12, 13, 16, 17;"
+    - If the answer is "YES", respond as, for example: "2. Yes;"
+
+ALWAYS PUT ";" AT THE END OF YOUR RESPONSE.

@@ -1,0 +1,54 @@
+Given the following Java function:
+
+{content}
+
+Evaluate the function **only** according to the following OWASP secure coding practice of input validation and the associated CWEs to help you:
+
+[12] Validate that all input falls within expected data ranges.
+
+Associated CWEs: 
+1. CWE-125: Out-of-bounds Read;
+2. CWE-129: Improper Validation of Array Index;
+3. CWE-190: Integer Overflow or Wraparound;
+4. CWE-787: Out-of-bounds Write;
+5. CWE-1284: Improper Validation of Specified Quantity in Input;
+
+Look at the following examples of bad practices AS A BASELINE to determine whether the given function follow or not rule 12:
+
+BAD Examples:
+
+- Example (CWE-125 - Out-of-bounds Read):
+public void readBuffer(byte[] buffer, int offset) {{
+    byte b = buffer[offset]; // no bounds check
+    process(b);
+}}
+
+- Example (CWE-129 - Improper Validation of Array Index):
+private void buildList ( int untrustedListSize ) {{
+    if ( 0 > untrustedListSize ) {{
+        die("Negative value supplied for list size, die evil hacker!");
+    }}
+    Widget[] list = new Widget [ untrustedListSize ];
+    list[0] = new Widget();
+}}
+
+- Example (CWE-190 - Integer Overflow or Wraparound):
+public void multiply(int a, int b) {{
+    int result = a * b; // no overflow check
+    process(result);
+}}
+
+- Example (CWE-1284 - Improper Validation of Specified Quantity in Input):
+public static final double price = 20.00;
+int quantity = currentUser.getAttribute("quantity");
+double total = price * quantity;
+chargeUser(total);
+
+---
+
+Format your response like this:
+1. Does the function FOLLOW OWASP Rule 12 of Input Validation? Answer with "Yes" or "No" only.
+- If yes, respond: "1. Yes;"
+- If no, respond: "1. No;"
+
+Only respond with the line shown above. **End your response with a semicolon (;)** and nothing else.

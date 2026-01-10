@@ -1,0 +1,103 @@
+CWE-20: Improper Input Validation
+
+CWE-23: Relative Path Traversal
+
+CWE-73: External Control of File Name or Path 
+
+CWE-74: Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection')
+
+CWE-77: Improper Neutralization of Special Elements used in a Command ('Command Injection')
+
+CWE-79: Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')
+
+CWE-89: Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')
+
+CWE-93: Improper Neutralization of CRLF Sequences ('CRLF Injection')
+
+CWE-94: Improper Control of Generation of Code ('Code Injection')
+ 		
+CWE-95: Improper Neutralization of Directives in Dynamically Evaluated Code ('Eval Injection')
+
+
+
+CWE-113: Improper Neutralization of CRLF Sequences in HTTP Headers ('HTTP Request/Response Splitting')
+
+CWE-115: Misinterpretation of Input
+
+CWE-116: Improper Encoding or Escaping of Output
+
+CWE-119: Improper Restriction of Operations within the Bounds of a Memory Buffer
+
+CWE-120: Buffer Copy without Checking Size of Input ('Classic Buffer Overflow')
+
+CWE-129: Improper Validation of Array Index
+
+CWE-170: Improper Null Termination 
+
+CWE-172: Encoding Error 
+
+CWE-176: Improper Handling of Unicode Encoding
+
+CWE-177: Improper Handling of URL Encoding (Hex Encoding)
+
+CWE-178: Improper Handling of Case Sensitivity
+
+CWE-179: Incorrect Behavior Order: Early Validation
+
+CWE-180: Incorrect Behavior Order: Validate Before Canonicalize 
+
+CWE-184: Incomplete List of Disallowed Inputs 
+
+CWE-190: Integer Overflow or Wraparound
+
+
+
+CWE-285: Improper Authorization
+
+
+
+CWE-345: Insufficient Verification of Data Authenticity
+
+
+
+CWE-522: Insufficiently Protected Credentials
+
+
+
+CWE-601: URL Redirection to Untrusted Site ('Open Redirect')
+
+CWE-602: Client-Side Enforcement of Server-Side Security
+
+CWE-636: Not Failing Securely ('Failing Open') 
+
+CWE-642: External Control of Critical State Data
+
+CWE-644: Improper Neutralization of HTTP Headers for Scripting Syntax
+
+
+
+CWE-703: Improper Check or Handling of Exceptional Conditions
+
+CWE-704: Incorrect Type Conversion or Cast 
+
+CWE-707: Improper Neutralization
+
+CWE-754: Improper Check for Unusual or Exceptional Conditions 
+
+CWE-787: Out-of-bounds Write
+
+
+
+CWE-807: Reliance on Untrusted Inputs in a Security Decision
+
+
+
+CWE-1173 – Improper Use of Validation Framework
+
+
+
+CWE-1284: Improper Validation of Specified Quantity in Input
+
+CWE-1286: Improper Validation of Syntactic Correctness of Input 
+
+

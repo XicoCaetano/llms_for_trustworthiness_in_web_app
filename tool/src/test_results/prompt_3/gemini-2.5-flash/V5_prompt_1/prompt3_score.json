@@ -1,0 +1,37 @@
+{
+    "tpcapp\\versions": {
+        "versions": {
+            "NewCustomer_Vx0.java": {
+                "process": {
+                    "score": 0.625
+                },
+                "getAddressID": {
+                    "score": 0.71
+                },
+                "createAddress": {
+                    "score": 0.4
+                },
+                "getCOID": {
+                    "score": 0.72
+                },
+                "insertCostumer": {
+                    "score": 0.76
+                }
+            },
+            "NewCustomer_Vx101.java": {
+                "process": {
+                    "score": 0.75
+                },
+                "getAddressID": {
+                    "score": 0.7
+                },
+                "createAddress": {
+                    "score": 0.75
+                },
+                "getCOID": {
+                    "score": 0.5
+                }
+            }
+        }
+    }
+}

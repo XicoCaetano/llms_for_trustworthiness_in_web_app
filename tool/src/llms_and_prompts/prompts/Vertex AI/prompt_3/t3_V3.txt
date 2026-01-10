@@ -1,0 +1,14 @@
+Given the following Java function:
+
+{{ content1 }}
+
+Use the following list exactly as provided. It is your own practice-by-practice verdict for the function:
+
+{{ content2 }}
+
+TASK:
+Provide the trustworthiness score for the function based ONLY on the RESULTS list (do not infer beyond it).
+
+OUTPUT FORMAT
+Return ONLY one line, with no explanations and no extra text, for example:
+1. 0,50;

@@ -1,0 +1,33 @@
+Given the following Java function:
+
+{{{{ content }}}}
+
+    Evaluate according to the OWASP secure coding checklist described earlier.
+
+    Instructions:
+        - Never assume anything not explicitly present in the code.
+        - Rule 1 (server-side validation) is always true and should not be evaluated.
+        - Only identify **rules that are applicable** based on the context and behavior of the given method.
+        - For rules not applicable, ignore them. Do not over-penalize.
+        - Respond only with the expected format shown below.
+
+    Trustworthiness Scoring:
+        - Based on your analysis, estimate a trustworthiness score for this function.
+        - The score must be a decimal number between 0 and 1 (inclusive), where 0 means completely untrustworthy and 1 means fully trustworthy.
+        - This score is your subjective evaluation of how well the function follows the critical secure coding practices.
+
+    DONT DEVOLVE ANY CODE.
+
+    ### Format your response like this:
+    1. Does the function follow the secure practices outlined above? Answer with "YES" or "NO" only (not more, just "YES" or "NO").
+    - If the answer is yes, respond as: "1. Yes;"
+    - If the answer is no, respond as: "1. No;"
+
+    2. Explain your answer in the following format (Answer with only the NUMBERS):
+        - If the answer is "NO", respond as, for example: "2. 1, 13, 16, 17;"
+        - If the answer is "YES", respond as, for example: "2. Yes;"
+    
+    3. Provide your subjective trustworthiness score as a decimal number between 0 and 1.
+        - For example: "3. 0,72;"
+
+    ALWAYS PUT ";" AT THE END OF YOUR RESPONSE. NO EXTRA COMMENT OR TEXT OR CODE EXPLANATION.

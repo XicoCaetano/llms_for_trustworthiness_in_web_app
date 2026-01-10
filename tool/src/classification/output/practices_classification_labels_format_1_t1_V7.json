@@ -1,0 +1,329 @@
+{
+  "ChangePaymentMethod:Vx0:process": {
+    "cwes": []
+  },
+  "ChangePaymentMethod:Vx0:updateCPM": {
+    "cwes": []
+  },
+  "ChangePaymentMethod:Vx0:getBusiName": {
+    "cwes": []
+  },
+  "ChangePaymentMethod:VxA:process": {
+    "cwes": []
+  },
+  "ChangePaymentMethod:VxA:updateCPM": {
+    "cwes": []
+  },
+  "ChangePaymentMethod:VxA:getBusiName": {
+    "cwes": []
+  },
+  "NewCustomer:Vx0:process": {
+    "cwes": []
+  },
+  "NewCustomer:Vx0:getAddressID": {
+    "cwes": []
+  },
+  "NewCustomer:Vx0:createAddress": {
+    "cwes": []
+  },
+  "NewCustomer:Vx0:getCOID": {
+    "cwes": []
+  },
+  "NewCustomer:Vx0:insertCostumer": {
+    "cwes": []
+  },
+  "NewCustomer:Vx101:process": {
+    "cwes": []
+  },
+  "NewCustomer:Vx101:getAddressID": {
+    "cwes": []
+  },
+  "NewCustomer:Vx101:createAddress": {
+    "cwes": []
+  },
+  "NewCustomer:Vx101:getCOID": {
+    "cwes": []
+  },
+  "NewCustomer:Vx101:insertCostumer": {
+    "cwes": []
+  },
+  "NewCustomer:Vx138:process": {
+    "cwes": []
+  },
+  "NewCustomer:Vx138:getAddressID": {
+    "cwes": []
+  },
+  "NewCustomer:Vx138:createAddress": {
+    "cwes": []
+  },
+  "NewCustomer:Vx138:getCOID": {
+    "cwes": []
+  },
+  "NewCustomer:Vx138:insertCostumer": {
+    "cwes": []
+  },
+  "NewCustomer:Vx158:process": {
+    "cwes": []
+  },
+  "NewCustomer:Vx158:getAddressID": {
+    "cwes": []
+  },
+  "NewCustomer:Vx158:createAddress": {
+    "cwes": []
+  },
+  "NewCustomer:Vx158:getCOID": {
+    "cwes": []
+  },
+  "NewCustomer:Vx158:insertCostumer": {
+    "cwes": []
+  },
+  "NewCustomer:Vx197:process": {
+    "cwes": []
+  },
+  "NewCustomer:Vx197:getAddressID": {
+    "cwes": []
+  },
+  "NewCustomer:Vx197:createAddress": {
+    "cwes": []
+  },
+  "NewCustomer:Vx197:getCOID": {
+    "cwes": []
+  },
+  "NewCustomer:Vx197:insertCostumer": {
+    "cwes": []
+  },
+  "NewCustomer:VxA:process": {
+    "cwes": []
+  },
+  "NewCustomer:VxA:getAddressID": {
+    "cwes": []
+  },
+  "NewCustomer:VxA:createAddress": {
+    "cwes": []
+  },
+  "NewCustomer:VxA:getCOID": {
+    "cwes": []
+  },
+  "NewCustomer:VxA:insertCostumer": {
+    "cwes": []
+  },
+  "NewProducts:Vx0:process": {
+    "cwes": []
+  },
+  "NewProducts:Vx0:getData": {
+    "cwes": []
+  },
+  "NewProducts:VxA:process": {
+    "cwes": []
+  },
+  "NewProducts:VxA:getData": {
+    "cwes": []
+  },
+  "ProductDetail:Vx0:process": {
+    "cwes": []
+  },
+  "ProductDetail:Vx0:getData": {
+    "cwes": []
+  },
+  "ProductDetail:VxA:process": {
+    "cwes": []
+  },
+  "ProductDetail:VxA:getData": {
+    "cwes": []
+  },
+  "Delivery:Vx0:deliveryTransaction": {
+    "cwes": []
+  },
+  "Delivery:Vx051:deliveryTransaction": {
+    "cwes": []
+  },
+  "Delivery:Vx075:deliveryTransaction": {
+    "cwes": []
+  },
+  "Delivery:Vx099:deliveryTransaction": {
+    "cwes": []
+  },
+  "Delivery:Vx123:deliveryTransaction": {
+    "cwes": []
+  },
+  "Delivery:Vx138:deliveryTransaction": {
+    "cwes": []
+  },
+  "Delivery:Vx154:deliveryTransaction": {
+    "cwes": []
+  },
+  "Delivery:Vx176:deliveryTransaction": {
+    "cwes": []
+  },
+  "Delivery:VxA:deliveryTransaction": {
+    "cwes": []
+  },
+  "NewOrder:Vx0:newOrderTransaction": {
+    "cwes": []
+  },
+  "NewOrder:Vx056:newOrderTransaction": {
+    "cwes": []
+  },
+  "NewOrder:Vx081:newOrderTransaction": {
+    "cwes": []
+  },
+  "NewOrder:Vx103:newOrderTransaction": {
+    "cwes": []
+  },
+  "NewOrder:Vx119:newOrderTransaction": {
+    "cwes": []
+  },
+  "NewOrder:Vx144:newOrderTransaction": {
+    "cwes": []
+  },
+  "NewOrder:VxA:newOrderTransaction": {
+    "cwes": []
+  },
+  "OrderStatus:Vx0:orderStatusTransaction": {
+    "cwes": []
+  },
+  "OrderStatus:Vx046:orderStatusTransaction": {
+    "cwes": []
+  },
+  "OrderStatus:Vx066:orderStatusTransaction": {
+    "cwes": []
+  },
+  "OrderStatus:Vx096:orderStatusTransaction": {
+    "cwes": []
+  },
+  "OrderStatus:Vx122:orderStatusTransaction": {
+    "cwes": []
+  },
+  "OrderStatus:Vx143:orderStatusTransaction": {
+    "cwes": []
+  },
+  "OrderStatus:VxA:orderStatusTransaction": {
+    "cwes": []
+  },
+  "Payment:Vx0:paymentTransaction": {
+    "cwes": []
+  },
+  "Payment:Vx043:paymentTransaction": {
+    "cwes": []
+  },
+  "Payment:Vx057:paymentTransaction": {
+    "cwes": []
+  },
+  "Payment:Vx078:paymentTransaction": {
+    "cwes": []
+  },
+  "Payment:Vx091:paymentTransaction": {
+    "cwes": []
+  },
+  "Payment:Vx115:paymentTransaction": {
+    "cwes": []
+  },
+  "Payment:Vx136:paymentTransaction": {
+    "cwes": []
+  },
+  "Payment:Vx177:paymentTransaction": {
+    "cwes": []
+  },
+  "Payment:Vx212:paymentTransaction": {
+    "cwes": []
+  },
+  "Payment:Vx241:paymentTransaction": {
+    "cwes": []
+  },
+  "Payment:Vx257:paymentTransaction": {
+    "cwes": []
+  },
+  "Payment:Vx290:paymentTransaction": {
+    "cwes": []
+  },
+  "Payment:VxA:paymentTransaction": {
+    "cwes": []
+  },
+  "StockLevel:Vx0:stockLevelTransaction": {
+    "cwes": []
+  },
+  "StockLevel:Vx033:stockLevelTransaction": {
+    "cwes": []
+  },
+  "StockLevel:Vx057:stockLevelTransaction": {
+    "cwes": []
+  },
+  "StockLevel:VxA:stockLevelTransaction": {
+    "cwes": []
+  },
+  "AdminUpdate:Vx0:adminUpdate": {
+    "cwes": []
+  },
+  "AdminUpdate:VxA:adminUpdate": {
+    "cwes": []
+  },
+  "CreateNewCustomer:Vx0:createNewCustomer": {
+    "cwes": []
+  },
+  "CreateNewCustomer:Vx0:enterAddress": {
+    "cwes": []
+  },
+  "CreateNewCustomer:Vx078:createNewCustomer": {
+    "cwes": []
+  },
+  "CreateNewCustomer:Vx078:enterAddress": {
+    "cwes": []
+  },
+  "CreateNewCustomer:Vx103:createNewCustomer": {
+    "cwes": []
+  },
+  "CreateNewCustomer:Vx103:enterAddress": {
+    "cwes": []
+  },
+  "CreateNewCustomer:Vx113:createNewCustomer": {
+    "cwes": []
+  },
+  "CreateNewCustomer:Vx113:enterAddress": {
+    "cwes": []
+  },
+  "CreateNewCustomer:Vx132:createNewCustomer": {
+    "cwes": []
+  },
+  "CreateNewCustomer:Vx132:enterAddress": {
+    "cwes": []
+  },
+  "CreateNewCustomer:VxA:createNewCustomer": {
+    "cwes": []
+  },
+  "CreateNewCustomer:VxA:enterAddress": {
+    "cwes": []
+  },
+  "CreateShoppingCart:Vx0:createShoppingCart": {
+    "cwes": []
+  },
+  "CreateShoppingCart:Vx0:createEmptyCart": {
+    "cwes": []
+  },
+  "CreateShoppingCart:Vx0:doCart": {
+    "cwes": []
+  },
+  "CreateShoppingCart:Vx0:addItem": {
+    "cwes": []
+  },
+  "CreateShoppingCart:Vx0:refreshCart": {
+    "cwes": []
+  },
+  "CreateShoppingCart:Vx0:addRandomItemToCartIfNecessary": {
+    "cwes": []
+  },
+  "CreateShoppingCart:Vx0:getRelated1": {
+    "cwes": []
+  },
+  "CreateShoppingCart:Vx0:resetCartTime": {
+    "cwes": []
+  },
+  "CreateShoppingCart:Vx0:getCart": {
+    "cwes": []
+  },
+  "CreateShoppingCart:VxA:createShoppingCart": {
+    "cwes": []
+  },
+  "CreateShoppingCart:VxA:createEmptyCart": {
+    "cwes": []
+  }
+}

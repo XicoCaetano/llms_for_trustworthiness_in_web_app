@@ -1,0 +1,1282 @@
+{
+  "ChangePaymentMethod:Vx0:process": {
+    "cwes": []
+  },
+  "ChangePaymentMethod:Vx0:updateCPM": {
+    "cwes": [
+      "CWE-184",
+      "CWE-807",
+      "CWE-20",
+      "CWE-602"
+    ]
+  },
+  "ChangePaymentMethod:Vx0:getBusiName": {
+    "cwes": []
+  },
+  "ChangePaymentMethod:VxA:process": {
+    "cwes": [
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "ChangePaymentMethod:VxA:updateCPM": {
+    "cwes": []
+  },
+  "ChangePaymentMethod:VxA:getBusiName": {
+    "cwes": []
+  },
+  "NewCustomer:Vx0:process": {
+    "cwes": [
+      "CWE-1284",
+      "CWE-602",
+      "CWE-807",
+      "CWE-20",
+      "CWE-601",
+      "CWE-184"
+    ]
+  },
+  "NewCustomer:Vx0:getAddressID": {
+    "cwes": [
+      "CWE-93",
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "NewCustomer:Vx0:createAddress": {
+    "cwes": [
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-20",
+      "CWE-601",
+      "CWE-184"
+    ]
+  },
+  "NewCustomer:Vx0:getCOID": {
+    "cwes": [
+      "CWE-1284",
+      "CWE-602",
+      "CWE-807",
+      "CWE-20",
+      "CWE-601",
+      "CWE-184"
+    ]
+  },
+  "NewCustomer:Vx0:insertCostumer": {
+    "cwes": []
+  },
+  "NewCustomer:Vx101:process": {
+    "cwes": [
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180"
+    ]
+  },
+  "NewCustomer:Vx101:getAddressID": {
+    "cwes": []
+  },
+  "NewCustomer:Vx101:createAddress": {
+    "cwes": []
+  },
+  "NewCustomer:Vx101:getCOID": {
+    "cwes": []
+  },
+  "NewCustomer:Vx101:insertCostumer": {
+    "cwes": [
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "NewCustomer:Vx138:process": {
+    "cwes": [
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "NewCustomer:Vx138:getAddressID": {
+    "cwes": [
+      "CWE-93",
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "NewCustomer:Vx138:createAddress": {
+    "cwes": [
+      "CWE-1284",
+      "CWE-602",
+      "CWE-807",
+      "CWE-20",
+      "CWE-601",
+      "CWE-184"
+    ]
+  },
+  "NewCustomer:Vx138:getCOID": {
+    "cwes": [
+      "CWE-807",
+      "CWE-20",
+      "CWE-602"
+    ]
+  },
+  "NewCustomer:Vx138:insertCostumer": {
+    "cwes": []
+  },
+  "NewCustomer:Vx158:process": {
+    "cwes": [
+      "CWE-93",
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "NewCustomer:Vx158:getAddressID": {
+    "cwes": []
+  },
+  "NewCustomer:Vx158:createAddress": {
+    "cwes": [
+      "CWE-602",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "NewCustomer:Vx158:getCOID": {
+    "cwes": [
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "NewCustomer:Vx158:insertCostumer": {
+    "cwes": [
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-602"
+    ]
+  },
+  "NewCustomer:Vx197:process": {
+    "cwes": [
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180"
+    ]
+  },
+  "NewCustomer:Vx197:getAddressID": {
+    "cwes": [
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "NewCustomer:Vx197:createAddress": {
+    "cwes": [
+      "CWE-93",
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "NewCustomer:Vx197:getCOID": {
+    "cwes": []
+  },
+  "NewCustomer:Vx197:insertCostumer": {
+    "cwes": []
+  },
+  "NewCustomer:VxA:process": {
+    "cwes": [
+      "CWE-93",
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "NewCustomer:VxA:getAddressID": {
+    "cwes": [
+      "CWE-1284",
+      "CWE-602",
+      "CWE-807",
+      "CWE-20",
+      "CWE-601",
+      "CWE-184"
+    ]
+  },
+  "NewCustomer:VxA:createAddress": {
+    "cwes": [
+      "CWE-1284",
+      "CWE-602",
+      "CWE-807",
+      "CWE-20",
+      "CWE-601",
+      "CWE-184"
+    ]
+  },
+  "NewCustomer:VxA:getCOID": {
+    "cwes": [
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "NewCustomer:VxA:insertCostumer": {
+    "cwes": [
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "NewProducts:Vx0:process": {
+    "cwes": [
+      "CWE-807",
+      "CWE-20",
+      "CWE-602"
+    ]
+  },
+  "NewProducts:Vx0:getData": {
+    "cwes": [
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "NewProducts:VxA:process": {
+    "cwes": [
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "NewProducts:VxA:getData": {
+    "cwes": [
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "ProductDetail:Vx0:process": {
+    "cwes": []
+  },
+  "ProductDetail:Vx0:getData": {
+    "cwes": [
+      "CWE-1284",
+      "CWE-807",
+      "CWE-20",
+      "CWE-601",
+      "CWE-184"
+    ]
+  },
+  "ProductDetail:VxA:process": {
+    "cwes": []
+  },
+  "ProductDetail:VxA:getData": {
+    "cwes": [
+      "CWE-1284",
+      "CWE-602",
+      "CWE-807",
+      "CWE-20",
+      "CWE-601",
+      "CWE-184"
+    ]
+  },
+  "Delivery:Vx0:deliveryTransaction": {
+    "cwes": [
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "Delivery:Vx051:deliveryTransaction": {
+    "cwes": [
+      "CWE-184",
+      "CWE-807",
+      "CWE-20",
+      "CWE-602"
+    ]
+  },
+  "Delivery:Vx075:deliveryTransaction": {
+    "cwes": []
+  },
+  "Delivery:Vx099:deliveryTransaction": {
+    "cwes": [
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "Delivery:Vx123:deliveryTransaction": {
+    "cwes": [
+      "CWE-184",
+      "CWE-807",
+      "CWE-20",
+      "CWE-602"
+    ]
+  },
+  "Delivery:Vx138:deliveryTransaction": {
+    "cwes": [
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "Delivery:Vx154:deliveryTransaction": {
+    "cwes": [
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "Delivery:Vx176:deliveryTransaction": {
+    "cwes": [
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "Delivery:VxA:deliveryTransaction": {
+    "cwes": [
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "NewOrder:Vx0:newOrderTransaction": {
+    "cwes": [
+      "CWE-1284",
+      "CWE-602",
+      "CWE-807",
+      "CWE-20",
+      "CWE-601",
+      "CWE-184"
+    ]
+  },
+  "NewOrder:Vx056:newOrderTransaction": {
+    "cwes": [
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "NewOrder:Vx081:newOrderTransaction": {
+    "cwes": [
+      "CWE-93",
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "NewOrder:Vx103:newOrderTransaction": {
+    "cwes": [
+      "CWE-93",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-601",
+      "CWE-184"
+    ]
+  },
+  "NewOrder:Vx119:newOrderTransaction": {
+    "cwes": []
+  },
+  "NewOrder:Vx144:newOrderTransaction": {
+    "cwes": []
+  },
+  "NewOrder:VxA:newOrderTransaction": {
+    "cwes": [
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "OrderStatus:Vx0:orderStatusTransaction": {
+    "cwes": [
+      "CWE-176",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-601",
+      "CWE-184"
+    ]
+  },
+  "OrderStatus:Vx046:orderStatusTransaction": {
+    "cwes": [
+      "CWE-1284",
+      "CWE-602",
+      "CWE-807",
+      "CWE-20",
+      "CWE-601",
+      "CWE-184"
+    ]
+  },
+  "OrderStatus:Vx066:orderStatusTransaction": {
+    "cwes": [
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "OrderStatus:Vx096:orderStatusTransaction": {
+    "cwes": [
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "OrderStatus:Vx122:orderStatusTransaction": {
+    "cwes": [
+      "CWE-93",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-807",
+      "CWE-20",
+      "CWE-601",
+      "CWE-184"
+    ]
+  },
+  "OrderStatus:Vx143:orderStatusTransaction": {
+    "cwes": []
+  },
+  "OrderStatus:VxA:orderStatusTransaction": {
+    "cwes": [
+      "CWE-176",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-601",
+      "CWE-184"
+    ]
+  },
+  "Payment:Vx0:paymentTransaction": {
+    "cwes": [
+      "CWE-93",
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "Payment:Vx043:paymentTransaction": {
+    "cwes": [
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-601",
+      "CWE-184"
+    ]
+  },
+  "Payment:Vx057:paymentTransaction": {
+    "cwes": [
+      "CWE-93",
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "Payment:Vx078:paymentTransaction": {
+    "cwes": [
+      "CWE-93",
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "Payment:Vx091:paymentTransaction": {
+    "cwes": [
+      "CWE-93",
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "Payment:Vx115:paymentTransaction": {
+    "cwes": [
+      "CWE-602",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180"
+    ]
+  },
+  "Payment:Vx136:paymentTransaction": {
+    "cwes": [
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "Payment:Vx177:paymentTransaction": {
+    "cwes": []
+  },
+  "Payment:Vx212:paymentTransaction": {
+    "cwes": [
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "Payment:Vx241:paymentTransaction": {
+    "cwes": []
+  },
+  "Payment:Vx257:paymentTransaction": {
+    "cwes": []
+  },
+  "Payment:Vx290:paymentTransaction": {
+    "cwes": [
+      "CWE-93",
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "Payment:VxA:paymentTransaction": {
+    "cwes": [
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "StockLevel:Vx0:stockLevelTransaction": {
+    "cwes": [
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "StockLevel:Vx033:stockLevelTransaction": {
+    "cwes": [
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "StockLevel:Vx057:stockLevelTransaction": {
+    "cwes": []
+  },
+  "StockLevel:VxA:stockLevelTransaction": {
+    "cwes": [
+      "CWE-93",
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "AdminUpdate:Vx0:adminUpdate": {
+    "cwes": []
+  },
+  "AdminUpdate:VxA:adminUpdate": {
+    "cwes": [
+      "CWE-1284",
+      "CWE-602",
+      "CWE-807",
+      "CWE-20",
+      "CWE-601",
+      "CWE-184"
+    ]
+  },
+  "CreateNewCustomer:Vx0:createNewCustomer": {
+    "cwes": []
+  },
+  "CreateNewCustomer:Vx0:enterAddress": {
+    "cwes": []
+  },
+  "CreateNewCustomer:Vx078:createNewCustomer": {
+    "cwes": [
+      "CWE-93",
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "CreateNewCustomer:Vx078:enterAddress": {
+    "cwes": [
+      "CWE-184",
+      "CWE-807",
+      "CWE-20",
+      "CWE-602"
+    ]
+  },
+  "CreateNewCustomer:Vx103:createNewCustomer": {
+    "cwes": [
+      "CWE-93",
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "CreateNewCustomer:Vx103:enterAddress": {
+    "cwes": [
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "CreateNewCustomer:Vx113:createNewCustomer": {
+    "cwes": [
+      "CWE-93",
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "CreateNewCustomer:Vx113:enterAddress": {
+    "cwes": []
+  },
+  "CreateNewCustomer:Vx132:createNewCustomer": {
+    "cwes": []
+  },
+  "CreateNewCustomer:Vx132:enterAddress": {
+    "cwes": [
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "CreateNewCustomer:VxA:createNewCustomer": {
+    "cwes": []
+  },
+  "CreateNewCustomer:VxA:enterAddress": {
+    "cwes": []
+  },
+  "CreateShoppingCart:Vx0:createShoppingCart": {
+    "cwes": []
+  },
+  "CreateShoppingCart:Vx0:createEmptyCart": {
+    "cwes": []
+  },
+  "CreateShoppingCart:Vx0:doCart": {
+    "cwes": [
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "CreateShoppingCart:Vx0:addItem": {
+    "cwes": []
+  },
+  "CreateShoppingCart:Vx0:refreshCart": {
+    "cwes": [
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "CreateShoppingCart:Vx0:addRandomItemToCartIfNecessary": {
+    "cwes": [
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-602"
+    ]
+  },
+  "CreateShoppingCart:Vx0:getRelated1": {
+    "cwes": [
+      "CWE-1284",
+      "CWE-602",
+      "CWE-20",
+      "CWE-601",
+      "CWE-184"
+    ]
+  },
+  "CreateShoppingCart:Vx0:resetCartTime": {
+    "cwes": [
+      "CWE-93",
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "CreateShoppingCart:Vx0:getCart": {
+    "cwes": [
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "CreateShoppingCart:VxA:createShoppingCart": {
+    "cwes": []
+  },
+  "CreateShoppingCart:VxA:createEmptyCart": {
+    "cwes": [
+      "CWE-93",
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "CreateShoppingCart:VxA:doCart": {
+    "cwes": [
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-602"
+    ]
+  },
+  "CreateShoppingCart:VxA:addItem": {
+    "cwes": []
+  },
+  "CreateShoppingCart:VxA:refreshCart": {
+    "cwes": []
+  },
+  "CreateShoppingCart:VxA:addRandomItemToCartIfNecessary": {
+    "cwes": [
+      "CWE-602",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "CreateShoppingCart:VxA:getRelated1": {
+    "cwes": []
+  },
+  "CreateShoppingCart:VxA:resetCartTime": {
+    "cwes": []
+  },
+  "CreateShoppingCart:VxA:getCart": {
+    "cwes": [
+      "CWE-176",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-601",
+      "CWE-184"
+    ]
+  },
+  "DoAuthorSearch:Vx0:doAuthorSearch": {
+    "cwes": [
+      "CWE-93",
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "DoAuthorSearch:VxA:doAuthorSearch": {
+    "cwes": [
+      "CWE-93",
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "DoSubjectSearch:Vx0:doSubjectSearch": {
+    "cwes": [
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "DoSubjectSearch:VxA:doSubjectSearch": {
+    "cwes": [
+      "CWE-93",
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "DoTitleSearch:Vx0:doTitleSearch": {
+    "cwes": []
+  },
+  "DoTitleSearch:VxA:doTitleSearch": {
+    "cwes": [
+      "CWE-93",
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "GetBestSellers:Vx0:getBestSellers": {
+    "cwes": [
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "GetBestSellers:VxA:getBestSellers": {
+    "cwes": [
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "GetCustomer:Vx0:getCustomer": {
+    "cwes": [
+      "CWE-93",
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "GetCustomer:VxA:getCustomer": {
+    "cwes": []
+  },
+  "GetMostRecentOrder:Vx0:getMostRecentOrder": {
+    "cwes": [
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "GetMostRecentOrder:VxA:getMostRecentOrder": {
+    "cwes": [
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "GetNewProducts:Vx0:getNewProducts": {
+    "cwes": [
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "GetNewProducts:VxA:getNewProducts": {
+    "cwes": [
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "GetPassword:Vx0:getPassword": {
+    "cwes": [
+      "CWE-1284",
+      "CWE-602",
+      "CWE-807",
+      "CWE-20",
+      "CWE-601",
+      "CWE-184"
+    ]
+  },
+  "GetPassword:VxA:getPassword": {
+    "cwes": []
+  },
+  "GetUsername:Vx0:getUserName": {
+    "cwes": [
+      "CWE-602",
+      "CWE-1173",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  },
+  "GetUsername:VxA:getUserName": {
+    "cwes": [
+      "CWE-176",
+      "CWE-601",
+      "CWE-1284",
+      "CWE-602",
+      "CWE-1173",
+      "CWE-807",
+      "CWE-20",
+      "CWE-116",
+      "CWE-180",
+      "CWE-184"
+    ]
+  }
+}

@@ -1,0 +1,861 @@
+{
+    "tpcapp": {
+        "versions": {
+            "ChangePaymentMethod_Vx0.java": {
+                "process": {
+                    "question_1": "No;",
+                    "question_2": "3, 4, 9, 15, 16, 17;",
+                    "question_3": "0,65;"
+                },
+                "updateCPM": {
+                    "question_1": "No;",
+                    "question_2": "3, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0."
+                },
+                "getBusiName": {
+                    "question_1": "No;",
+                    "question_2": "3, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,65;"
+                }
+            },
+            "ChangePaymentMethod_VxA.java": {
+                "process": {
+                    "question_1": "No;",
+                    "question_2": "3, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,65;"
+                },
+                "updateCPM": {
+                    "question_1": "No;",
+                    "question_2": "3, 4, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,75;"
+                },
+                "getBusiName": {
+                    "question_1": "No;",
+                    "question_2": "4, 5, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,65;"
+                }
+            },
+            "NewCustomer_Vx0.java": {
+                "process": {
+                    "question_1": "No;",
+                    "question_2": "3, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,65;"
+                },
+                "getAddressID": {
+                    "question_1": "No;",
+                    "question_2": "3, 6, 9, 14, 15, 16, 17;",
+                    "question_3": "0,65;"
+                },
+                "createAddress": {
+                    "question_1": "No;",
+                    "question_2": "3, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,65;"
+                },
+                "getCOID": {
+                    "question_1": "No;",
+                    "question_2": "3, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,65;"
+                },
+                "insertCostumer": {
+                    "question_1": "No;",
+                    "question_2": "3, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,65;"
+                }
+            },
+            "NewCustomer_Vx101.java": {
+                "process": {
+                    "question_1": "No;",
+                    "question_2": "4, 5, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,75;"
+                },
+                "getAddressID": {
+                    "question_1": "No;",
+                    "question_2": "3, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,65;"
+                },
+                "createAddress": {
+                    "question_1": "No;",
+                    "question_2": "3, 9, 13, 14, 15, 16, 17;",
+                    "question_3": "0,65;"
+                },
+                "getCOID": {
+                    "question_1": "No;",
+                    "question_2": "4, 5, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,75;"
+                },
+                "insertCostumer": {
+                    "question_1": "No;",
+                    "question_2": "3, 6, 9, 14, 15, 16, 17;",
+                    "question_3": "0,65;"
+                }
+            },
+            "NewCustomer_Vx138.java": {
+                "process": {
+                    "question_1": "No;",
+                    "question_2": "3, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,65;"
+                },
+                "getAddressID": {
+                    "question_1": "No;",
+                    "question_2": "3, 6, 7, 9, 14, 15, 16, 17;",
+                    "question_3": "0,65;"
+                },
+                "createAddress": {
+                    "question_1": "No;",
+                    "question_2": "4, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,65;"
+                },
+                "getCOID": {
+                    "question_1": "No;",
+                    "question_2": "3, 4, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,75;"
+                },
+                "insertCostumer": {
+                    "question_1": "No;",
+                    "question_2": "3, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,65;"
+                }
+            },
+            "NewCustomer_Vx158.java": {
+                "process": {
+                    "question_1": "No;",
+                    "question_2": "3, 4, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,65;"
+                },
+                "getAddressID": {
+                    "question_1": "No;",
+                    "question_2": "3, 6, 9, 14, 15, 16, 17;",
+                    "question_3": "0."
+                },
+                "createAddress": {
+                    "question_1": "No;",
+                    "question_2": "4, 5, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,75;"
+                },
+                "getCOID": {
+                    "question_1": "No;",
+                    "question_2": "4, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,65;"
+                },
+                "insertCostumer": {
+                    "question_1": "No;",
+                    "question_2": "3, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,65;"
+                }
+            },
+            "NewCustomer_Vx197.java": {
+                "process": {
+                    "question_1": "No;",
+                    "question_2": "4, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,65;"
+                },
+                "getAddressID": {
+                    "question_1": "No;",
+                    "question_2": "3, 6, 9, 14, 15, 16, 17;",
+                    "question_3": "0."
+                },
+                "createAddress": {
+                    "question_1": "No;",
+                    "question_2": "4, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,65;"
+                },
+                "getCOID": {
+                    "question_1": "No;",
+                    "question_2": "4, 5, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,75;"
+                },
+                "insertCostumer": {
+                    "question_1": "No;",
+                    "question_2": "3, 6, 7, 9, 14, 15, 16, 17;",
+                    "question_3": "0,65;"
+                }
+            },
+            "NewCustomer_VxA.java": {
+                "process": {
+                    "question_1": "No;",
+                    "question_2": "4, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,65;"
+                },
+                "getAddressID": {
+                    "question_1": "No;",
+                    "question_2": "3, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,65;"
+                },
+                "createAddress": {
+                    "question_1": "No;",
+                    "question_2": "4, 5, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,75;"
+                },
+                "getCOID": {
+                    "question_1": "No;",
+                    "question_2": "4, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,65;"
+                },
+                "insertCostumer": {
+                    "question_1": "No;",
+                    "question_2": "3, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,65;"
+                }
+            },
+            "NewProducts_Vx0.java": {
+                "process": {
+                    "question_1": "No;",
+                    "question_2": "4, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,65;"
+                },
+                "getData": {
+                    "question_1": "No;",
+                    "question_2": "4, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,65;"
+                }
+            },
+            "NewProducts_VxA.java": {
+                "process": {
+                    "question_1": "No;",
+                    "question_2": "4, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0."
+                },
+                "getData": {
+                    "question_1": "No;",
+                    "question_2": "3, 9, 13, 14, 15, 16, 17;",
+                    "question_3": "0,65;"
+                }
+            },
+            "ProductDetail_Vx0.java": {
+                "process": {
+                    "question_1": "No;",
+                    "question_2": "3, 4, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,75;"
+                },
+                "getData": {
+                    "question_1": "No;",
+                    "question_2": "3, 6, 7, 9, 12, 14, 15, 16;",
+                    "question_3": "0,65;"
+                }
+            },
+            "ProductDetail_VxA.java": {
+                "process": {
+                    "question_1": "No;",
+                    "question_2": "3, 6, 9, 14, 15, 16, 17;",
+                    "question_3": "0,65;"
+                },
+                "getData": {
+                    "question_1": "No;",
+                    "question_2": "4, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,65;"
+                }
+            }
+        }
+    },
+    "tpcc": {
+        "versions": {
+            "Delivery_Vx0.java": {
+                "deliveryTransaction": {
+                    "question_1": "No;",
+                    "question_2": "4, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0."
+                }
+            },
+            "Delivery_Vx051.java": {
+                "deliveryTransaction": {
+                    "question_1": "No;",
+                    "question_2": "4, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,65;"
+                }
+            },
+            "Delivery_Vx075.java": {
+                "deliveryTransaction": {
+                    "question_1": "No;",
+                    "question_2": "3, 4, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,75;"
+                }
+            },
+            "Delivery_Vx099.java": {
+                "deliveryTransaction": {
+                    "question_1": "No;",
+                    "question_2": "3, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,65;"
+                }
+            },
+            "Delivery_Vx123.java": {
+                "deliveryTransaction": {
+                    "question_1": "No;",
+                    "question_2": "4, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,65;"
+                }
+            },
+            "Delivery_Vx138.java": {
+                "deliveryTransaction": {
+                    "question_1": "No;",
+                    "question_2": "4, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,65;"
+                }
+            },
+            "Delivery_Vx154.java": {
+                "deliveryTransaction": {
+                    "question_1": "No;",
+                    "question_2": "3, 4, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,75;"
+                }
+            },
+            "Delivery_Vx176.java": {
+                "deliveryTransaction": {
+                    "question_1": "No;",
+                    "question_2": "4, 5, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,75;"
+                }
+            },
+            "Delivery_VxA.java": {
+                "deliveryTransaction": {
+                    "question_1": "No;",
+                    "question_2": "3, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,65;"
+                }
+            },
+            "NewOrder_Vx0.java": {
+                "newOrderTransaction": {
+                    "question_1": "No;",
+                    "question_2": "3, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,65;"
+                }
+            },
+            "NewOrder_Vx056.java": {
+                "newOrderTransaction": {
+                    "question_1": "No;",
+                    "question_2": "3, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,65;"
+                }
+            },
+            "NewOrder_Vx081.java": {
+                "newOrderTransaction": {
+                    "question_1": "No;",
+                    "question_2": "3, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,65;"
+                }
+            },
+            "NewOrder_Vx103.java": {
+                "newOrderTransaction": {
+                    "question_1": "No;",
+                    "question_2": "3, 4, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,75;"
+                }
+            },
+            "NewOrder_Vx119.java": {
+                "newOrderTransaction": {
+                    "question_1": "No;",
+                    "question_2": "3, 4, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,75;"
+                }
+            },
+            "NewOrder_Vx144.java": {
+                "newOrderTransaction": {
+                    "question_1": "No;",
+                    "question_2": "4, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,65;"
+                }
+            },
+            "NewOrder_VxA.java": {
+                "newOrderTransaction": {
+                    "question_1": "No;",
+                    "question_2": "3, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,65;"
+                }
+            },
+            "OrderStatus_Vx0.java": {
+                "orderStatusTransaction": {
+                    "question_1": "No;",
+                    "question_2": "3, 4, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,75;"
+                }
+            },
+            "OrderStatus_Vx046.java": {
+                "orderStatusTransaction": {
+                    "question_1": "No;",
+                    "question_2": "4, 5, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,65;"
+                }
+            },
+            "OrderStatus_Vx066.java": {
+                "orderStatusTransaction": {
+                    "question_1": "No;",
+                    "question_2": "4, 5, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,75;"
+                }
+            },
+            "OrderStatus_Vx096.java": {
+                "orderStatusTransaction": {
+                    "question_1": "No;",
+                    "question_2": "4, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,65;"
+                }
+            },
+            "OrderStatus_Vx122.java": {
+                "orderStatusTransaction": {
+                    "question_1": "No;",
+                    "question_2": "3, 6, 7, 9, 14, 15, 16, 17;",
+                    "question_3": "0,65;"
+                }
+            },
+            "OrderStatus_Vx143.java": {
+                "orderStatusTransaction": {
+                    "question_1": "No;",
+                    "question_2": "4, 5, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,65;"
+                }
+            },
+            "OrderStatus_VxA.java": {
+                "orderStatusTransaction": {
+                    "question_1": "No;",
+                    "question_2": "3, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,65;"
+                }
+            },
+            "Payment_Vx0.java": {
+                "paymentTransaction": {
+                    "question_1": "No;",
+                    "question_2": "4, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,65;"
+                }
+            },
+            "Payment_Vx043.java": {
+                "paymentTransaction": {
+                    "question_1": "No;",
+                    "question_2": "4, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,65;"
+                }
+            },
+            "Payment_Vx057.java": {
+                "paymentTransaction": {
+                    "question_1": "No;",
+                    "question_2": "4, 5, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,65;"
+                }
+            },
+            "Payment_Vx078.java": {
+                "paymentTransaction": {
+                    "question_1": "No;",
+                    "question_2": "3, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,65;"
+                }
+            },
+            "Payment_Vx091.java": {
+                "paymentTransaction": {
+                    "question_1": "No;",
+                    "question_2": "4, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,65;"
+                }
+            },
+            "Payment_Vx115.java": {
+                "paymentTransaction": {
+                    "question_1": "No;",
+                    "question_2": "4, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,65;"
+                }
+            },
+            "Payment_Vx136.java": {
+                "paymentTransaction": {
+                    "question_1": "No;",
+                    "question_2": "4, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,65;"
+                }
+            },
+            "Payment_Vx177.java": {
+                "paymentTransaction": {
+                    "question_1": "No;",
+                    "question_2": "3, 9, 13, 14, 15, 16, 17;",
+                    "question_3": "0,65;"
+                }
+            },
+            "Payment_Vx212.java": {
+                "paymentTransaction": {
+                    "question_1": "No;",
+                    "question_2": "4, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,65;"
+                }
+            },
+            "Payment_Vx241.java": {
+                "paymentTransaction": {
+                    "question_1": "No;",
+                    "question_2": "4, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,65;"
+                }
+            },
+            "Payment_Vx257.java": {
+                "paymentTransaction": {
+                    "question_1": "No;",
+                    "question_2": "3, 4, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0."
+                }
+            },
+            "Payment_Vx290.java": {
+                "paymentTransaction": {
+                    "question_1": "No;",
+                    "question_2": "3, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,65;"
+                }
+            },
+            "Payment_VxA.java": {
+                "paymentTransaction": {
+                    "question_1": "No;",
+                    "question_2": "4, 5, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,75;"
+                }
+            },
+            "StockLevel_Vx0.java": {
+                "stockLevelTransaction": {
+                    "question_1": "No;",
+                    "question_2": "4, 5, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,75;"
+                }
+            },
+            "StockLevel_Vx033.java": {
+                "stockLevelTransaction": {
+                    "question_1": "No;",
+                    "question_2": "3, 4, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,75;"
+                }
+            },
+            "StockLevel_Vx057.java": {
+                "stockLevelTransaction": {
+                    "question_1": "No;",
+                    "question_2": "3, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,65;"
+                }
+            },
+            "StockLevel_VxA.java": {
+                "stockLevelTransaction": {
+                    "question_1": "No;",
+                    "question_2": "4, 5, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,65;"
+                }
+            }
+        }
+    },
+    "tpcw": {
+        "versions": {
+            "AdminUpdate_Vx0.java": {
+                "adminUpdate": {
+                    "question_1": "No;",
+                    "question_2": "3, 4, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,75;"
+                }
+            },
+            "AdminUpdate_VxA.java": {
+                "adminUpdate": {
+                    "question_1": "No;",
+                    "question_2": "3, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,65;"
+                }
+            },
+            "CreateNewCustomer_Vx0.java": {
+                "createNewCustomer": {
+                    "question_1": "No;",
+                    "question_2": "3, 4, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,75;"
+                },
+                "enterAddress": {
+                    "question_1": "No;",
+                    "question_2": "4, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,65;"
+                }
+            },
+            "CreateNewCustomer_Vx078.java": {
+                "createNewCustomer": {
+                    "question_1": "No;",
+                    "question_2": "3, 4, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,75;"
+                },
+                "enterAddress": {
+                    "question_1": "No;",
+                    "question_2": "3, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,65;"
+                }
+            },
+            "CreateNewCustomer_Vx103.java": {
+                "createNewCustomer": {
+                    "question_1": "No;",
+                    "question_2": "4, 5, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,75;"
+                },
+                "enterAddress": {
+                    "question_1": "No;",
+                    "question_2": "3, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,65;"
+                }
+            },
+            "CreateNewCustomer_Vx113.java": {
+                "createNewCustomer": {
+                    "question_1": "No;",
+                    "question_2": "4, 5, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,75;"
+                },
+                "enterAddress": {
+                    "question_1": "No;",
+                    "question_2": "3, 4, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,75;"
+                }
+            },
+            "CreateNewCustomer_Vx132.java": {
+                "createNewCustomer": {
+                    "question_1": "No;",
+                    "question_2": "3, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,65;"
+                },
+                "enterAddress": {
+                    "question_1": "No;",
+                    "question_2": "3, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,65;"
+                }
+            },
+            "CreateNewCustomer_VxA.java": {
+                "createNewCustomer": {
+                    "question_1": "No;",
+                    "question_2": "4, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,65;"
+                },
+                "enterAddress": {
+                    "question_1": "No;",
+                    "question_2": "3, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,65;"
+                }
+            },
+            "CreateShoppingCart_Vx0.java": {
+                "createShoppingCart": {
+                    "question_1": "No;",
+                    "question_2": "4, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,65;"
+                },
+                "createEmptyCart": {
+                    "question_1": "No;",
+                    "question_2": "4, 5, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,75;"
+                },
+                "doCart": {
+                    "question_1": "No;",
+                    "question_2": "4, 5, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,75;"
+                },
+                "addItem": {
+                    "question_1": "No;",
+                    "question_2": "3, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,65;"
+                },
+                "refreshCart": {
+                    "question_1": "No;",
+                    "question_2": "4, 5, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,65;"
+                },
+                "addRandomItemToCartIfNecessary": {
+                    "question_1": "No;",
+                    "question_2": "3, 6, 9, 14, 15, 16, 17;",
+                    "question_3": "0,65;"
+                },
+                "getRelated1": {
+                    "question_1": "No;",
+                    "question_2": "4, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,65;"
+                },
+                "resetCartTime": {
+                    "question_1": "No;",
+                    "question_2": "4, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,65;"
+                },
+                "getCart": {
+                    "question_1": "No;",
+                    "question_2": "4, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,65;"
+                }
+            },
+            "CreateShoppingCart_VxA.java": {
+                "createShoppingCart": {
+                    "question_1": "No;",
+                    "question_2": "4, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,65;"
+                },
+                "createEmptyCart": {
+                    "question_1": "No;",
+                    "question_2": "4, 5, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,75;"
+                },
+                "doCart": {
+                    "question_1": "No;",
+                    "question_2": "3, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,65;"
+                },
+                "addItem": {
+                    "question_1": "No;",
+                    "question_2": "4, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,65;"
+                },
+                "refreshCart": {
+                    "question_1": "No;",
+                    "question_2": "3, 4, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0."
+                },
+                "addRandomItemToCartIfNecessary": {
+                    "question_1": "No;",
+                    "question_2": "4, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,65;"
+                },
+                "getRelated1": {
+                    "question_1": "No;",
+                    "question_2": "4, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,65;"
+                },
+                "resetCartTime": {
+                    "question_1": "No;",
+                    "question_2": "4, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,65;"
+                },
+                "getCart": {
+                    "question_1": "No;",
+                    "question_2": "3, 6, 9, 14, 15, 16, 17;",
+                    "question_3": "0,65;"
+                }
+            },
+            "DoAuthorSearch_Vx0.java": {
+                "doAuthorSearch": {
+                    "question_1": "No;",
+                    "question_2": "4, 5, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,75;"
+                }
+            },
+            "DoAuthorSearch_VxA.java": {
+                "doAuthorSearch": {
+                    "question_1": "No;",
+                    "question_2": "3, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,65;"
+                }
+            },
+            "DoSubjectSearch_Vx0.java": {
+                "doSubjectSearch": {
+                    "question_1": "No;",
+                    "question_2": "3, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,65;"
+                }
+            },
+            "DoSubjectSearch_VxA.java": {
+                "doSubjectSearch": {
+                    "question_1": "No;",
+                    "question_2": "3, 4, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,75;"
+                }
+            },
+            "DoTitleSearch_Vx0.java": {
+                "doTitleSearch": {
+                    "question_1": "No;",
+                    "question_2": "4, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,65;"
+                }
+            },
+            "DoTitleSearch_VxA.java": {
+                "doTitleSearch": {
+                    "question_1": "No;",
+                    "question_2": "3, 6, 7, 9, 14, 15, 16, 17;",
+                    "question_3": "0,65;"
+                }
+            },
+            "GetBestSellers_Vx0.java": {
+                "getBestSellers": {
+                    "question_1": "No;",
+                    "question_2": "4, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,65;"
+                }
+            },
+            "GetBestSellers_VxA.java": {
+                "getBestSellers": {
+                    "question_1": "No;",
+                    "question_2": "4, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,65;"
+                }
+            },
+            "GetCustomer_Vx0.java": {
+                "getCustomer": {
+                    "question_1": "No;",
+                    "question_2": "3, 9, 13, 14, 15, 16, 17;",
+                    "question_3": "0,65;"
+                }
+            },
+            "GetCustomer_VxA.java": {
+                "getCustomer": {
+                    "question_1": "No;",
+                    "question_2": "4, 5, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,75;"
+                }
+            },
+            "GetMostRecentOrder_Vx0.java": {
+                "getMostRecentOrder": {
+                    "question_1": "No;",
+                    "question_2": "3, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,65;"
+                }
+            },
+            "GetMostRecentOrder_VxA.java": {
+                "getMostRecentOrder": {
+                    "question_1": "No;",
+                    "question_2": "3, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,65;"
+                }
+            },
+            "GetNewProducts_Vx0.java": {
+                "getNewProducts": {
+                    "question_1": "No;",
+                    "question_2": "3, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,65;"
+                }
+            },
+            "GetNewProducts_VxA.java": {
+                "getNewProducts": {
+                    "question_1": "No;",
+                    "question_2": "3, 6, 9, 14, 15, 16, 17;",
+                    "question_3": "0,65;"
+                }
+            },
+            "GetPassword_Vx0.java": {
+                "getPassword": {
+                    "question_1": "No;",
+                    "question_2": "3, 6, 9, 14, 15, 16, 17;",
+                    "question_3": "0."
+                }
+            },
+            "GetPassword_VxA.java": {
+                "getPassword": {
+                    "question_1": "No;",
+                    "question_2": "4, 5, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,75;"
+                }
+            },
+            "GetUsername_Vx0.java": {
+                "getUserName": {
+                    "question_1": "No;",
+                    "question_2": "4, 5, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,65;"
+                }
+            },
+            "GetUsername_VxA.java": {
+                "getUserName": {
+                    "question_1": "No;",
+                    "question_2": "3, 4, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,65;"
+                }
+            },
+            "TPCWUtil.java": {
+                "DigSyl": {
+                    "question_1": "No;",
+                    "question_2": "4, 5, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,65;"
+                },
+                "formatDate": {
+                    "question_1": "No;",
+                    "question_2": "4, 5, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,75;"
+                },
+                "getRandomI_ID": {
+                    "question_1": "No;",
+                    "question_2": "4, 6, 7, 9, 12, 14, 15, 16, 17;",
+                    "question_3": "0,65;"
+                }
+            }
+        }
+    }
+}

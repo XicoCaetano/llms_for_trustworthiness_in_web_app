@@ -1,0 +1,22 @@
+Given the following Java **MAIN** function:
+
+{content}
+
+The following methods are called inside the **MAIN** function and are given to you to help to resolve the task:
+
+{other_content}
+
+---
+
+Evaluate the function **only** according to the following OWASP secure coding practice of input validation described in the system instructions:
+
+[8] Validate all client provided data before processing, including all parameters, URLs and HTTP header content (e.g. Cookie names and values). Be sure to include automated post backs from JavaScript, Flash or other embedded code
+
+---
+
+Format your response like this:
+1. Does the **MAIN** function follow the rule 8 of OWASP Input Validation described in the system instructions? Answer with "Yes" or "No" only.
+- If yes, respond: "1. Yes;"
+- If no, respond: "1. No;"
+
+Only respond with the line shown above. **End your response with a semicolon (;)** and nothing else. ANSWER ONLY FOR THE MAIN FUNCTION (1.)

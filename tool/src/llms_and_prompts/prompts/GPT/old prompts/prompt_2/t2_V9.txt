@@ -1,0 +1,22 @@
+Given the following Java function:
+
+{{{{ content }}}}
+
+    Evaluate according to the OWASP secure coding checklist described earlier.
+
+    Note:
+    - The system role includes examples for each rule showing both BAD and GOOD implementations.
+    - Use those examples as **reference to determine whether the rule is followed**.
+    - A rule is considered **followed** only if the method behavior matches or strongly aligns with the GOOD example shown.
+    - Do NOT assume a rule is followed unless there's clear evidence in the method logic.
+    - If a rule is not applicable, it should be included in the response as followed.
+
+    DONT DEVOLVE ANY CODE.
+
+    ### Format your response like this:
+
+    1. List **only** the numbers of practices that the function FOLLOW. Do **not** include irrelevant items. If a rule is **not applicable**, it should be included in the response as **followed**.
+        - Give only the numbers of followed rules, for example: "1. 1, 2, 3, 4, 5;"
+        - If the function DON'T FOLLOW any practice, respond as, for example: "1. No;"
+
+    ALWAYS PUT ";" AT THE END OF YOUR RESPONSE. NO EXTRA COMMENT OR TEXT OR CODE EXPLANATION.

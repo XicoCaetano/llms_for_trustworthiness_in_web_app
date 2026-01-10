@@ -1,0 +1,54 @@
+{
+    "CWE-20": {
+        "name": "Improper Input Validation",
+        "practices": [1, 3, 4, 7, 9, 12, 13, 14, 15]
+    },
+    "CWE-116": {
+        "name": "Improper Encoding or Escaping of Output",
+        "practices": [5, 6]
+    },
+    "CWE-180": {
+        "name": "Incorrect Behavior Order: Validate Before Canonicalize",
+        "practices": [17, 6]
+    },
+    "CWE-176": {
+        "name": "Improper Handling of Unicode Encoding",
+        "practices": [5, 8]
+    },
+    "CWE-184": {
+        "name": "Incomplete List of Disallowed Inputs",
+        "practices": [12, 13, 14]
+    },
+    "CWE-601": {
+        "name": "Open Redirect",
+        "practices": [11]
+    },
+    "CWE-602": {
+        "name": "Client-Side Enforcement of Server-Side Security",
+        "practices": [1, 9]
+    },
+    "CWE-1284": {
+        "name": "Improper Validation of Specified Range",
+        "practices": [13]
+    },
+    "CWE-93": {
+        "name": "CRLF Injection",
+        "practices": [10]
+    },
+    "CWE-807": {
+        "name": "Reliance on Untrusted Inputs in a Security Decision",
+        "practices": [2, 3]
+    },
+    "CWE-1173": {
+        "name": "Improper Use of Validation Framework",
+        "practices": [4]
+    },
+    "CWE-89": {
+        "name": "SQL Injection",
+        "practices": [1, 3, 4, 7, 9, 12, 13, 14, 15, 17]
+    },
+    "CWE-79": {
+        "name": "Cross-Site Scripting (XSS)",
+        "practices": [1, 3, 4, 7, 9, 5, 6, 17]
+    }
+}

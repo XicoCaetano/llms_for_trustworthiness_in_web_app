@@ -1,0 +1,160 @@
+{
+    "tpcapp\\versions": {
+        "versions": {
+            "NewCustomer_Vx0.java": {
+                "process": {
+                    "score": 0.31
+                },
+                "getAddressID": {
+                    "score": 0.31
+                },
+                "createAddress": {
+                    "score": 0.31
+                },
+                "getCOID": {
+                    "score": 0.38
+                },
+                "insertCostumer": {
+                    "score": 0.31
+                }
+            },
+            "NewCustomer_Vx101.java": {
+                "process": {
+                    "score": 0.31
+                },
+                "getAddressID": {
+                    "score": 0.31
+                },
+                "createAddress": {
+                    "score": 0.31
+                },
+                "getCOID": {
+                    "score": 0.31
+                },
+                "insertCostumer": {
+                    "score": 0.31
+                }
+            },
+            "NewCustomer_Vx138.java": {
+                "process": {
+                    "score": 0.31
+                },
+                "getAddressID": {
+                    "score": 0.31
+                },
+                "createAddress": {
+                    "score": 0.31
+                },
+                "getCOID": {
+                    "score": 0.31
+                },
+                "insertCostumer": {
+                    "score": 0.31
+                }
+            },
+            "NewCustomer_Vx158.java": {
+                "process": {
+                    "score": 0.31
+                },
+                "getAddressID": {
+                    "score": 0.31
+                },
+                "createAddress": {
+                    "score": 0.31
+                },
+                "getCOID": {
+                    "score": 0.31
+                },
+                "insertCostumer": {
+                    "score": 0.31
+                }
+            },
+            "NewCustomer_Vx197.java": {
+                "process": {
+                    "score": 0.31
+                },
+                "getAddressID": {
+                    "score": 0.31
+                },
+                "createAddress": {
+                    "score": 0.31
+                },
+                "getCOID": {
+                    "score": 0.31
+                },
+                "insertCostumer": {
+                    "score": 0.31
+                }
+            },
+            "NewCustomer_VxA.java": {
+                "process": {
+                    "score": 0.31
+                },
+                "getAddressID": {
+                    "score": 0.38
+                },
+                "createAddress": {
+                    "score": 0.31
+                },
+                "getCOID": {
+                    "score": 0.31
+                },
+                "insertCostumer": {
+                    "score": 0.31
+                }
+            }
+        }
+    },
+    "tpcw\\versions": {
+        "versions": {
+            "CreateNewCustomer_Vx0.java": {
+                "createNewCustomer": {
+                    "score": 0.31
+                },
+                "enterAddress": {
+                    "score": 0.31
+                }
+            },
+            "CreateNewCustomer_Vx078.java": {
+                "createNewCustomer": {
+                    "score": 0.31
+                },
+                "enterAddress": {
+                    "score": 0.31
+                }
+            },
+            "CreateNewCustomer_Vx103.java": {
+                "createNewCustomer": {
+                    "score": 0.31
+                },
+                "enterAddress": {
+                    "score": 0.31
+                }
+            },
+            "CreateNewCustomer_Vx113.java": {
+                "createNewCustomer": {
+                    "score": 0.31
+                },
+                "enterAddress": {
+                    "score": 0.31
+                }
+            },
+            "CreateNewCustomer_Vx132.java": {
+                "createNewCustomer": {
+                    "score": 0.31
+                },
+                "enterAddress": {
+                    "score": 0.31
+                }
+            },
+            "CreateNewCustomer_VxA.java": {
+                "createNewCustomer": {
+                    "score": 0.31
+                },
+                "enterAddress": {
+                    "score": 0.31
+                }
+            }
+        }
+    }
+}

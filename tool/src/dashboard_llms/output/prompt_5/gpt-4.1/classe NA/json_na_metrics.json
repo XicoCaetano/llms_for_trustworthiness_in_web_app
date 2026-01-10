@@ -1,0 +1,1 @@
+[{"accuracy":0.9613,"precision":0.7636,"recall":1.0,"f1_score":0.866,"TP":"84","FP":26,"FN":0,"TN":"562","correct":"646\/672","total":672}]
