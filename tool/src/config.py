@@ -35,3 +35,5 @@ CHAT_ID = os.getenv("CHAT_ID")
 LLM_CHOSEN = os.getenv("LLM_CHOSEN")
 TEMPLATE_NUMBER = os.getenv("TEMPLATE_NUMBER")
 TEMPLATE_VERSIONS = os.getenv("TEMPLATE_VERSIONS")
+
+VM_PATH = os.getenv("VM_PATH")

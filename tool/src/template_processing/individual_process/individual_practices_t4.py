@@ -91,8 +91,8 @@ class IndividualPracticesT4:
                                             if llm_version == 1:
                                                 llm = LLMChatGPT(OPENAI_API_KEY, MODEL_NAME, f"/system_roles/t4_system_role/t4_ap/p{j}")
 
-                                            else: 
-                                                llm = LLMChatGPT4oMini(OPENAI_API_KEY_4, MODEL_NAME_4, f"/system_roles/t4_system_role/t4_ap/p{j}")
+                                            # else: 
+                                            #     llm = LLMChatGPT4oMini(OPENAI_API_KEY_4, MODEL_NAME_4, f"/system_roles/t4_system_role/t4_ap/p{j}")
 
                                             template = self.template(template_name, self.env2)
                                             
@@ -189,8 +189,8 @@ class IndividualPracticesT4:
                                                 if llm_version == 1:
                                                     llm = LLMChatGPT(OPENAI_API_KEY, MODEL_NAME, f"/system_roles/t4_system_role/t4_p/p{j}")
 
-                                                else: 
-                                                    llm = LLMChatGPT4oMini(OPENAI_API_KEY_4, MODEL_NAME_4, f"/system_roles/t4_system_role/t4_p/p{j}")
+                                                # else: 
+                                                #     llm = LLMChatGPT4oMini(OPENAI_API_KEY_4, MODEL_NAME_4, f"/system_roles/t4_system_role/t4_p/p{j}")
 
                                                 template = self.template(template_name, self.env1)
 

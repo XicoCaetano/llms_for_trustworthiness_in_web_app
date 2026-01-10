@@ -5,12 +5,12 @@ import threading
 from src.java_processing.java_processor import JavaProcessor
 from src.template_processing.processor import Processor
 from src.config import PROJECT_PATH, OUTPUT_JSON_DIR, TOKEN, CHAT_ID
-from src.template_processing.save_csv import JSONHandler
+from src.template_processing.saves.save_csv import JSONHandler
 import sys
 import os
 import re
-from src.template_processing.individual_practices import IndividualPractices
-from src.template_processing.save_individual import SaveIndividual
+from src.template_processing.individual_process.individual_practices import IndividualPractices
+from src.template_processing.saves.save_individual import SaveIndividual
 
 
 # Initialization of processing

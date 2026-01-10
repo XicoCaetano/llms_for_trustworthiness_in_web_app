@@ -1,7 +1,7 @@
 import argparse
-from src.template_processing.individual_practices import IndividualPractices
-from src.template_processing.universal_processing import UniversalProcessing
-from src.template_processing.save_individual import SaveIndividual
+from src.template_processing.individual_process.individual_practices import IndividualPractices
+from tool.src.template_processing.universal_prompts.universal_processing import UniversalProcessing
+from src.template_processing.saves.save_individual import SaveIndividual
 from src.java_processing.java_processor import JavaProcessor
 from src.config import PROJECT_PATH, OUTPUT_JSON_DIR
 from jinja2 import Environment, FileSystemLoader
@@ -91,7 +91,7 @@ def run(llm_version, code, prompt):
     followed_path = f"./src/llms_and_prompts/prompts/{llm_name}/individual_practices_prompts/prompt_{prompt}/followed/a"
     applicable_path = f"./src/llms_and_prompts/prompts/{llm_name}/individual_practices_prompts/prompt_{prompt}/applicability/a"
 
-    results_path = f"./src/test_results/individual_practices/{llm_name}/score_1/"
+    results_path = f"./src/additional-experiment/results_process/test_results/individual_practices/{llm_name}/score_1/"
 
     env1 = Environment(loader=FileSystemLoader(followed_path), autoescape=True)
     env2 = Environment(loader=FileSystemLoader(applicable_path), autoescape=True)

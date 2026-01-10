@@ -1,9 +1,9 @@
 import argparse
-from src.template_processing.individual_practices import IndividualPractices
-from src.template_processing.universal_processing import UniversalProcessing
+from src.template_processing.individual_process.individual_practices import IndividualPractices
+from tool.src.template_processing.universal_prompts.universal_processing import UniversalProcessing
 from src.template_processing.processing_practices import ProcessingPractices
-from src.template_processing.processing_prompt_3 import ProcessingPrompt3
-from src.template_processing.save_individual import SaveIndividual
+from tool.src.template_processing.prompt3_process.processing_prompt_3 import ProcessingPrompt3
+from src.template_processing.saves.save_individual import SaveIndividual
 from src.java_processing.java_processor import JavaProcessor
 from src.config import PROJECT_PATH, OUTPUT_JSON_DIR
 import traceback
