@@ -1,4 +1,4 @@
-# Java Code Trustworthiness Analysis with LLMs
+# Trustworthiness Analysis with LLMs
 
 This project is a robust tool for assessing the trustworthiness of Java source code, leveraging the power of Large Language Models (LLMs). The tool methodically analyzes Java functions from the **WSVD-Bench** dataset against **16 secure coding practices derived from OWASP**, primarily focusing on input validation.
 
