@@ -5,12 +5,6 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Configurações gerais de API e modelo
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
-MODEL_NAME = os.getenv("MODEL_NAME")
-TEMPERATURE = float(os.getenv("TEMPERATURE", 0.7))
-
-OPENAI_API_KEY_4 = os.getenv("OPENAI_API_KEY_4")
-MODEL_NAME_4 = os.getenv("MODEL_NAME_4")
 
 OPENAI_API_KEY_PROF = os.getenv("OPENAI_API_KEY_PROF")
 

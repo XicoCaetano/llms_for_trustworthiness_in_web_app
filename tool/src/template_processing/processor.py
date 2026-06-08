@@ -1,11 +1,11 @@
 from jinja2 import Environment, FileSystemLoader
 import os, json
-from src.classification.fetch_cves import Association
+from src.old_classification.fetch_cves import Association
 import time
 from src.llms_and_prompts.llm_chatgpt35_turbo import LLMChatGPT
 from src.llms_and_prompts.llm_chatgpt4o_mini import LLMChatGPT4oMini
 from src.llms_and_prompts.llm_chatgpt41_mini import LLMChatGPT41Mini
-from src.config import OPENAI_API_KEY, MODEL_NAME, OPENAI_API_KEY_PROF
+from src.config import OPENAI_API_KEY_PROF
 
 class Processor:
     def __init__(self, template_dir):

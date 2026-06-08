@@ -1,8 +1,8 @@
 import argparse
 from src.template_processing.individual_process.individual_practices import IndividualPractices
-from tool.src.template_processing.universal_prompts.universal_processing import UniversalProcessing
+from src.template_processing.universal_prompts.universal_processing import UniversalProcessing
 from src.template_processing.processing_practices import ProcessingPractices
-from tool.src.template_processing.prompt3_process.processing_prompt_3 import ProcessingPrompt3
+from src.template_processing.prompt3_process.processing_prompt_3 import ProcessingPrompt3
 from src.template_processing.saves.save_individual import SaveIndividual
 from src.java_processing.java_processor import JavaProcessor
 from src.config import PROJECT_PATH, OUTPUT_JSON_DIR
@@ -175,12 +175,16 @@ if __name__ == "__main__":
 
     # run(args.llm, args.p)
 
-    lista = [5]
-    prompts = [1,2,5]
+    # lista = [5]
+    # prompts = [1,2,5]
     # for i in lista:
     #     print("Universal Processing...")
     #     print(f"Processing LLM: {llm_paths.get(i, "unknown")}")
     #     run_universal(i)
 
-    for i in lista:
-        run_prompt3(i, prompts)
+    llms = [1, 2, 3, 4, 5]
+    prompts = [1, 2, 4, 5]
+
+    for llm in llms:
+        for prompt in prompts:
+            run(llm, prompt)

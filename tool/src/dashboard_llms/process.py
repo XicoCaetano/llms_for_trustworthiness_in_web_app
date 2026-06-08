@@ -1145,7 +1145,8 @@ if __name__ == "__main__":
 
     # GERAL Inputs and Outputs
     # GERAL Inputs
-    real = "tool/src/dashboard_llms/input/Missing Practices in WsvdBench_GroundTruth_V3.xlsx"
+
+    real = "tool/src/dashboard_llms/input/Missing practices in WsvdBench_GroundTruth_V3.xlsx"
     manual_weights = "tool/src/dashboard_llms/input/manual_weights.json"
     qm_weights = "tool/src/dashboard_llms/output_weights/qm_weights.json"
     paper_score = "tool/src/dashboard_llms/input/score_cristiano_paper.json"

@@ -1,0 +1,44 @@
+{
+    "tpcapp": {
+        "versions": {
+            "NewCustomer_VxA.java": {
+                "process": "",
+                "getAddressID": "",
+                "createAddress": "",
+                "getCOID": "",
+                "insertCostumer": ""
+            }
+        }
+    },
+    "tpcc": {
+        "versions": {}
+    },
+    "tpcw": {
+        "versions": {
+            "CreateNewCustomer_Vx0.java": {
+                "createNewCustomer": "",
+                "enterAddress": ""
+            },
+            "CreateNewCustomer_Vx078.java": {
+                "createNewCustomer": "",
+                "enterAddress": ""
+            },
+            "CreateNewCustomer_Vx103.java": {
+                "createNewCustomer": "",
+                "enterAddress": ""
+            },
+            "CreateNewCustomer_Vx113.java": {
+                "createNewCustomer": "",
+                "enterAddress": ""
+            },
+            "CreateNewCustomer_Vx132.java": {
+                "createNewCustomer": "",
+                "enterAddress": ""
+            },
+            "CreateNewCustomer_VxA.java": {
+                "createNewCustomer": "",
+                "enterAddress": ""
+            }
+        }
+    }
+}
