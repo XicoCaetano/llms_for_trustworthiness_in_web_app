@@ -2,8 +2,15 @@ from jinja2 import Environment, FileSystemLoader
 import os, json
 import re, time
 from src.llms_and_prompts.llm_gpt import LLMChatGPT
-from src.llms_and_prompts.llm_vertex import LLMVertexAI
+from src.llms_and_prompts.llm_ollama import LLMOllama
 from src.config import OPENAI_API_KEY_PROF
+
+try:
+    from src.llms_and_prompts.llm_vertex import LLMVertexAI
+    _VERTEX_AVAILABLE = True
+except ImportError:
+    _VERTEX_AVAILABLE = False
+    LLMVertexAI = None
 
 class ProcessingPractices:
     def __init__(self, template_dir, template_dir_ap):
@@ -28,22 +35,33 @@ class ProcessingPractices:
     
     def get_llm(self, llm_version, system_role_path):
         llm_configs = {
-            1: ("gpt-3.5-turbo", LLMChatGPT),
-            2: ("gpt-4o-mini", LLMChatGPT),
-            3: ("gpt-4.1", LLMChatGPT),
-            4: ("gpt-4.1-mini", LLMChatGPT),
-            5: ("gemini-2.5-flash", LLMVertexAI)
+            1: "gpt-3.5-turbo",
+            2: "gpt-4o-mini",
+            3: "gpt-4.1",
+            4: "gpt-4.1-mini",
+            5: "gemini-2.5-flash",
+            # Ollama models (self-hosted at 10.3.1.226)
+            6: "qwen2.5-coder:1.5b",
+            7: "qwen2.5-coder:7b",
+            8: "qwen2.5:1.5b",
+            9: "qwen2.5:7b",
+            10: "devstral-32k:latest",
+            11: "gemma4:31b_custom",
         }
-        
-        model_name, llm_class = llm_configs[llm_version]
-        
+
+        model_name = llm_configs[llm_version]
+
         if llm_version == 5:
-            return llm_class(
+            if not _VERTEX_AVAILABLE:
+                raise RuntimeError("google-cloud-aiplatform not installed.")
+            return LLMVertexAI(
                 "./src/llms_and_prompts/tanzania-473817-h5-449bfa644462.json",
                 model_name,
-                system_role_path
+                system_role_path,
             )
-        return llm_class(OPENAI_API_KEY_PROF, model_name, system_role_path)
+        if llm_version >= 6:
+            return LLMOllama(model_name, system_role_path)
+        return LLMChatGPT(OPENAI_API_KEY_PROF, model_name, system_role_path)
     
     def get_method(self, filename, method, project_path, java_processor):
         for root, dirs, files in os.walk(project_path):
@@ -172,27 +190,28 @@ class ProcessingPractices:
                             parent_file = os.path.relpath(root, dir)
                             yield parent_file, file, methods
 
-    def run(self, choice_version, java_processor, dir, save_practices, llm_version):
+    def run(self, choice_version, java_processor, dir, save_practices, llm_version, max_practices=16):
         # print("\n[+] Processing individual practices template")
-        
+
         if not os.path.exists(dir):
             print(f"Diretório {dir} não encontrado.")
             return
-        
+
         for parent_file, file, methods in self.iterate_files_and_methods(dir, java_processor):
             for name, line, source in methods:
                 print("Method: ", name)
-                
+
                 applicable_list = []
-                
+
                 # Fase 1: Verificar aplicabilidade
-                for j in range(1, 17):
+                for j in range(1, max_practices + 1):
                     template_name = f"p{j}.txt"
                     template = self.template(template_name, self.env2)
                     result = self.process_applicable_practices(choice_version, llm_version, j, template, source)
                     applicable_list.append(result)
-                
-                time.sleep(5)
+
+                if llm_version < 6:
+                    time.sleep(5)
                 print("Applicable:", applicable_list)
                 
                 # Fase 2: Verificar se foi seguida

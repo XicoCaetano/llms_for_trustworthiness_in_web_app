@@ -1129,7 +1129,19 @@ if __name__ == "__main__":
         2: "gpt-4o-mini",
         3: "gpt-4.1",
         4: "gpt-4.1-mini",
-        5: "gemini-2.5-flash"
+        5: "gemini-2.5-flash",
+        6: "qwen2.5-coder_1.5b",
+        11: "gemma4_31b_custom",
+    }
+
+    llm_tags = {
+        "gpt-3.5-turbo":       "3_5",
+        "gpt-4o-mini":         "4o",
+        "gpt-4.1":             "4_1",
+        "gpt-4.1-mini":        "4_1_mini",
+        "gemini-2.5-flash":    "2_5",
+        "qwen2.5-coder_1.5b":  "qwen_coder_1b5",
+        "gemma4_31b_custom":   "gemma4_31b",
     }
 
     # parser = argparse.ArgumentParser(description="Run LLM Individual Practices Evaluation")
@@ -1193,15 +1205,24 @@ if __name__ == "__main__":
     # input_vertex_ai_4 = [5, 4, "tool/src/test_results/individual_practices/gpt-4.1-mini/prompt_4_a/scenario 4_4_1_mini.json"]
     input_vertex_ai_5 = [5, 5, "tool/src/test_results/individual_practices/gemini-2.5-flash/prompt_5_a/scenario 5_2_5.json"]
 
-    # lista = [input_prompt_35_6]
+    # Ollama — qwen2.5-coder:1.5b (ficheiros mais completos de cada prompt)
+    input_qwen_1 = [6, 1, "tool/src/test_results/individual_practices/qwen2.5-coder_1.5b/prompt_1_a/template_practices_result_3.json"]
+    input_qwen_2 = [6, 2, "tool/src/test_results/individual_practices/qwen2.5-coder_1.5b/prompt_2_a/template_practices_result_2.json"]
+    input_qwen_4 = [6, 4, "tool/src/test_results/individual_practices/qwen2.5-coder_1.5b/prompt_4_a/template_practices_result_2.json"]
 
-    lista = [input_prompt_35_1, input_prompt_35_2, input_prompt_35_4, input_prompt_35_5, input_prompt_35_6,
-            input_prompt_4o_1, input_prompt_4o_2, input_prompt_4o_4, input_prompt_4o_5, input_prompt_4o_6,
-            input_prompt_41_1, input_prompt_41_2, input_prompt_41_4, input_prompt_41_5, input_prompt_41_6,
-            input_prompt_41_mini_1, input_prompt_41_mini_2, input_prompt_41_mini_4, input_prompt_41_mini_5, input_prompt_41_mini_6,
-            input_vertex_ai_1, input_vertex_ai_2, input_vertex_ai_5]
+    # Ollama — gemma4:31b_custom
+    input_gemma4_1 = [11, 1, "tool/src/test_results/individual_practices/gemma4_31b_custom/prompt_1_a/template_practices_result_1.json"]
+    input_gemma4_2 = [11, 2, "tool/src/test_results/individual_practices/gemma4_31b_custom/prompt_2_a/template_practices_result_1.json"]
+    input_gemma4_4 = [11, 4, "tool/src/test_results/individual_practices/gemma4_31b_custom/prompt_4_a/template_practices_result_1.json"]
 
-    # lista = [input_vertex_ai_1, input_vertex_ai_2, input_vertex_ai_5]
+    # lista = [input_prompt_35_1, input_prompt_35_2, input_prompt_35_4, input_prompt_35_5, input_prompt_35_6,
+    #         input_prompt_4o_1, input_prompt_4o_2, input_prompt_4o_4, input_prompt_4o_5, input_prompt_4o_6,
+    #         input_prompt_41_1, input_prompt_41_2, input_prompt_41_4, input_prompt_41_5, input_prompt_41_6,
+    #         input_prompt_41_mini_1, input_prompt_41_mini_2, input_prompt_41_mini_4, input_prompt_41_mini_5, input_prompt_41_mini_6,
+    #         input_vertex_ai_1, input_vertex_ai_2, input_vertex_ai_5,
+    #         input_qwen_1, input_qwen_2, input_qwen_4]
+
+    lista = [input_gemma4_1, input_gemma4_2, input_gemma4_4]  # só Ollama — gemma4
 
     
     for i in lista:
@@ -1220,13 +1241,16 @@ if __name__ == "__main__":
         prompt = prompt_choices.get(prompt, "prompt_1")
         version = version_following.get(version, "a")
 
-        prompt_tag = f"{prompt}_{version}_{llm.split('-')[1]}"   # → prompt_5_a_3.5
+        tag = llm_tags.get(llm, llm.replace("-", "_"))
+        prompt_tag = f"{prompt}_{version}_{tag}"
         base_prompt = f"{base_output}/{prompt}/{llm}"
-        os.makedirs(base_prompt, exist_ok=True)
+        for sub in ["classe NA", "geral", "classe 0", "classe 1", "category", "score"]:
+            os.makedirs(f"{base_prompt}/{sub}", exist_ok=True)
+        os.makedirs(base_excel, exist_ok=True)
 
         # Outputs Excel principais
-        output_prompt_excel = f"{base_excel}/{prompt}_{version}_{llm.split('-')[1]}.xlsx"
-        output_prompt_excel_na = f"{base_excel}/{prompt}_{version}_{llm.split('-')[1]}_na.xlsx"
+        output_prompt_excel = f"{base_excel}/{prompt}_{version}_{tag}.xlsx"
+        output_prompt_excel_na = f"{base_excel}/{prompt}_{version}_{tag}_na.xlsx"
 
         # Classe NA
         output_excel_nan_detailed = f"{base_prompt}/classe NA/excel_na_detailed.xlsx"

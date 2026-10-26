@@ -32,14 +32,23 @@
             <option value="gpt-4o-mini">GPT-4o-mini</option>
             <option value="gpt-4.1-mini">GPT-4.1-mini</option>
             <option value="gemini-2.5-flash">Gemini-2.5-flash</option>
+            <option value="qwen2.5-coder_1.5b">Qwen2.5-Coder-1.5b</option>
+            <option value="gemma4_31b_custom">Gemma4-31b</option>
           </select>
 
           <label for="prompt">Prompt:</label>
           <select id="prompt">
-            <option value="prompt_1">Prompt 1</option>
-            <option value="prompt_2">Prompt 2</option>
-            <option value="prompt_4">Prompt 3</option>
-            <option value="prompt_5">Prompt 4</option>
+            <optgroup label="WSVD-Bench">
+              <option value="prompt_1">Prompt 1</option>
+              <option value="prompt_2">Prompt 2</option>
+              <option value="prompt_4">Prompt 3</option>
+              <option value="prompt_5">Prompt 4</option>
+            </optgroup>
+            <optgroup label="Juliet CWE-89">
+              <option value="juliet_prompt_1">Juliet P1</option>
+              <option value="juliet_prompt_2">Juliet P2</option>
+              <option value="juliet_prompt_4">Juliet P4</option>
+            </optgroup>
           </select>
 
           <button class="btn-primary" onclick="loadData()">Load Results</button>
@@ -77,6 +86,8 @@
                 <option value="gpt-4o-mini">GPT-4o-mini</option>
                 <option value="gpt-4.1-mini">GPT-4.1-mini</option>
                 <option value="gemini-2.5-flash">Gemini-2.5-flash</option>
+                <option value="qwen2.5-coder_1.5b">Qwen2.5-Coder-1.5b</option>
+                <option value="gemma4_31b_custom">Gemma4-31b</option>
               </select>
 
               <label for="llm2">Model 2:</label>
@@ -86,22 +97,38 @@
                 <option value="gpt-4o-mini">GPT-4o-mini</option>
                 <option value="gpt-4.1-mini">GPT-4.1-mini</option>
                 <option value="gemini-2.5-flash">Gemini-2.5-flash</option>
+                <option value="qwen2.5-coder_1.5b">Qwen2.5-Coder-1.5b</option>
+                <option value="gemma4_31b_custom">Gemma4-31b</option>
               </select>
 
               <label for="promptCompare">Prompt:</label>
               <select id="promptCompare">
-                <option value="prompt_1">Prompt 1</option>
-                <option value="prompt_2">Prompt 2</option>
-                <option value="prompt_4">Prompt 3</option>
-                <option value="prompt_5">Prompt 4</option>
+                <optgroup label="WSVD-Bench">
+                  <option value="prompt_1">Prompt 1</option>
+                  <option value="prompt_2">Prompt 2</option>
+                  <option value="prompt_4">Prompt 3</option>
+                  <option value="prompt_5">Prompt 4</option>
+                </optgroup>
+                <optgroup label="Juliet CWE-89">
+                  <option value="juliet_prompt_1">Juliet P1</option>
+                  <option value="juliet_prompt_2">Juliet P2</option>
+                  <option value="juliet_prompt_4">Juliet P4</option>
+                </optgroup>
               </select>
 
               <label for="promptCompare2">Prompt:</label>
               <select id="promptCompare2">
-                <option value="prompt_1">Prompt 1</option>
-                <option value="prompt_2">Prompt 2</option>
-                <option value="prompt_4">Prompt 3</option>
-                <option value="prompt_5">Prompt 4</option>
+                <optgroup label="WSVD-Bench">
+                  <option value="prompt_1">Prompt 1</option>
+                  <option value="prompt_2">Prompt 2</option>
+                  <option value="prompt_4">Prompt 3</option>
+                  <option value="prompt_5">Prompt 4</option>
+                </optgroup>
+                <optgroup label="Juliet CWE-89">
+                  <option value="juliet_prompt_1">Juliet P1</option>
+                  <option value="juliet_prompt_2">Juliet P2</option>
+                  <option value="juliet_prompt_4">Juliet P4</option>
+                </optgroup>
               </select>
 
               <button class="btn-primary" onclick="compareSelected()">

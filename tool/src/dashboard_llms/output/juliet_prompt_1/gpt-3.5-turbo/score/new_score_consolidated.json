@@ -1,0 +1,2872 @@
+{
+  "CWE89_SQL_Injection__Environment_executeBatch_01": {
+    "bad": {
+      "score_qm": {
+        "bad": 0.0
+      },
+      "score_paper": {
+        "bad": null
+      },
+      "score_groundtruth_qm": {
+        "bad": 0.0
+      },
+      "practices": {
+        "bad": {
+          "qm": {
+            "Practice 1": 0.0,
+            "Practice 2": 0.0,
+            "Practice 3": null,
+            "Practice 4": null,
+            "Practice 5": null,
+            "Practice 6": 0.0,
+            "Practice 7": null,
+            "Practice 8": 0.0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": 0.0,
+            "Practice 12": null,
+            "Practice 13": null,
+            "Practice 14": 0.0,
+            "Practice 15": 0.0,
+            "Practice 16": 0.0
+          },
+          "groundtruth": {}
+        }
+      }
+    },
+    "goodB2G": {
+      "score_qm": {
+        "goodB2G": 1.0
+      },
+      "score_paper": {
+        "goodB2G": null
+      },
+      "score_groundtruth_qm": {
+        "goodB2G": 1.0
+      },
+      "practices": {
+        "goodB2G": {
+          "qm": {
+            "Practice 1": 1.0,
+            "Practice 2": 1.0,
+            "Practice 3": null,
+            "Practice 4": null,
+            "Practice 5": null,
+            "Practice 6": null,
+            "Practice 7": null,
+            "Practice 8": 1.0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": null,
+            "Practice 12": null,
+            "Practice 13": null,
+            "Practice 14": null,
+            "Practice 15": null,
+            "Practice 16": 1.0
+          },
+          "groundtruth": {}
+        }
+      }
+    }
+  },
+  "CWE89_SQL_Injection__connect_tcp_executeBatch_01": {
+    "bad": {
+      "score_qm": {
+        "bad": 0.125
+      },
+      "score_paper": {
+        "bad": null
+      },
+      "score_groundtruth_qm": {
+        "bad": 0.0
+      },
+      "practices": {
+        "bad": {
+          "qm": {
+            "Practice 1": 0.0,
+            "Practice 2": 0.0,
+            "Practice 3": null,
+            "Practice 4": 1.0,
+            "Practice 5": null,
+            "Practice 6": null,
+            "Practice 7": 0.0,
+            "Practice 8": null,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": null,
+            "Practice 12": null,
+            "Practice 13": null,
+            "Practice 14": null,
+            "Practice 15": 0.0,
+            "Practice 16": 0.0
+          },
+          "groundtruth": {}
+        }
+      }
+    },
+    "goodB2G": {
+      "score_qm": {
+        "goodB2G": 0.6
+      },
+      "score_paper": {
+        "goodB2G": null
+      },
+      "score_groundtruth_qm": {
+        "goodB2G": 1.0
+      },
+      "practices": {
+        "goodB2G": {
+          "qm": {
+            "Practice 1": null,
+            "Practice 2": 1.0,
+            "Practice 3": null,
+            "Practice 4": 1.0,
+            "Practice 5": null,
+            "Practice 6": null,
+            "Practice 7": 0.0,
+            "Practice 8": null,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": null,
+            "Practice 12": null,
+            "Practice 13": null,
+            "Practice 14": null,
+            "Practice 15": null,
+            "Practice 16": 0.0
+          },
+          "groundtruth": {}
+        }
+      }
+    }
+  },
+  "CWE89_SQL_Injection__connect_tcp_executeQuery_01": {
+    "bad": {
+      "score_qm": {
+        "bad": 0.0810810811
+      },
+      "score_paper": {
+        "bad": null
+      },
+      "score_groundtruth_qm": {
+        "bad": 0.0
+      },
+      "practices": {
+        "bad": {
+          "qm": {
+            "Practice 1": 0.0,
+            "Practice 2": 0.0,
+            "Practice 3": null,
+            "Practice 4": 1.0,
+            "Practice 5": null,
+            "Practice 6": null,
+            "Practice 7": 0.0,
+            "Practice 8": 0.0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": null,
+            "Practice 12": null,
+            "Practice 13": null,
+            "Practice 14": 0.0,
+            "Practice 15": 0.0,
+            "Practice 16": 0.0
+          },
+          "groundtruth": {}
+        }
+      }
+    },
+    "goodB2G": {
+      "score_qm": {
+        "goodB2G": 0.75
+      },
+      "score_paper": {
+        "goodB2G": null
+      },
+      "score_groundtruth_qm": {
+        "goodB2G": 1.0
+      },
+      "practices": {
+        "goodB2G": {
+          "qm": {
+            "Practice 1": null,
+            "Practice 2": 1.0,
+            "Practice 3": null,
+            "Practice 4": 1.0,
+            "Practice 5": null,
+            "Practice 6": null,
+            "Practice 7": 0.0,
+            "Practice 8": null,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": null,
+            "Practice 12": null,
+            "Practice 13": null,
+            "Practice 14": null,
+            "Practice 15": null,
+            "Practice 16": null
+          },
+          "groundtruth": {}
+        }
+      }
+    }
+  },
+  "CWE89_SQL_Injection__connect_tcp_executeUpdate_01": {
+    "bad": {
+      "score_qm": {
+        "bad": 0.0810810811
+      },
+      "score_paper": {
+        "bad": null
+      },
+      "score_groundtruth_qm": {
+        "bad": 0.0
+      },
+      "practices": {
+        "bad": {
+          "qm": {
+            "Practice 1": 0.0,
+            "Practice 2": 0.0,
+            "Practice 3": null,
+            "Practice 4": 1.0,
+            "Practice 5": null,
+            "Practice 6": null,
+            "Practice 7": 0.0,
+            "Practice 8": 0.0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": null,
+            "Practice 12": null,
+            "Practice 13": null,
+            "Practice 14": 0.0,
+            "Practice 15": 0.0,
+            "Practice 16": 0.0
+          },
+          "groundtruth": {}
+        }
+      }
+    },
+    "goodB2G": {
+      "score_qm": {
+        "goodB2G": 0.2
+      },
+      "score_paper": {
+        "goodB2G": null
+      },
+      "score_groundtruth_qm": {
+        "goodB2G": 1.0
+      },
+      "practices": {
+        "goodB2G": {
+          "qm": {
+            "Practice 1": null,
+            "Practice 2": 0.0,
+            "Practice 3": null,
+            "Practice 4": 1.0,
+            "Practice 5": null,
+            "Practice 6": null,
+            "Practice 7": 0.0,
+            "Practice 8": null,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": null,
+            "Practice 12": null,
+            "Practice 13": null,
+            "Practice 14": null,
+            "Practice 15": null,
+            "Practice 16": 0.0
+          },
+          "groundtruth": {}
+        }
+      }
+    }
+  },
+  "CWE89_SQL_Injection__connect_tcp_execute_01": {
+    "bad": {
+      "score_qm": {
+        "bad": 0.0882352941
+      },
+      "score_paper": {
+        "bad": null
+      },
+      "score_groundtruth_qm": {
+        "bad": 0.0
+      },
+      "practices": {
+        "bad": {
+          "qm": {
+            "Practice 1": 0.0,
+            "Practice 2": 0.0,
+            "Practice 3": null,
+            "Practice 4": 1.0,
+            "Practice 5": null,
+            "Practice 6": null,
+            "Practice 7": 0.0,
+            "Practice 8": 0.0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": null,
+            "Practice 12": null,
+            "Practice 13": null,
+            "Practice 14": null,
+            "Practice 15": 0.0,
+            "Practice 16": 0.0
+          },
+          "groundtruth": {}
+        }
+      }
+    },
+    "goodB2G": {
+      "score_qm": {
+        "goodB2G": 1.0
+      },
+      "score_paper": {
+        "goodB2G": null
+      },
+      "score_groundtruth_qm": {
+        "goodB2G": 1.0
+      },
+      "practices": {
+        "goodB2G": {
+          "qm": {
+            "Practice 1": null,
+            "Practice 2": 1.0,
+            "Practice 3": null,
+            "Practice 4": 1.0,
+            "Practice 5": null,
+            "Practice 6": null,
+            "Practice 7": 1.0,
+            "Practice 8": 1.0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": null,
+            "Practice 12": null,
+            "Practice 13": null,
+            "Practice 14": null,
+            "Practice 15": null,
+            "Practice 16": 1.0
+          },
+          "groundtruth": {}
+        }
+      }
+    }
+  },
+  "CWE89_SQL_Injection__connect_tcp_prepareStatement_01": {
+    "bad": {
+      "score_qm": {
+        "bad": 0.0967741935
+      },
+      "score_paper": {
+        "bad": null
+      },
+      "score_groundtruth_qm": {
+        "bad": 0.0
+      },
+      "practices": {
+        "bad": {
+          "qm": {
+            "Practice 1": null,
+            "Practice 2": 0.0,
+            "Practice 3": null,
+            "Practice 4": 1.0,
+            "Practice 5": null,
+            "Practice 6": 0.0,
+            "Practice 7": 0.0,
+            "Practice 8": 0.0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": null,
+            "Practice 12": null,
+            "Practice 13": null,
+            "Practice 14": null,
+            "Practice 15": 0.0,
+            "Practice 16": 0.0
+          },
+          "groundtruth": {}
+        }
+      }
+    },
+    "goodB2G": {
+      "score_qm": {
+        "goodB2G": 1.0
+      },
+      "score_paper": {
+        "goodB2G": null
+      },
+      "score_groundtruth_qm": {
+        "goodB2G": 1.0
+      },
+      "practices": {
+        "goodB2G": {
+          "qm": {
+            "Practice 1": null,
+            "Practice 2": 1.0,
+            "Practice 3": null,
+            "Practice 4": 1.0,
+            "Practice 5": null,
+            "Practice 6": null,
+            "Practice 7": 1.0,
+            "Practice 8": null,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": null,
+            "Practice 12": null,
+            "Practice 13": null,
+            "Practice 14": null,
+            "Practice 15": null,
+            "Practice 16": 1.0
+          },
+          "groundtruth": {}
+        }
+      }
+    }
+  },
+  "CWE89_SQL_Injection__console_readLine_executeBatch_01": {
+    "bad": {
+      "score_qm": {
+        "bad": 0.0882352941
+      },
+      "score_paper": {
+        "bad": null
+      },
+      "score_groundtruth_qm": {
+        "bad": 0.0
+      },
+      "practices": {
+        "bad": {
+          "qm": {
+            "Practice 1": 0.0,
+            "Practice 2": 0.0,
+            "Practice 3": null,
+            "Practice 4": 1.0,
+            "Practice 5": null,
+            "Practice 6": null,
+            "Practice 7": 0.0,
+            "Practice 8": 0.0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": null,
+            "Practice 12": null,
+            "Practice 13": null,
+            "Practice 14": 0.0,
+            "Practice 15": null,
+            "Practice 16": 0.0
+          },
+          "groundtruth": {}
+        }
+      }
+    },
+    "goodB2G": {
+      "score_qm": {
+        "goodB2G": 0.5357142857
+      },
+      "score_paper": {
+        "goodB2G": null
+      },
+      "score_groundtruth_qm": {
+        "goodB2G": 1.0
+      },
+      "practices": {
+        "goodB2G": {
+          "qm": {
+            "Practice 1": 1.0,
+            "Practice 2": 1.0,
+            "Practice 3": null,
+            "Practice 4": 1.0,
+            "Practice 5": null,
+            "Practice 6": null,
+            "Practice 7": null,
+            "Practice 8": 0.0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": null,
+            "Practice 12": null,
+            "Practice 13": null,
+            "Practice 14": null,
+            "Practice 15": null,
+            "Practice 16": 0.0
+          },
+          "groundtruth": {}
+        }
+      }
+    }
+  },
+  "CWE89_SQL_Injection__console_readLine_executeQuery_01": {
+    "bad": {
+      "score_qm": {
+        "bad": 0.0810810811
+      },
+      "score_paper": {
+        "bad": null
+      },
+      "score_groundtruth_qm": {
+        "bad": 0.0
+      },
+      "practices": {
+        "bad": {
+          "qm": {
+            "Practice 1": 0.0,
+            "Practice 2": 0.0,
+            "Practice 3": null,
+            "Practice 4": 1.0,
+            "Practice 5": null,
+            "Practice 6": 0.0,
+            "Practice 7": 0.0,
+            "Practice 8": 0.0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": null,
+            "Practice 12": null,
+            "Practice 13": null,
+            "Practice 14": null,
+            "Practice 15": 0.0,
+            "Practice 16": 0.0
+          },
+          "groundtruth": {}
+        }
+      }
+    },
+    "goodB2G": {
+      "score_qm": {
+        "goodB2G": 0.9032258065
+      },
+      "score_paper": {
+        "goodB2G": null
+      },
+      "score_groundtruth_qm": {
+        "goodB2G": 1.0
+      },
+      "practices": {
+        "goodB2G": {
+          "qm": {
+            "Practice 1": 1.0,
+            "Practice 2": 1.0,
+            "Practice 3": null,
+            "Practice 4": 1.0,
+            "Practice 5": null,
+            "Practice 6": null,
+            "Practice 7": 0.0,
+            "Practice 8": 1.0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": null,
+            "Practice 12": null,
+            "Practice 13": null,
+            "Practice 14": null,
+            "Practice 15": null,
+            "Practice 16": 1.0
+          },
+          "groundtruth": {}
+        }
+      }
+    }
+  },
+  "CWE89_SQL_Injection__console_readLine_executeUpdate_01": {
+    "bad": {
+      "score_qm": {
+        "bad": 0.0882352941
+      },
+      "score_paper": {
+        "bad": null
+      },
+      "score_groundtruth_qm": {
+        "bad": 0.0
+      },
+      "practices": {
+        "bad": {
+          "qm": {
+            "Practice 1": 0.0,
+            "Practice 2": 0.0,
+            "Practice 3": null,
+            "Practice 4": 1.0,
+            "Practice 5": null,
+            "Practice 6": null,
+            "Practice 7": 0.0,
+            "Practice 8": 0.0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": null,
+            "Practice 12": null,
+            "Practice 13": null,
+            "Practice 14": null,
+            "Practice 15": 0.0,
+            "Practice 16": 0.0
+          },
+          "groundtruth": {}
+        }
+      }
+    },
+    "goodB2G": {
+      "score_qm": {
+        "goodB2G": 0.4090909091
+      },
+      "score_paper": {
+        "goodB2G": null
+      },
+      "score_groundtruth_qm": {
+        "goodB2G": 1.0
+      },
+      "practices": {
+        "goodB2G": {
+          "qm": {
+            "Practice 1": null,
+            "Practice 2": 1.0,
+            "Practice 3": null,
+            "Practice 4": 1.0,
+            "Practice 5": null,
+            "Practice 6": null,
+            "Practice 7": null,
+            "Practice 8": 0.0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": null,
+            "Practice 12": null,
+            "Practice 13": null,
+            "Practice 14": null,
+            "Practice 15": null,
+            "Practice 16": 0.0
+          },
+          "groundtruth": {}
+        }
+      }
+    }
+  },
+  "CWE89_SQL_Injection__console_readLine_execute_01": {
+    "bad": {
+      "score_qm": {
+        "bad": 0.0882352941
+      },
+      "score_paper": {
+        "bad": null
+      },
+      "score_groundtruth_qm": {
+        "bad": 0.0
+      },
+      "practices": {
+        "bad": {
+          "qm": {
+            "Practice 1": 0.0,
+            "Practice 2": 0.0,
+            "Practice 3": null,
+            "Practice 4": 1.0,
+            "Practice 5": null,
+            "Practice 6": null,
+            "Practice 7": 0.0,
+            "Practice 8": 0.0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": null,
+            "Practice 12": null,
+            "Practice 13": null,
+            "Practice 14": null,
+            "Practice 15": 0.0,
+            "Practice 16": 0.0
+          },
+          "groundtruth": {}
+        }
+      }
+    },
+    "goodB2G": {
+      "score_qm": {
+        "goodB2G": 0.8636363636
+      },
+      "score_paper": {
+        "goodB2G": null
+      },
+      "score_groundtruth_qm": {
+        "goodB2G": 1.0
+      },
+      "practices": {
+        "goodB2G": {
+          "qm": {
+            "Practice 1": null,
+            "Practice 2": 1.0,
+            "Practice 3": null,
+            "Practice 4": 1.0,
+            "Practice 5": null,
+            "Practice 6": null,
+            "Practice 7": 0.0,
+            "Practice 8": 1.0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": null,
+            "Practice 12": null,
+            "Practice 13": null,
+            "Practice 14": null,
+            "Practice 15": null,
+            "Practice 16": null
+          },
+          "groundtruth": {}
+        }
+      }
+    }
+  },
+  "CWE89_SQL_Injection__console_readLine_prepareStatement_01": {
+    "bad": {
+      "score_qm": {
+        "bad": 0.0810810811
+      },
+      "score_paper": {
+        "bad": null
+      },
+      "score_groundtruth_qm": {
+        "bad": 0.0
+      },
+      "practices": {
+        "bad": {
+          "qm": {
+            "Practice 1": 0.0,
+            "Practice 2": 0.0,
+            "Practice 3": null,
+            "Practice 4": 1.0,
+            "Practice 5": null,
+            "Practice 6": 0.0,
+            "Practice 7": 0.0,
+            "Practice 8": 0.0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": null,
+            "Practice 12": null,
+            "Practice 13": null,
+            "Practice 14": null,
+            "Practice 15": 0.0,
+            "Practice 16": 0.0
+          },
+          "groundtruth": {}
+        }
+      }
+    },
+    "goodB2G": {
+      "score_qm": {
+        "goodB2G": 0.6428571429
+      },
+      "score_paper": {
+        "goodB2G": null
+      },
+      "score_groundtruth_qm": {
+        "goodB2G": 1.0
+      },
+      "practices": {
+        "goodB2G": {
+          "qm": {
+            "Practice 1": 1.0,
+            "Practice 2": 1.0,
+            "Practice 3": null,
+            "Practice 4": 1.0,
+            "Practice 5": null,
+            "Practice 6": null,
+            "Practice 7": null,
+            "Practice 8": 0.0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": null,
+            "Practice 12": null,
+            "Practice 13": null,
+            "Practice 14": null,
+            "Practice 15": null,
+            "Practice 16": 1.0
+          },
+          "groundtruth": {}
+        }
+      }
+    }
+  },
+  "CWE89_SQL_Injection__database_executeBatch_01": {
+    "bad": {
+      "score_qm": {
+        "bad": 0.0
+      },
+      "score_paper": {
+        "bad": null
+      },
+      "score_groundtruth_qm": {
+        "bad": 0.0
+      },
+      "practices": {
+        "bad": {
+          "qm": {
+            "Practice 1": null,
+            "Practice 2": 0.0,
+            "Practice 3": null,
+            "Practice 4": null,
+            "Practice 5": null,
+            "Practice 6": null,
+            "Practice 7": null,
+            "Practice 8": null,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": null,
+            "Practice 12": null,
+            "Practice 13": null,
+            "Practice 14": null,
+            "Practice 15": 0.0,
+            "Practice 16": 0.0
+          },
+          "groundtruth": {}
+        }
+      }
+    },
+    "goodB2G": {
+      "score_qm": {
+        "goodB2G": 1.0
+      },
+      "score_paper": {
+        "goodB2G": null
+      },
+      "score_groundtruth_qm": {
+        "goodB2G": 1.0
+      },
+      "practices": {
+        "goodB2G": {
+          "qm": {
+            "Practice 1": null,
+            "Practice 2": 1.0,
+            "Practice 3": null,
+            "Practice 4": null,
+            "Practice 5": null,
+            "Practice 6": null,
+            "Practice 7": null,
+            "Practice 8": null,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": null,
+            "Practice 12": null,
+            "Practice 13": null,
+            "Practice 14": null,
+            "Practice 15": null,
+            "Practice 16": 1.0
+          },
+          "groundtruth": {}
+        }
+      }
+    }
+  },
+  "CWE89_SQL_Injection__database_executeQuery_01": {
+    "bad": {
+      "score_qm": {
+        "bad": 0.0
+      },
+      "score_paper": {
+        "bad": null
+      },
+      "score_groundtruth_qm": {
+        "bad": 0.0
+      },
+      "practices": {
+        "bad": {
+          "qm": {
+            "Practice 1": null,
+            "Practice 2": 0.0,
+            "Practice 3": null,
+            "Practice 4": null,
+            "Practice 5": null,
+            "Practice 6": null,
+            "Practice 7": null,
+            "Practice 8": 0.0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": null,
+            "Practice 12": null,
+            "Practice 13": null,
+            "Practice 14": null,
+            "Practice 15": 0.0,
+            "Practice 16": 0.0
+          },
+          "groundtruth": {}
+        }
+      }
+    },
+    "goodB2G": {
+      "score_qm": {
+        "goodB2G": 1.0
+      },
+      "score_paper": {
+        "goodB2G": null
+      },
+      "score_groundtruth_qm": {
+        "goodB2G": 1.0
+      },
+      "practices": {
+        "goodB2G": {
+          "qm": {
+            "Practice 1": 1.0,
+            "Practice 2": 1.0,
+            "Practice 3": null,
+            "Practice 4": null,
+            "Practice 5": null,
+            "Practice 6": null,
+            "Practice 7": null,
+            "Practice 8": null,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": null,
+            "Practice 12": null,
+            "Practice 13": null,
+            "Practice 14": null,
+            "Practice 15": null,
+            "Practice 16": 1.0
+          },
+          "groundtruth": {}
+        }
+      }
+    }
+  },
+  "CWE89_SQL_Injection__database_executeUpdate_01": {
+    "bad": {
+      "score_qm": {
+        "bad": 0.0
+      },
+      "score_paper": {
+        "bad": null
+      },
+      "score_groundtruth_qm": {
+        "bad": 0.0
+      },
+      "practices": {
+        "bad": {
+          "qm": {
+            "Practice 1": null,
+            "Practice 2": 0.0,
+            "Practice 3": null,
+            "Practice 4": null,
+            "Practice 5": null,
+            "Practice 6": null,
+            "Practice 7": null,
+            "Practice 8": null,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": null,
+            "Practice 12": null,
+            "Practice 13": null,
+            "Practice 14": null,
+            "Practice 15": 0.0,
+            "Practice 16": 0.0
+          },
+          "groundtruth": {}
+        }
+      }
+    },
+    "goodB2G": {
+      "score_qm": {
+        "goodB2G": 1.0
+      },
+      "score_paper": {
+        "goodB2G": null
+      },
+      "score_groundtruth_qm": {
+        "goodB2G": 1.0
+      },
+      "practices": {
+        "goodB2G": {
+          "qm": {
+            "Practice 1": null,
+            "Practice 2": 1.0,
+            "Practice 3": null,
+            "Practice 4": null,
+            "Practice 5": null,
+            "Practice 6": null,
+            "Practice 7": null,
+            "Practice 8": null,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": null,
+            "Practice 12": null,
+            "Practice 13": null,
+            "Practice 14": null,
+            "Practice 15": null,
+            "Practice 16": 1.0
+          },
+          "groundtruth": {}
+        }
+      }
+    }
+  },
+  "CWE89_SQL_Injection__database_execute_01": {
+    "bad": {
+      "score_qm": {
+        "bad": 0.0
+      },
+      "score_paper": {
+        "bad": null
+      },
+      "score_groundtruth_qm": {
+        "bad": 0.0
+      },
+      "practices": {
+        "bad": {
+          "qm": {
+            "Practice 1": null,
+            "Practice 2": 0.0,
+            "Practice 3": null,
+            "Practice 4": null,
+            "Practice 5": null,
+            "Practice 6": null,
+            "Practice 7": null,
+            "Practice 8": 0.0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": null,
+            "Practice 12": null,
+            "Practice 13": null,
+            "Practice 14": null,
+            "Practice 15": 0.0,
+            "Practice 16": 0.0
+          },
+          "groundtruth": {}
+        }
+      }
+    },
+    "goodB2G": {
+      "score_qm": {
+        "goodB2G": 1.0
+      },
+      "score_paper": {
+        "goodB2G": null
+      },
+      "score_groundtruth_qm": {
+        "goodB2G": 1.0
+      },
+      "practices": {
+        "goodB2G": {
+          "qm": {
+            "Practice 1": 1.0,
+            "Practice 2": 1.0,
+            "Practice 3": null,
+            "Practice 4": null,
+            "Practice 5": null,
+            "Practice 6": 1.0,
+            "Practice 7": null,
+            "Practice 8": null,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": null,
+            "Practice 12": null,
+            "Practice 13": null,
+            "Practice 14": null,
+            "Practice 15": 1.0,
+            "Practice 16": 1.0
+          },
+          "groundtruth": {}
+        }
+      }
+    }
+  },
+  "CWE89_SQL_Injection__database_prepareStatement_01": {
+    "bad": {
+      "score_qm": {
+        "bad": 0.0
+      },
+      "score_paper": {
+        "bad": null
+      },
+      "score_groundtruth_qm": {
+        "bad": 0.0
+      },
+      "practices": {
+        "bad": {
+          "qm": {
+            "Practice 1": null,
+            "Practice 2": 0.0,
+            "Practice 3": null,
+            "Practice 4": null,
+            "Practice 5": null,
+            "Practice 6": null,
+            "Practice 7": null,
+            "Practice 8": 0.0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": null,
+            "Practice 12": null,
+            "Practice 13": null,
+            "Practice 14": null,
+            "Practice 15": 0.0,
+            "Practice 16": 0.0
+          },
+          "groundtruth": {}
+        }
+      }
+    },
+    "goodB2G": {
+      "score_qm": {
+        "goodB2G": 1.0
+      },
+      "score_paper": {
+        "goodB2G": null
+      },
+      "score_groundtruth_qm": {
+        "goodB2G": 1.0
+      },
+      "practices": {
+        "goodB2G": {
+          "qm": {
+            "Practice 1": null,
+            "Practice 2": 1.0,
+            "Practice 3": null,
+            "Practice 4": null,
+            "Practice 5": null,
+            "Practice 6": null,
+            "Practice 7": null,
+            "Practice 8": 1.0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": null,
+            "Practice 12": null,
+            "Practice 13": null,
+            "Practice 14": null,
+            "Practice 15": null,
+            "Practice 16": 1.0
+          },
+          "groundtruth": {}
+        }
+      }
+    }
+  },
+  "CWE89_SQL_Injection__Environment_executeQuery_01": {
+    "bad": {
+      "score_qm": {
+        "bad": 0.0
+      },
+      "score_paper": {
+        "bad": null
+      },
+      "score_groundtruth_qm": {
+        "bad": 0.0
+      },
+      "practices": {
+        "bad": {
+          "qm": {
+            "Practice 1": 0.0,
+            "Practice 2": 0.0,
+            "Practice 3": null,
+            "Practice 4": null,
+            "Practice 5": null,
+            "Practice 6": 0.0,
+            "Practice 7": null,
+            "Practice 8": 0.0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": 0.0,
+            "Practice 12": null,
+            "Practice 13": null,
+            "Practice 14": 0.0,
+            "Practice 15": 0.0,
+            "Practice 16": 0.0
+          },
+          "groundtruth": {}
+        }
+      }
+    },
+    "goodB2G": {
+      "score_qm": {
+        "goodB2G": 1.0
+      },
+      "score_paper": {
+        "goodB2G": null
+      },
+      "score_groundtruth_qm": {
+        "goodB2G": 1.0
+      },
+      "practices": {
+        "goodB2G": {
+          "qm": {
+            "Practice 1": 1.0,
+            "Practice 2": 1.0,
+            "Practice 3": null,
+            "Practice 4": null,
+            "Practice 5": null,
+            "Practice 6": 1.0,
+            "Practice 7": null,
+            "Practice 8": 1.0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": 1.0,
+            "Practice 12": null,
+            "Practice 13": 1.0,
+            "Practice 14": 1.0,
+            "Practice 15": 1.0,
+            "Practice 16": 1.0
+          },
+          "groundtruth": {}
+        }
+      }
+    }
+  },
+  "CWE89_SQL_Injection__Environment_executeUpdate_01": {
+    "bad": {
+      "score_qm": {
+        "bad": 0.0
+      },
+      "score_paper": {
+        "bad": null
+      },
+      "score_groundtruth_qm": {
+        "bad": 0.0
+      },
+      "practices": {
+        "bad": {
+          "qm": {
+            "Practice 1": 0.0,
+            "Practice 2": 0.0,
+            "Practice 3": null,
+            "Practice 4": null,
+            "Practice 5": null,
+            "Practice 6": 0.0,
+            "Practice 7": null,
+            "Practice 8": 0.0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": 0.0,
+            "Practice 12": 0.0,
+            "Practice 13": null,
+            "Practice 14": 0.0,
+            "Practice 15": 0.0,
+            "Practice 16": 0.0
+          },
+          "groundtruth": {}
+        }
+      }
+    },
+    "goodB2G": {
+      "score_qm": {
+        "goodB2G": 0.9444444444
+      },
+      "score_paper": {
+        "goodB2G": null
+      },
+      "score_groundtruth_qm": {
+        "goodB2G": 1.0
+      },
+      "practices": {
+        "goodB2G": {
+          "qm": {
+            "Practice 1": 1.0,
+            "Practice 2": 1.0,
+            "Practice 3": null,
+            "Practice 4": null,
+            "Practice 5": null,
+            "Practice 6": 1.0,
+            "Practice 7": null,
+            "Practice 8": 1.0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": 1.0,
+            "Practice 12": null,
+            "Practice 13": 1.0,
+            "Practice 14": 0.0,
+            "Practice 15": 1.0,
+            "Practice 16": 1.0
+          },
+          "groundtruth": {}
+        }
+      }
+    }
+  },
+  "CWE89_SQL_Injection__Environment_execute_01": {
+    "bad": {
+      "score_qm": {
+        "bad": 0.0
+      },
+      "score_paper": {
+        "bad": null
+      },
+      "score_groundtruth_qm": {
+        "bad": 0.0
+      },
+      "practices": {
+        "bad": {
+          "qm": {
+            "Practice 1": 0.0,
+            "Practice 2": 0.0,
+            "Practice 3": null,
+            "Practice 4": 0.0,
+            "Practice 5": null,
+            "Practice 6": 0.0,
+            "Practice 7": null,
+            "Practice 8": 0.0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": null,
+            "Practice 12": null,
+            "Practice 13": null,
+            "Practice 14": 0.0,
+            "Practice 15": 0.0,
+            "Practice 16": 0.0
+          },
+          "groundtruth": {}
+        }
+      }
+    },
+    "goodB2G": {
+      "score_qm": {
+        "goodB2G": 1.0
+      },
+      "score_paper": {
+        "goodB2G": null
+      },
+      "score_groundtruth_qm": {
+        "goodB2G": 1.0
+      },
+      "practices": {
+        "goodB2G": {
+          "qm": {
+            "Practice 1": 1.0,
+            "Practice 2": 1.0,
+            "Practice 3": null,
+            "Practice 4": null,
+            "Practice 5": null,
+            "Practice 6": 1.0,
+            "Practice 7": null,
+            "Practice 8": 1.0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": 1.0,
+            "Practice 12": null,
+            "Practice 13": 1.0,
+            "Practice 14": 1.0,
+            "Practice 15": 1.0,
+            "Practice 16": 1.0
+          },
+          "groundtruth": {}
+        }
+      }
+    }
+  },
+  "CWE89_SQL_Injection__Environment_prepareStatement_01": {
+    "bad": {
+      "score_qm": {
+        "bad": 0.0
+      },
+      "score_paper": {
+        "bad": null
+      },
+      "score_groundtruth_qm": {
+        "bad": 0.0
+      },
+      "practices": {
+        "bad": {
+          "qm": {
+            "Practice 1": 0.0,
+            "Practice 2": 0.0,
+            "Practice 3": null,
+            "Practice 4": null,
+            "Practice 5": null,
+            "Practice 6": 0.0,
+            "Practice 7": null,
+            "Practice 8": 0.0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": 0.0,
+            "Practice 12": null,
+            "Practice 13": null,
+            "Practice 14": 0.0,
+            "Practice 15": 0.0,
+            "Practice 16": 0.0
+          },
+          "groundtruth": {}
+        }
+      }
+    },
+    "goodB2G": {
+      "score_qm": {
+        "goodB2G": 1.0
+      },
+      "score_paper": {
+        "goodB2G": null
+      },
+      "score_groundtruth_qm": {
+        "goodB2G": 1.0
+      },
+      "practices": {
+        "goodB2G": {
+          "qm": {
+            "Practice 1": 1.0,
+            "Practice 2": 1.0,
+            "Practice 3": null,
+            "Practice 4": null,
+            "Practice 5": null,
+            "Practice 6": 1.0,
+            "Practice 7": null,
+            "Practice 8": 1.0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": null,
+            "Practice 12": null,
+            "Practice 13": null,
+            "Practice 14": 1.0,
+            "Practice 15": 1.0,
+            "Practice 16": 1.0
+          },
+          "groundtruth": {}
+        }
+      }
+    }
+  },
+  "CWE89_SQL_Injection__File_executeBatch_01": {
+    "bad": {
+      "score_qm": {
+        "bad": 0.0810810811
+      },
+      "score_paper": {
+        "bad": null
+      },
+      "score_groundtruth_qm": {
+        "bad": 0.0
+      },
+      "practices": {
+        "bad": {
+          "qm": {
+            "Practice 1": 0.0,
+            "Practice 2": 0.0,
+            "Practice 3": null,
+            "Practice 4": 1.0,
+            "Practice 5": null,
+            "Practice 6": 0.0,
+            "Practice 7": 0.0,
+            "Practice 8": 0.0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": null,
+            "Practice 12": null,
+            "Practice 13": null,
+            "Practice 14": null,
+            "Practice 15": 0.0,
+            "Practice 16": 0.0
+          },
+          "groundtruth": {}
+        }
+      }
+    },
+    "goodB2G": {
+      "score_qm": {
+        "goodB2G": 0.75
+      },
+      "score_paper": {
+        "goodB2G": null
+      },
+      "score_groundtruth_qm": {
+        "goodB2G": 1.0
+      },
+      "practices": {
+        "goodB2G": {
+          "qm": {
+            "Practice 1": null,
+            "Practice 2": 1.0,
+            "Practice 3": null,
+            "Practice 4": 1.0,
+            "Practice 5": null,
+            "Practice 6": null,
+            "Practice 7": 0.0,
+            "Practice 8": null,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": null,
+            "Practice 12": null,
+            "Practice 13": null,
+            "Practice 14": null,
+            "Practice 15": null,
+            "Practice 16": null
+          },
+          "groundtruth": {}
+        }
+      }
+    }
+  },
+  "CWE89_SQL_Injection__File_executeQuery_01": {
+    "bad": {
+      "score_qm": {
+        "bad": 0.0810810811
+      },
+      "score_paper": {
+        "bad": null
+      },
+      "score_groundtruth_qm": {
+        "bad": 0.0
+      },
+      "practices": {
+        "bad": {
+          "qm": {
+            "Practice 1": 0.0,
+            "Practice 2": 0.0,
+            "Practice 3": null,
+            "Practice 4": 1.0,
+            "Practice 5": null,
+            "Practice 6": null,
+            "Practice 7": 0.0,
+            "Practice 8": 0.0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": null,
+            "Practice 12": null,
+            "Practice 13": null,
+            "Practice 14": 0.0,
+            "Practice 15": 0.0,
+            "Practice 16": 0.0
+          },
+          "groundtruth": {}
+        }
+      }
+    },
+    "goodB2G": {
+      "score_qm": {
+        "goodB2G": 1.0
+      },
+      "score_paper": {
+        "goodB2G": null
+      },
+      "score_groundtruth_qm": {
+        "goodB2G": 1.0
+      },
+      "practices": {
+        "goodB2G": {
+          "qm": {
+            "Practice 1": null,
+            "Practice 2": 1.0,
+            "Practice 3": null,
+            "Practice 4": 1.0,
+            "Practice 5": null,
+            "Practice 6": null,
+            "Practice 7": null,
+            "Practice 8": 1.0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": null,
+            "Practice 12": null,
+            "Practice 13": null,
+            "Practice 14": null,
+            "Practice 15": null,
+            "Practice 16": 1.0
+          },
+          "groundtruth": {}
+        }
+      }
+    }
+  },
+  "CWE89_SQL_Injection__File_executeUpdate_01": {
+    "bad": {
+      "score_qm": {
+        "bad": 0.0882352941
+      },
+      "score_paper": {
+        "bad": null
+      },
+      "score_groundtruth_qm": {
+        "bad": 0.0
+      },
+      "practices": {
+        "bad": {
+          "qm": {
+            "Practice 1": 0.0,
+            "Practice 2": 0.0,
+            "Practice 3": null,
+            "Practice 4": 1.0,
+            "Practice 5": null,
+            "Practice 6": null,
+            "Practice 7": 0.0,
+            "Practice 8": 0.0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": null,
+            "Practice 12": null,
+            "Practice 13": null,
+            "Practice 14": null,
+            "Practice 15": 0.0,
+            "Practice 16": 0.0
+          },
+          "groundtruth": {}
+        }
+      }
+    },
+    "goodB2G": {
+      "score_qm": {
+        "goodB2G": 0.6
+      },
+      "score_paper": {
+        "goodB2G": null
+      },
+      "score_groundtruth_qm": {
+        "goodB2G": 1.0
+      },
+      "practices": {
+        "goodB2G": {
+          "qm": {
+            "Practice 1": null,
+            "Practice 2": 1.0,
+            "Practice 3": null,
+            "Practice 4": 1.0,
+            "Practice 5": null,
+            "Practice 6": null,
+            "Practice 7": 0.0,
+            "Practice 8": null,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": null,
+            "Practice 12": null,
+            "Practice 13": null,
+            "Practice 14": null,
+            "Practice 15": null,
+            "Practice 16": 0.0
+          },
+          "groundtruth": {}
+        }
+      }
+    }
+  },
+  "CWE89_SQL_Injection__File_execute_01": {
+    "bad": {
+      "score_qm": {
+        "bad": 0.0882352941
+      },
+      "score_paper": {
+        "bad": null
+      },
+      "score_groundtruth_qm": {
+        "bad": 0.0
+      },
+      "practices": {
+        "bad": {
+          "qm": {
+            "Practice 1": 0.0,
+            "Practice 2": 0.0,
+            "Practice 3": null,
+            "Practice 4": 1.0,
+            "Practice 5": null,
+            "Practice 6": null,
+            "Practice 7": 0.0,
+            "Practice 8": 0.0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": null,
+            "Practice 12": null,
+            "Practice 13": null,
+            "Practice 14": null,
+            "Practice 15": 0.0,
+            "Practice 16": 0.0
+          },
+          "groundtruth": {}
+        }
+      }
+    },
+    "goodB2G": {
+      "score_qm": {
+        "goodB2G": 1.0
+      },
+      "score_paper": {
+        "goodB2G": null
+      },
+      "score_groundtruth_qm": {
+        "goodB2G": 1.0
+      },
+      "practices": {
+        "goodB2G": {
+          "qm": {
+            "Practice 1": 1.0,
+            "Practice 2": 1.0,
+            "Practice 3": null,
+            "Practice 4": 1.0,
+            "Practice 5": null,
+            "Practice 6": null,
+            "Practice 7": 1.0,
+            "Practice 8": null,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": null,
+            "Practice 12": null,
+            "Practice 13": null,
+            "Practice 14": null,
+            "Practice 15": null,
+            "Practice 16": 1.0
+          },
+          "groundtruth": {}
+        }
+      }
+    }
+  },
+  "CWE89_SQL_Injection__File_prepareStatement_01": {
+    "bad": {
+      "score_qm": {
+        "bad": 0.0882352941
+      },
+      "score_paper": {
+        "bad": null
+      },
+      "score_groundtruth_qm": {
+        "bad": 0.0
+      },
+      "practices": {
+        "bad": {
+          "qm": {
+            "Practice 1": 0.0,
+            "Practice 2": 0.0,
+            "Practice 3": null,
+            "Practice 4": 1.0,
+            "Practice 5": null,
+            "Practice 6": null,
+            "Practice 7": 0.0,
+            "Practice 8": 0.0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": null,
+            "Practice 12": null,
+            "Practice 13": null,
+            "Practice 14": null,
+            "Practice 15": 0.0,
+            "Practice 16": 0.0
+          },
+          "groundtruth": {}
+        }
+      }
+    },
+    "goodB2G": {
+      "score_qm": {
+        "goodB2G": 1.0
+      },
+      "score_paper": {
+        "goodB2G": null
+      },
+      "score_groundtruth_qm": {
+        "goodB2G": 1.0
+      },
+      "practices": {
+        "goodB2G": {
+          "qm": {
+            "Practice 1": 1.0,
+            "Practice 2": 1.0,
+            "Practice 3": null,
+            "Practice 4": 1.0,
+            "Practice 5": null,
+            "Practice 6": null,
+            "Practice 7": 1.0,
+            "Practice 8": null,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": null,
+            "Practice 12": null,
+            "Practice 13": null,
+            "Practice 14": null,
+            "Practice 15": null,
+            "Practice 16": 1.0
+          },
+          "groundtruth": {}
+        }
+      }
+    }
+  },
+  "CWE89_SQL_Injection__getCookies_Servlet_executeBatch_01": {
+    "bad": {
+      "score_qm": {
+        "bad": 0.0
+      },
+      "score_paper": {
+        "bad": null
+      },
+      "score_groundtruth_qm": {
+        "bad": 0.0
+      },
+      "practices": {
+        "bad": {
+          "qm": {
+            "Practice 1": 0.0,
+            "Practice 2": 0.0,
+            "Practice 3": null,
+            "Practice 4": null,
+            "Practice 5": null,
+            "Practice 6": null,
+            "Practice 7": null,
+            "Practice 8": 0.0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": null,
+            "Practice 12": null,
+            "Practice 13": null,
+            "Practice 14": 0.0,
+            "Practice 15": 0.0,
+            "Practice 16": 0.0
+          },
+          "groundtruth": {}
+        }
+      }
+    },
+    "goodB2G": {
+      "score_qm": {
+        "goodB2G": 1.0
+      },
+      "score_paper": {
+        "goodB2G": null
+      },
+      "score_groundtruth_qm": {
+        "goodB2G": 1.0
+      },
+      "practices": {
+        "goodB2G": {
+          "qm": {
+            "Practice 1": 1.0,
+            "Practice 2": 1.0,
+            "Practice 3": null,
+            "Practice 4": null,
+            "Practice 5": null,
+            "Practice 6": null,
+            "Practice 7": null,
+            "Practice 8": 1.0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": null,
+            "Practice 12": null,
+            "Practice 13": null,
+            "Practice 14": null,
+            "Practice 15": null,
+            "Practice 16": 1.0
+          },
+          "groundtruth": {}
+        }
+      }
+    }
+  },
+  "CWE89_SQL_Injection__getCookies_Servlet_executeQuery_01": {
+    "bad": {
+      "score_qm": {
+        "bad": 0.0
+      },
+      "score_paper": {
+        "bad": null
+      },
+      "score_groundtruth_qm": {
+        "bad": 0.0
+      },
+      "practices": {
+        "bad": {
+          "qm": {
+            "Practice 1": 0.0,
+            "Practice 2": 0.0,
+            "Practice 3": null,
+            "Practice 4": null,
+            "Practice 5": null,
+            "Practice 6": 0.0,
+            "Practice 7": null,
+            "Practice 8": 0.0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": 0.0,
+            "Practice 12": 0.0,
+            "Practice 13": 0.0,
+            "Practice 14": 0.0,
+            "Practice 15": 0.0,
+            "Practice 16": 0.0
+          },
+          "groundtruth": {}
+        }
+      }
+    },
+    "goodB2G": {
+      "score_qm": {
+        "goodB2G": 1.0
+      },
+      "score_paper": {
+        "goodB2G": null
+      },
+      "score_groundtruth_qm": {
+        "goodB2G": 1.0
+      },
+      "practices": {
+        "goodB2G": {
+          "qm": {
+            "Practice 1": 1.0,
+            "Practice 2": 1.0,
+            "Practice 3": null,
+            "Practice 4": null,
+            "Practice 5": null,
+            "Practice 6": null,
+            "Practice 7": null,
+            "Practice 8": 1.0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": 1.0,
+            "Practice 12": null,
+            "Practice 13": null,
+            "Practice 14": null,
+            "Practice 15": null,
+            "Practice 16": 1.0
+          },
+          "groundtruth": {}
+        }
+      }
+    }
+  },
+  "CWE89_SQL_Injection__getCookies_Servlet_executeUpdate_01": {
+    "bad": {
+      "score_qm": {
+        "bad": 0.0
+      },
+      "score_paper": {
+        "bad": null
+      },
+      "score_groundtruth_qm": {
+        "bad": 0.0
+      },
+      "practices": {
+        "bad": {
+          "qm": {
+            "Practice 1": 0.0,
+            "Practice 2": 0.0,
+            "Practice 3": null,
+            "Practice 4": null,
+            "Practice 5": null,
+            "Practice 6": 0.0,
+            "Practice 7": null,
+            "Practice 8": 0.0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": null,
+            "Practice 12": null,
+            "Practice 13": null,
+            "Practice 14": 0.0,
+            "Practice 15": 0.0,
+            "Practice 16": 0.0
+          },
+          "groundtruth": {}
+        }
+      }
+    },
+    "goodB2G": {
+      "score_qm": {
+        "goodB2G": 1.0
+      },
+      "score_paper": {
+        "goodB2G": null
+      },
+      "score_groundtruth_qm": {
+        "goodB2G": 1.0
+      },
+      "practices": {
+        "goodB2G": {
+          "qm": {
+            "Practice 1": 1.0,
+            "Practice 2": 1.0,
+            "Practice 3": null,
+            "Practice 4": null,
+            "Practice 5": null,
+            "Practice 6": null,
+            "Practice 7": null,
+            "Practice 8": 1.0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": null,
+            "Practice 12": null,
+            "Practice 13": null,
+            "Practice 14": null,
+            "Practice 15": 1.0,
+            "Practice 16": 1.0
+          },
+          "groundtruth": {}
+        }
+      }
+    }
+  },
+  "CWE89_SQL_Injection__getCookies_Servlet_execute_01": {
+    "bad": {
+      "score_qm": {
+        "bad": 0.0
+      },
+      "score_paper": {
+        "bad": null
+      },
+      "score_groundtruth_qm": {
+        "bad": 0.0
+      },
+      "practices": {
+        "bad": {
+          "qm": {
+            "Practice 1": 0.0,
+            "Practice 2": 0.0,
+            "Practice 3": null,
+            "Practice 4": null,
+            "Practice 5": null,
+            "Practice 6": 0.0,
+            "Practice 7": null,
+            "Practice 8": 0.0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": 0.0,
+            "Practice 12": null,
+            "Practice 13": null,
+            "Practice 14": null,
+            "Practice 15": 0.0,
+            "Practice 16": 0.0
+          },
+          "groundtruth": {}
+        }
+      }
+    },
+    "goodB2G": {
+      "score_qm": {
+        "goodB2G": 1.0
+      },
+      "score_paper": {
+        "goodB2G": null
+      },
+      "score_groundtruth_qm": {
+        "goodB2G": 1.0
+      },
+      "practices": {
+        "goodB2G": {
+          "qm": {
+            "Practice 1": 1.0,
+            "Practice 2": 1.0,
+            "Practice 3": null,
+            "Practice 4": null,
+            "Practice 5": null,
+            "Practice 6": null,
+            "Practice 7": null,
+            "Practice 8": 1.0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": 1.0,
+            "Practice 12": null,
+            "Practice 13": null,
+            "Practice 14": 1.0,
+            "Practice 15": null,
+            "Practice 16": 1.0
+          },
+          "groundtruth": {}
+        }
+      }
+    }
+  },
+  "CWE89_SQL_Injection__getCookies_Servlet_prepareStatement_01": {
+    "bad": {
+      "score_qm": {
+        "bad": 0.0
+      },
+      "score_paper": {
+        "bad": null
+      },
+      "score_groundtruth_qm": {
+        "bad": 0.0
+      },
+      "practices": {
+        "bad": {
+          "qm": {
+            "Practice 1": 0.0,
+            "Practice 2": 0.0,
+            "Practice 3": null,
+            "Practice 4": null,
+            "Practice 5": null,
+            "Practice 6": 0.0,
+            "Practice 7": null,
+            "Practice 8": 0.0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": 0.0,
+            "Practice 12": null,
+            "Practice 13": null,
+            "Practice 14": null,
+            "Practice 15": 0.0,
+            "Practice 16": 0.0
+          },
+          "groundtruth": {}
+        }
+      }
+    },
+    "goodB2G": {
+      "score_qm": {
+        "goodB2G": 1.0
+      },
+      "score_paper": {
+        "goodB2G": null
+      },
+      "score_groundtruth_qm": {
+        "goodB2G": 1.0
+      },
+      "practices": {
+        "goodB2G": {
+          "qm": {
+            "Practice 1": 1.0,
+            "Practice 2": 1.0,
+            "Practice 3": null,
+            "Practice 4": null,
+            "Practice 5": null,
+            "Practice 6": 1.0,
+            "Practice 7": null,
+            "Practice 8": 1.0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": null,
+            "Practice 12": null,
+            "Practice 13": null,
+            "Practice 14": 1.0,
+            "Practice 15": 1.0,
+            "Practice 16": 1.0
+          },
+          "groundtruth": {}
+        }
+      }
+    }
+  },
+  "CWE89_SQL_Injection__getParameter_Servlet_executeBatch_01": {
+    "bad": {
+      "score_qm": {
+        "bad": 0.0
+      },
+      "score_paper": {
+        "bad": null
+      },
+      "score_groundtruth_qm": {
+        "bad": 0.0
+      },
+      "practices": {
+        "bad": {
+          "qm": {
+            "Practice 1": 0.0,
+            "Practice 2": 0.0,
+            "Practice 3": null,
+            "Practice 4": null,
+            "Practice 5": null,
+            "Practice 6": 0.0,
+            "Practice 7": null,
+            "Practice 8": 0.0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": 0.0,
+            "Practice 12": null,
+            "Practice 13": null,
+            "Practice 14": 0.0,
+            "Practice 15": 0.0,
+            "Practice 16": 0.0
+          },
+          "groundtruth": {}
+        }
+      }
+    },
+    "goodB2G": {
+      "score_qm": {
+        "goodB2G": 1.0
+      },
+      "score_paper": {
+        "goodB2G": null
+      },
+      "score_groundtruth_qm": {
+        "goodB2G": 1.0
+      },
+      "practices": {
+        "goodB2G": {
+          "qm": {
+            "Practice 1": 1.0,
+            "Practice 2": 1.0,
+            "Practice 3": null,
+            "Practice 4": null,
+            "Practice 5": null,
+            "Practice 6": null,
+            "Practice 7": null,
+            "Practice 8": 1.0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": null,
+            "Practice 12": null,
+            "Practice 13": null,
+            "Practice 14": 1.0,
+            "Practice 15": null,
+            "Practice 16": 1.0
+          },
+          "groundtruth": {}
+        }
+      }
+    }
+  },
+  "CWE89_SQL_Injection__getParameter_Servlet_executeQuery_01": {
+    "bad": {
+      "score_qm": {
+        "bad": 0.0
+      },
+      "score_paper": {
+        "bad": null
+      },
+      "score_groundtruth_qm": {
+        "bad": 0.0
+      },
+      "practices": {
+        "bad": {
+          "qm": {
+            "Practice 1": 0.0,
+            "Practice 2": 0.0,
+            "Practice 3": null,
+            "Practice 4": null,
+            "Practice 5": null,
+            "Practice 6": 0.0,
+            "Practice 7": 0.0,
+            "Practice 8": 0.0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": 0.0,
+            "Practice 12": null,
+            "Practice 13": null,
+            "Practice 14": 0.0,
+            "Practice 15": 0.0,
+            "Practice 16": 0.0
+          },
+          "groundtruth": {}
+        }
+      }
+    },
+    "goodB2G": {
+      "score_qm": {
+        "goodB2G": 1.0
+      },
+      "score_paper": {
+        "goodB2G": null
+      },
+      "score_groundtruth_qm": {
+        "goodB2G": 1.0
+      },
+      "practices": {
+        "goodB2G": {
+          "qm": {
+            "Practice 1": 1.0,
+            "Practice 2": 1.0,
+            "Practice 3": null,
+            "Practice 4": null,
+            "Practice 5": null,
+            "Practice 6": 1.0,
+            "Practice 7": null,
+            "Practice 8": 1.0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": 1.0,
+            "Practice 12": 1.0,
+            "Practice 13": 1.0,
+            "Practice 14": 1.0,
+            "Practice 15": 1.0,
+            "Practice 16": 1.0
+          },
+          "groundtruth": {}
+        }
+      }
+    }
+  },
+  "CWE89_SQL_Injection__PropertiesFile_executeBatch_01": {
+    "bad": {
+      "score_qm": {
+        "bad": 0.0
+      },
+      "score_paper": {
+        "bad": null
+      },
+      "score_groundtruth_qm": {
+        "bad": 0.0
+      },
+      "practices": {
+        "bad": {
+          "qm": {
+            "Practice 1": 0.0,
+            "Practice 2": 0.0,
+            "Practice 3": null,
+            "Practice 4": null,
+            "Practice 5": null,
+            "Practice 6": null,
+            "Practice 7": null,
+            "Practice 8": 0.0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": null,
+            "Practice 12": null,
+            "Practice 13": null,
+            "Practice 14": null,
+            "Practice 15": 0.0,
+            "Practice 16": 0.0
+          },
+          "groundtruth": {}
+        }
+      }
+    },
+    "goodB2G": {
+      "score_qm": {
+        "goodB2G": 1.0
+      },
+      "score_paper": {
+        "goodB2G": null
+      },
+      "score_groundtruth_qm": {
+        "goodB2G": 1.0
+      },
+      "practices": {
+        "goodB2G": {
+          "qm": {
+            "Practice 1": null,
+            "Practice 2": 1.0,
+            "Practice 3": null,
+            "Practice 4": null,
+            "Practice 5": null,
+            "Practice 6": null,
+            "Practice 7": null,
+            "Practice 8": null,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": null,
+            "Practice 12": null,
+            "Practice 13": null,
+            "Practice 14": null,
+            "Practice 15": null,
+            "Practice 16": null
+          },
+          "groundtruth": {}
+        }
+      }
+    }
+  },
+  "CWE89_SQL_Injection__PropertiesFile_executeQuery_01": {
+    "bad": {
+      "score_qm": {
+        "bad": 0.0
+      },
+      "score_paper": {
+        "bad": null
+      },
+      "score_groundtruth_qm": {
+        "bad": 0.0
+      },
+      "practices": {
+        "bad": {
+          "qm": {
+            "Practice 1": 0.0,
+            "Practice 2": 0.0,
+            "Practice 3": null,
+            "Practice 4": null,
+            "Practice 5": null,
+            "Practice 6": null,
+            "Practice 7": null,
+            "Practice 8": 0.0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": null,
+            "Practice 12": null,
+            "Practice 13": null,
+            "Practice 14": null,
+            "Practice 15": 0.0,
+            "Practice 16": 0.0
+          },
+          "groundtruth": {}
+        }
+      }
+    },
+    "goodB2G": {
+      "score_qm": {
+        "goodB2G": 1.0
+      },
+      "score_paper": {
+        "goodB2G": null
+      },
+      "score_groundtruth_qm": {
+        "goodB2G": 1.0
+      },
+      "practices": {
+        "goodB2G": {
+          "qm": {
+            "Practice 1": null,
+            "Practice 2": 1.0,
+            "Practice 3": null,
+            "Practice 4": null,
+            "Practice 5": null,
+            "Practice 6": null,
+            "Practice 7": null,
+            "Practice 8": 1.0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": null,
+            "Practice 12": null,
+            "Practice 13": null,
+            "Practice 14": null,
+            "Practice 15": null,
+            "Practice 16": 1.0
+          },
+          "groundtruth": {}
+        }
+      }
+    }
+  },
+  "CWE89_SQL_Injection__PropertiesFile_executeUpdate_01": {
+    "bad": {
+      "score_qm": {
+        "bad": 0.0
+      },
+      "score_paper": {
+        "bad": null
+      },
+      "score_groundtruth_qm": {
+        "bad": 0.0
+      },
+      "practices": {
+        "bad": {
+          "qm": {
+            "Practice 1": 0.0,
+            "Practice 2": 0.0,
+            "Practice 3": null,
+            "Practice 4": null,
+            "Practice 5": null,
+            "Practice 6": null,
+            "Practice 7": null,
+            "Practice 8": 0.0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": null,
+            "Practice 12": null,
+            "Practice 13": null,
+            "Practice 14": null,
+            "Practice 15": 0.0,
+            "Practice 16": 0.0
+          },
+          "groundtruth": {}
+        }
+      }
+    },
+    "goodB2G": {
+      "score_qm": {
+        "goodB2G": 1.0
+      },
+      "score_paper": {
+        "goodB2G": null
+      },
+      "score_groundtruth_qm": {
+        "goodB2G": 1.0
+      },
+      "practices": {
+        "goodB2G": {
+          "qm": {
+            "Practice 1": null,
+            "Practice 2": 1.0,
+            "Practice 3": null,
+            "Practice 4": null,
+            "Practice 5": null,
+            "Practice 6": null,
+            "Practice 7": null,
+            "Practice 8": null,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": null,
+            "Practice 12": null,
+            "Practice 13": null,
+            "Practice 14": null,
+            "Practice 15": null,
+            "Practice 16": 1.0
+          },
+          "groundtruth": {}
+        }
+      }
+    }
+  },
+  "CWE89_SQL_Injection__getParameter_Servlet_executeUpdate_01": {
+    "bad": {
+      "score_qm": {
+        "bad": 0.0
+      },
+      "score_paper": {
+        "bad": null
+      },
+      "score_groundtruth_qm": {
+        "bad": 0.0
+      },
+      "practices": {
+        "bad": {
+          "qm": {
+            "Practice 1": 0.0,
+            "Practice 2": 0.0,
+            "Practice 3": null,
+            "Practice 4": 0.0,
+            "Practice 5": null,
+            "Practice 6": 0.0,
+            "Practice 7": 0.0,
+            "Practice 8": 0.0,
+            "Practice 9": null,
+            "Practice 10": 0.0,
+            "Practice 11": 0.0,
+            "Practice 12": null,
+            "Practice 13": null,
+            "Practice 14": 0.0,
+            "Practice 15": 0.0,
+            "Practice 16": 0.0
+          },
+          "groundtruth": {}
+        }
+      }
+    },
+    "goodB2G": {
+      "score_qm": {
+        "goodB2G": 1.0
+      },
+      "score_paper": {
+        "goodB2G": null
+      },
+      "score_groundtruth_qm": {
+        "goodB2G": 1.0
+      },
+      "practices": {
+        "goodB2G": {
+          "qm": {
+            "Practice 1": 1.0,
+            "Practice 2": 1.0,
+            "Practice 3": null,
+            "Practice 4": null,
+            "Practice 5": null,
+            "Practice 6": 1.0,
+            "Practice 7": 1.0,
+            "Practice 8": 1.0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": 1.0,
+            "Practice 12": 1.0,
+            "Practice 13": null,
+            "Practice 14": 1.0,
+            "Practice 15": 1.0,
+            "Practice 16": 1.0
+          },
+          "groundtruth": {}
+        }
+      }
+    }
+  },
+  "CWE89_SQL_Injection__getParameter_Servlet_execute_01": {
+    "bad": {
+      "score_qm": {
+        "bad": 0.0
+      },
+      "score_paper": {
+        "bad": null
+      },
+      "score_groundtruth_qm": {
+        "bad": 0.0
+      },
+      "practices": {
+        "bad": {
+          "qm": {
+            "Practice 1": 0.0,
+            "Practice 2": 0.0,
+            "Practice 3": null,
+            "Practice 4": 0.0,
+            "Practice 5": null,
+            "Practice 6": 0.0,
+            "Practice 7": 0.0,
+            "Practice 8": 0.0,
+            "Practice 9": null,
+            "Practice 10": 0.0,
+            "Practice 11": 0.0,
+            "Practice 12": 0.0,
+            "Practice 13": 0.0,
+            "Practice 14": 0.0,
+            "Practice 15": 0.0,
+            "Practice 16": 0.0
+          },
+          "groundtruth": {}
+        }
+      }
+    },
+    "goodB2G": {
+      "score_qm": {
+        "goodB2G": 1.0
+      },
+      "score_paper": {
+        "goodB2G": null
+      },
+      "score_groundtruth_qm": {
+        "goodB2G": 1.0
+      },
+      "practices": {
+        "goodB2G": {
+          "qm": {
+            "Practice 1": 1.0,
+            "Practice 2": 1.0,
+            "Practice 3": null,
+            "Practice 4": null,
+            "Practice 5": null,
+            "Practice 6": 1.0,
+            "Practice 7": 1.0,
+            "Practice 8": 1.0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": 1.0,
+            "Practice 12": 1.0,
+            "Practice 13": 1.0,
+            "Practice 14": 1.0,
+            "Practice 15": 1.0,
+            "Practice 16": 1.0
+          },
+          "groundtruth": {}
+        }
+      }
+    }
+  },
+  "CWE89_SQL_Injection__getParameter_Servlet_prepareStatement_01": {
+    "bad": {
+      "score_qm": {
+        "bad": 0.0
+      },
+      "score_paper": {
+        "bad": null
+      },
+      "score_groundtruth_qm": {
+        "bad": 0.0
+      },
+      "practices": {
+        "bad": {
+          "qm": {
+            "Practice 1": 0.0,
+            "Practice 2": 0.0,
+            "Practice 3": null,
+            "Practice 4": null,
+            "Practice 5": null,
+            "Practice 6": 0.0,
+            "Practice 7": null,
+            "Practice 8": 0.0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": null,
+            "Practice 12": null,
+            "Practice 13": null,
+            "Practice 14": 0.0,
+            "Practice 15": 0.0,
+            "Practice 16": 0.0
+          },
+          "groundtruth": {}
+        }
+      }
+    },
+    "goodB2G": {
+      "score_qm": {
+        "goodB2G": 1.0
+      },
+      "score_paper": {
+        "goodB2G": null
+      },
+      "score_groundtruth_qm": {
+        "goodB2G": 1.0
+      },
+      "practices": {
+        "goodB2G": {
+          "qm": {
+            "Practice 1": 1.0,
+            "Practice 2": 1.0,
+            "Practice 3": null,
+            "Practice 4": 1.0,
+            "Practice 5": null,
+            "Practice 6": 1.0,
+            "Practice 7": null,
+            "Practice 8": 1.0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": 1.0,
+            "Practice 12": 1.0,
+            "Practice 13": null,
+            "Practice 14": 1.0,
+            "Practice 15": 1.0,
+            "Practice 16": 1.0
+          },
+          "groundtruth": {}
+        }
+      }
+    }
+  },
+  "CWE89_SQL_Injection__getQueryString_Servlet_executeBatch_01": {
+    "bad": {
+      "score_qm": {
+        "bad": 0.0
+      },
+      "score_paper": {
+        "bad": null
+      },
+      "score_groundtruth_qm": {
+        "bad": 0.0
+      },
+      "practices": {
+        "bad": {
+          "qm": {
+            "Practice 1": 0.0,
+            "Practice 2": 0.0,
+            "Practice 3": null,
+            "Practice 4": null,
+            "Practice 5": null,
+            "Practice 6": null,
+            "Practice 7": null,
+            "Practice 8": 0.0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": null,
+            "Practice 12": null,
+            "Practice 13": null,
+            "Practice 14": null,
+            "Practice 15": 0.0,
+            "Practice 16": 0.0
+          },
+          "groundtruth": {}
+        }
+      }
+    },
+    "goodB2G": {
+      "score_qm": {
+        "goodB2G": 0.5454545455
+      },
+      "score_paper": {
+        "goodB2G": null
+      },
+      "score_groundtruth_qm": {
+        "goodB2G": 1.0
+      },
+      "practices": {
+        "goodB2G": {
+          "qm": {
+            "Practice 1": 1.0,
+            "Practice 2": 1.0,
+            "Practice 3": null,
+            "Practice 4": null,
+            "Practice 5": null,
+            "Practice 6": null,
+            "Practice 7": null,
+            "Practice 8": 0.0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": null,
+            "Practice 12": null,
+            "Practice 13": null,
+            "Practice 14": null,
+            "Practice 15": null,
+            "Practice 16": null
+          },
+          "groundtruth": {}
+        }
+      }
+    }
+  },
+  "CWE89_SQL_Injection__getQueryString_Servlet_executeQuery_01": {
+    "bad": {
+      "score_qm": {
+        "bad": 0.0
+      },
+      "score_paper": {
+        "bad": null
+      },
+      "score_groundtruth_qm": {
+        "bad": 0.0
+      },
+      "practices": {
+        "bad": {
+          "qm": {
+            "Practice 1": 0.0,
+            "Practice 2": 0.0,
+            "Practice 3": null,
+            "Practice 4": null,
+            "Practice 5": null,
+            "Practice 6": 0.0,
+            "Practice 7": null,
+            "Practice 8": 0.0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": null,
+            "Practice 12": null,
+            "Practice 13": null,
+            "Practice 14": 0.0,
+            "Practice 15": 0.0,
+            "Practice 16": 0.0
+          },
+          "groundtruth": {}
+        }
+      }
+    },
+    "goodB2G": {
+      "score_qm": {
+        "goodB2G": 0.8928571429
+      },
+      "score_paper": {
+        "goodB2G": null
+      },
+      "score_groundtruth_qm": {
+        "goodB2G": 1.0
+      },
+      "practices": {
+        "goodB2G": {
+          "qm": {
+            "Practice 1": 1.0,
+            "Practice 2": 1.0,
+            "Practice 3": null,
+            "Practice 4": 0.0,
+            "Practice 5": null,
+            "Practice 6": null,
+            "Practice 7": null,
+            "Practice 8": 1.0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": null,
+            "Practice 12": null,
+            "Practice 13": null,
+            "Practice 14": null,
+            "Practice 15": null,
+            "Practice 16": 1.0
+          },
+          "groundtruth": {}
+        }
+      }
+    }
+  },
+  "CWE89_SQL_Injection__getQueryString_Servlet_executeUpdate_01": {
+    "bad": {
+      "score_qm": {
+        "bad": 0.0
+      },
+      "score_paper": {
+        "bad": null
+      },
+      "score_groundtruth_qm": {
+        "bad": 0.0
+      },
+      "practices": {
+        "bad": {
+          "qm": {
+            "Practice 1": 0.0,
+            "Practice 2": 0.0,
+            "Practice 3": null,
+            "Practice 4": null,
+            "Practice 5": null,
+            "Practice 6": 0.0,
+            "Practice 7": null,
+            "Practice 8": 0.0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": null,
+            "Practice 12": null,
+            "Practice 13": null,
+            "Practice 14": 0.0,
+            "Practice 15": 0.0,
+            "Practice 16": 0.0
+          },
+          "groundtruth": {}
+        }
+      }
+    },
+    "goodB2G": {
+      "score_qm": {
+        "goodB2G": 1.0
+      },
+      "score_paper": {
+        "goodB2G": null
+      },
+      "score_groundtruth_qm": {
+        "goodB2G": 1.0
+      },
+      "practices": {
+        "goodB2G": {
+          "qm": {
+            "Practice 1": 1.0,
+            "Practice 2": 1.0,
+            "Practice 3": null,
+            "Practice 4": null,
+            "Practice 5": null,
+            "Practice 6": null,
+            "Practice 7": null,
+            "Practice 8": 1.0,
+            "Practice 9": null,
+            "Practice 10": null,
+            "Practice 11": null,
+            "Practice 12": null,
+            "Practice 13": null,
+            "Practice 14": null,
+            "Practice 15": null,
+            "Practice 16": 1.0
+          },
+          "groundtruth": {}
+        }
+      }
+    }
+  }
+}

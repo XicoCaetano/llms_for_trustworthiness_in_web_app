@@ -34,34 +34,41 @@ llm_paths = {
     2: "gpt-4o-mini",
     3: "gpt-4.1",
     4: "gpt-4.1-mini",
-    5: "gemini-2.5-flash"
+    5: "gemini-2.5-flash",
+    # Ollama models 
+    6: "qwen2.5-coder:1.5b",
+    7: "qwen2.5-coder:7b",
+    8: "qwen2.5:1.5b",
+    9: "qwen2.5:7b",
+    10: "devstral-32k:latest",
+    11: "gemma4:31b_custom",
 }
 
-def run(llm, prompt):
+OLLAMA_LLM_IDS = set(range(6, 12))
+
+
+def _path_safe(model_name: str) -> str:
+    """Replace characters invalid in Windows paths (e.g. colon in 'qwen2.5:7b')."""
+    return model_name.replace(":", "_")
+
+def run(llm, prompt, max_practices=16):
     try:
         base_name = llm_paths.get(llm, "unknown")
         choice = prompt_choices.get(prompt, "1")
-        version =  "a"
+        version = "a"
         version_2 = "a"
-
-        base_split = base_name.split("-")
 
         print(f"🚀 Running Individual Practices with LLM: {base_name}, Prompt: {choice}")
 
-
-        if base_split[0] == "gpt":
+        # Ollama and GPT share the same prompt files; Vertex AI uses its own.
+        if llm == 5:
+            base = "Vertex AI"
+        else:
             base = "GPT"
 
-            followed_path = f"./src/llms_and_prompts/prompts/{base}/individual_practices_prompts/prompt_{choice}/followed/{version_2}"
-            applicable_path = f"./src/llms_and_prompts/prompts/{base}/individual_practices_prompts/prompt_{choice}/applicability/{version}"
-            results_path = f"./src/test_results/individual_practices/{base_name}/prompt_{choice}_{version_2}"
-
-        else:
-            base = "Vertex AI"
-
-            followed_path = f"./src/llms_and_prompts/prompts/{base}/individual_practices_prompts/prompt_{choice}/followed/{version_2}"
-            applicable_path = f"./src/llms_and_prompts/prompts/{base}/individual_practices_prompts/prompt_{choice}/applicability/{version}"
-            results_path = f"./src/test_results/individual_practices/{base_name}/prompt_{choice}_{version_2}"
+        followed_path = f"./src/llms_and_prompts/prompts/{base}/individual_practices_prompts/prompt_{choice}/followed/{version_2}"
+        applicable_path = f"./src/llms_and_prompts/prompts/{base}/individual_practices_prompts/prompt_{choice}/applicability/{version}"
+        results_path = f"./src/test_results/individual_practices/{_path_safe(base_name)}/prompt_{choice}_{version_2}"
 
         runner = ProcessingPractices(followed_path, applicable_path)
 
@@ -73,7 +80,7 @@ def run(llm, prompt):
         elif choice == "5":
             runner.run_prompt5(java_processor, PROJECT_PATH, save_individual, llm)
         else:
-            runner.run(choice, java_processor, PROJECT_PATH, save_individual, llm)
+            runner.run(choice, java_processor, PROJECT_PATH, save_individual, llm, max_practices=max_practices)
 
         print("✅ Individual practices processing completed successfully!")
 
@@ -87,14 +94,18 @@ def run_prompt3(llm, prompts):
         choice = 3
         version =  "V5"
 
-        base_split = base_name.split("-")
-
         llm_suffix = {
-            1: "3_5",        # gpt-3.5-turbo
-            2: "4o",         # gpt-4o-mini
-            3: "4_1",        # gpt-4.1
-            4: "4_1_mini",   # gpt-4.1-mini
-            5: "2_5"         # gemini-2.5-flash
+            1: "3_5",             # gpt-3.5-turbo
+            2: "4o",              # gpt-4o-mini
+            3: "4_1",             # gpt-4.1
+            4: "4_1_mini",        # gpt-4.1-mini
+            5: "2_5",             # gemini-2.5-flash
+            6: "qwen_coder_1b5",  # qwen2.5-coder:1.5b
+            7: "qwen_coder_7b",   # qwen2.5-coder:7b
+            8: "qwen_1b5",        # qwen2.5:1.5b
+            9: "qwen_7b",         # qwen2.5:7b
+            10: "devstral",       # devstral-32k:latest
+            11: "gemma4_31b",     # gemma4:31b_custom
         }
 
         def get_previous_prompt_result_path(base_name, i, llm_version, llm_suffix):
@@ -108,13 +119,11 @@ def run_prompt3(llm, prompts):
         print(f"🚀 Running Individual Practices with LLM: {base_name}, Prompt: {choice}")
 
 
-        if base_split[0] == "gpt":
-            base = "GPT"
-            followed_path = f"./src/llms_and_prompts/prompts/{base}/prompt_3"
-        
-        else:
+        if llm == 5:
             base = "Vertex AI"
-            followed_path = f"./src/llms_and_prompts/prompts/{base}/prompt_3"
+        else:
+            base = "GPT"
+        followed_path = f"./src/llms_and_prompts/prompts/{base}/prompt_3"
 
         system_role_path = f"system_roles/system_role_3/rules_t3"
         runner_prompt3 = ProcessingPrompt3(followed_path,system_role_path)
@@ -182,9 +191,13 @@ if __name__ == "__main__":
     #     print(f"Processing LLM: {llm_paths.get(i, "unknown")}")
     #     run_universal(i)
 
-    llms = [1, 2, 3, 4, 5]
-    prompts = [1, 2, 4, 5]
+    # ── Ollama models (self-hosted) ───────────────────────────────────────────
+    # max_practices=1 for a quick smoke-test; max_practices=16 for the full run.
+    ollama_llms = [11]         # 6=qwen2.5-coder:1.5b  7=qwen2.5-coder:7b
+                               # 8=qwen2.5:1.5b         9=qwen2.5:7b
+                               # 10=devstral-32k:latest 11=gemma4:31b_custom
+    ollama_prompts = [1, 2, 4]
 
-    for llm in llms:
-        for prompt in prompts:
-            run(llm, prompt)
+    for llm in ollama_llms:
+        for prompt in ollama_prompts:
+            run(llm, prompt, max_practices=16)

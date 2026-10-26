@@ -1,0 +1,14 @@
+Given the following Java function:
+
+{content}
+
+Evaluate the function **only** according to the following OWASP secure coding practice of Insecure Design:
+
+[1] Encrypt sensitive data at rest and in memory when feasible; never store sensitive information in cleartext
+
+Format your response like this:
+1. Does the OWASP Rule 1 of Insecure Design practice is applicable? Answer with "Yes" or "No" only.
+- If yes, respond: "1. Yes;"
+- If no, respond: "1. No;"
+
+Only respond with the line shown above. **End your response with a semicolon (;)** and nothing else.
