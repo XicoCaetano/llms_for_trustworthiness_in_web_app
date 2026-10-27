@@ -1,0 +1,116 @@
+{
+    "tpcc": {
+        "versions": {}
+    },
+    "tpcw": {
+        "versions": {
+            "CreateNewCustomer_Vx078.java": {
+                "createNewCustomer": {
+                    "applicable": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        0,
+                        8,
+                        0,
+                        0,
+                        11,
+                        12,
+                        13,
+                        14,
+                        15,
+                        0
+                    ],
+                    "results": [
+                        0,
+                        0,
+                        0,
+                        1,
+                        0,
+                        0,
+                        2,
+                        0,
+                        2,
+                        2,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        2
+                    ]
+                },
+                "enterAddress": ""
+            },
+            "CreateNewCustomer_Vx113.java": {
+                "createNewCustomer": "",
+                "enterAddress": ""
+            },
+            "CreateNewCustomer_Vx132.java": {
+                "createNewCustomer": "",
+                "enterAddress": ""
+            },
+            "CreateNewCustomer_VxA.java": {
+                "createNewCustomer": "",
+                "enterAddress": ""
+            },
+            "CreateNewCustomer_Vx103.java": {
+                "createNewCustomer": "",
+                "enterAddress": ""
+            },
+            "CreateNewCustomer_Vx0.java": {
+                "createNewCustomer": "",
+                "enterAddress": ""
+            }
+        }
+    },
+    "tpcapp": {
+        "versions": {
+            "NewCustomer_Vx0.java": {
+                "process": "",
+                "getAddressID": "",
+                "createAddress": "",
+                "getCOID": "",
+                "insertCostumer": ""
+            },
+            "NewCustomer_Vx101.java": {
+                "process": "",
+                "getAddressID": "",
+                "createAddress": "",
+                "getCOID": "",
+                "insertCostumer": ""
+            },
+            "NewCustomer_VxA.java": {
+                "process": "",
+                "getAddressID": "",
+                "createAddress": "",
+                "getCOID": "",
+                "insertCostumer": ""
+            },
+            "NewCustomer_Vx158.java": {
+                "process": "",
+                "getAddressID": "",
+                "createAddress": "",
+                "getCOID": "",
+                "insertCostumer": ""
+            },
+            "NewCustomer_Vx138.java": {
+                "process": "",
+                "getAddressID": "",
+                "createAddress": "",
+                "getCOID": "",
+                "insertCostumer": ""
+            },
+            "NewCustomer_Vx197.java": {
+                "process": "",
+                "getAddressID": "",
+                "createAddress": "",
+                "getCOID": "",
+                "insertCostumer": ""
+            }
+        }
+    }
+}
