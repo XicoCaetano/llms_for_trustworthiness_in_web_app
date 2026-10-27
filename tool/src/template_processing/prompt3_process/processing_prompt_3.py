@@ -3,6 +3,7 @@ import os, json
 import re, time
 from src.llms_and_prompts.llm_gpt import LLMChatGPT
 from src.llms_and_prompts.llm_vertex import LLMVertexAI
+from src.llms_and_prompts.llm_ollama import LLMOllama
 from src.config import OPENAI_API_KEY_PROF
 
 class ProcessingPrompt3:
@@ -32,11 +33,21 @@ class ProcessingPrompt3:
             2: ("gpt-4o-mini", LLMChatGPT),
             3: ("gpt-4.1", LLMChatGPT),
             4: ("gpt-4.1-mini", LLMChatGPT),
-            5: ("gemini-2.5-flash", LLMVertexAI)
+            5: ("gemini-2.5-flash", LLMVertexAI),
+            # Ollama (self-hosted)
+            6: ("qwen2.5-coder:1.5b", LLMOllama),
+            7: ("qwen2.5-coder:7b", LLMOllama),
+            8: ("qwen2.5:1.5b", LLMOllama),
+            9: ("qwen2.5:7b", LLMOllama),
+            10: ("devstral-32k:latest", LLMOllama),
+            11: ("gemma4:31b_custom", LLMOllama),
+            12: ("qwen3-coder:30b", LLMOllama)
         }
-        
+
         model_name, llm_class = llm_configs[llm_version]
-        
+
+        if llm_class is LLMOllama:
+            return llm_class(model_name, system_role_path)
         if llm_version == 5:
             return llm_class(
                 "./src/llms_and_prompts/tanzania-473817-h5-449bfa644462.json",

@@ -26,6 +26,11 @@ OUTPUT_JSON_DIR = os.getenv("OUTPUT_JSON_DIR", "./src/json_output")
 TOKEN = os.getenv("TOKEN")
 CHAT_ID = os.getenv("CHAT_ID")
 
+# Servidor Ollama (modelos open source)
+OLLAMA_ENDPOINT = os.getenv("OLLAMA_ENDPOINT")
+OLLAMA_USERNAME = os.getenv("OLLAMA_USERNAME")
+OLLAMA_PASSWORD = os.getenv("OLLAMA_PASSWORD")
+
 LLM_CHOSEN = os.getenv("LLM_CHOSEN")
 TEMPLATE_NUMBER = os.getenv("TEMPLATE_NUMBER")
 TEMPLATE_VERSIONS = os.getenv("TEMPLATE_VERSIONS")

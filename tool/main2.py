@@ -34,8 +34,19 @@ llm_paths = {
     2: "gpt-4o-mini",
     3: "gpt-4.1",
     4: "gpt-4.1-mini",
-    5: "gemini-2.5-flash"
+    5: "gemini-2.5-flash",
+    # Ollama (self-hosted) — folder names, ':' replaced by '_' (model names are in processing_practices.py)
+    6: "qwen2.5-coder_1.5b",
+    7: "qwen2.5-coder_7b",
+    8: "qwen2.5_1.5b",
+    9: "qwen2.5_7b",
+    10: "devstral-32k_latest",
+    11: "gemma4_31b_custom",
+    12: "qwen3-coder_30b"
 }
+
+# Ollama models use the same prompts as the GPT models
+OLLAMA_LLM_IDS = set(range(6, 13))
 
 def run(llm, prompt):
     try:
@@ -49,7 +60,7 @@ def run(llm, prompt):
         print(f"🚀 Running Individual Practices with LLM: {base_name}, Prompt: {choice}")
 
 
-        if base_split[0] == "gpt":
+        if base_split[0] == "gpt" or llm in OLLAMA_LLM_IDS:
             base = "GPT"
 
             followed_path = f"./src/llms_and_prompts/prompts/{base}/individual_practices_prompts/prompt_{choice}/followed/{version_2}"
@@ -94,7 +105,14 @@ def run_prompt3(llm, prompts):
             2: "4o",         # gpt-4o-mini
             3: "4_1",        # gpt-4.1
             4: "4_1_mini",   # gpt-4.1-mini
-            5: "2_5"         # gemini-2.5-flash
+            5: "2_5",        # gemini-2.5-flash
+            6: "qwen_coder_1b5",   # qwen2.5-coder:1.5b
+            7: "qwen_coder_7b",    # qwen2.5-coder:7b
+            8: "qwen_1b5",         # qwen2.5:1.5b
+            9: "qwen_7b",          # qwen2.5:7b
+            10: "devstral",        # devstral-32k:latest
+            11: "gemma4_31b",      # gemma4:31b_custom
+            12: "qwen3_coder_30b"  # qwen3-coder:30b
         }
 
         def get_previous_prompt_result_path(base_name, i, llm_version, llm_suffix):
@@ -108,7 +126,7 @@ def run_prompt3(llm, prompts):
         print(f"🚀 Running Individual Practices with LLM: {base_name}, Prompt: {choice}")
 
 
-        if base_split[0] == "gpt":
+        if base_split[0] == "gpt" or llm in OLLAMA_LLM_IDS:
             base = "GPT"
             followed_path = f"./src/llms_and_prompts/prompts/{base}/prompt_3"
         
@@ -182,7 +200,9 @@ if __name__ == "__main__":
     #     print(f"Processing LLM: {llm_paths.get(i, "unknown")}")
     #     run_universal(i)
 
-    llms = [1, 2, 3, 4, 5]
+    # llms = [1, 2, 3, 4, 5]
+    llms = [12]     # Ollama: 6=qwen2.5-coder:1.5b  7=qwen2.5-coder:7b  8=qwen2.5:1.5b  9=qwen2.5:7b
+                    #         10=devstral-32k:latest  11=gemma4:31b_custom  12=qwen3-coder:30b
     prompts = [1, 2, 4, 5]
 
     for llm in llms:
