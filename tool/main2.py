@@ -42,11 +42,35 @@ llm_paths = {
     9: "qwen2.5_7b",
     10: "devstral-32k_latest",
     11: "gemma4_31b_custom",
-    12: "qwen3-coder_30b"
+    12: "qwen3-coder_30b",
+    13: "qwen3.8_27b",
+    14: "granite4.2_30b",
+    15: "gemma4_31b",
+    16: "llama3.1_70b",
+    17: "gemma3_27b",
+    18: "gpt-oss_120b",
+    19: "gpt-oss_120b_custom",
+    20: "gemma3_12b-it-fp16",
+    21: "qwen2.5_14b-instruct-fp16",
+    22: "llama3.1_8b",
+    23: "devstral_latest",
+    24: "gemma3_12b",
+    25: "codellama_7b",
+    26: "qwen3.6_35b",
+    27: "qwen2.5_32b",
+    28: "qwen2.5-coder_32b",
+    29: "qwen2.5_14b",
+    30: "qwen2.5-coder_14b",
+    31: "deepseek-coder-v2_latest",
+    32: "codestral_22b",
+    33: "deepseek-coder_33b",
+    34: "deepseek-coder_6.7b",
+    35: "deepseek-coder_1.3b",
+    36: "qwen3.6_35b_custom"
 }
 
 # Ollama models use the same prompts as the GPT models
-OLLAMA_LLM_IDS = set(range(6, 13))
+OLLAMA_LLM_IDS = set(range(6, 37))
 
 def run(llm, prompt):
     try:
@@ -112,7 +136,31 @@ def run_prompt3(llm, prompts):
             9: "qwen_7b",          # qwen2.5:7b
             10: "devstral",        # devstral-32k:latest
             11: "gemma4_31b",      # gemma4:31b_custom
-            12: "qwen3_coder_30b"  # qwen3-coder:30b
+            12: "qwen3_coder_30b", # qwen3-coder:30b
+            13: "qwen3_8_27b",               # qwen3.8:27b
+            14: "granite4_2_30b",            # granite4.2:30b
+            15: "gemma4_31b_base",           # gemma4:31b
+            16: "llama3_1_70b",              # llama3.1:70b
+            17: "gemma3_27b",                # gemma3:27b
+            18: "gpt_oss_120b",              # gpt-oss:120b
+            19: "gpt_oss_120b_custom",       # gpt-oss:120b_custom
+            20: "gemma3_12b_it_fp16",        # gemma3:12b-it-fp16
+            21: "qwen2_5_14b_instruct_fp16", # qwen2.5:14b-instruct-fp16
+            22: "llama3_1_8b",               # llama3.1:8b
+            23: "devstral_base",             # devstral:latest
+            24: "gemma3_12b",                # gemma3:12b
+            25: "codellama_7b",              # codellama:7b
+            26: "qwen3_6_35b",               # qwen3.6:35b
+            27: "qwen_32b",                  # qwen2.5:32b
+            28: "qwen_coder_32b",            # qwen2.5-coder:32b
+            29: "qwen_14b",                  # qwen2.5:14b
+            30: "qwen_coder_14b",            # qwen2.5-coder:14b
+            31: "deepseek_coder_v2",         # deepseek-coder-v2:latest
+            32: "codestral_22b",             # codestral:22b
+            33: "deepseek_coder_33b",        # deepseek-coder:33b
+            34: "deepseek_coder_6b7",        # deepseek-coder:6.7b
+            35: "deepseek_coder_1b3",        # deepseek-coder:1.3b
+            36: "qwen3_6_35b_custom"         # qwen3.6:35b_custom
         }
 
         def get_previous_prompt_result_path(base_name, i, llm_version, llm_suffix):
@@ -201,9 +249,15 @@ if __name__ == "__main__":
     #     run_universal(i)
 
     # llms = [1, 2, 3, 4, 5]
-    llms = [12]     # Ollama: 6=qwen2.5-coder:1.5b  7=qwen2.5-coder:7b  8=qwen2.5:1.5b  9=qwen2.5:7b
-                    #         10=devstral-32k:latest  11=gemma4:31b_custom  12=qwen3-coder:30b
+    llms = [12]     # Ollama ids: see llm_paths (6–36)
     prompts = [1, 2, 4, 5]
+
+    # Optional override from the command line, e.g.: python main2.py --llms 15 --prompts 1 2 4 5
+    parser = argparse.ArgumentParser(description="Run LLM Individual Practices Evaluation")
+    parser.add_argument("--llms", type=int, nargs="+", choices=llm_paths.keys(), default=llms, help="LLM ids (see llm_paths)")
+    parser.add_argument("--prompts", type=int, nargs="+", choices=prompt_choices.keys(), default=prompts, help="Prompt numbers")
+    args = parser.parse_args()
+    llms, prompts = args.llms, args.prompts
 
     for llm in llms:
         for prompt in prompts:

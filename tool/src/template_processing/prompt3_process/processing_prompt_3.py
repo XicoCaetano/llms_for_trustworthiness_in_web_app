@@ -41,7 +41,31 @@ class ProcessingPrompt3:
             9: ("qwen2.5:7b", LLMOllama),
             10: ("devstral-32k:latest", LLMOllama),
             11: ("gemma4:31b_custom", LLMOllama),
-            12: ("qwen3-coder:30b", LLMOllama)
+            12: ("qwen3-coder:30b", LLMOllama),
+            13: ("qwen3.8:27b", LLMOllama),
+            14: ("granite4.2:30b", LLMOllama),
+            15: ("gemma4:31b", LLMOllama),
+            16: ("llama3.1:70b", LLMOllama),
+            17: ("gemma3:27b", LLMOllama),
+            18: ("gpt-oss:120b", LLMOllama),
+            19: ("gpt-oss:120b_custom", LLMOllama),
+            20: ("gemma3:12b-it-fp16", LLMOllama),
+            21: ("qwen2.5:14b-instruct-fp16", LLMOllama),
+            22: ("llama3.1:8b", LLMOllama),
+            23: ("devstral:latest", LLMOllama),
+            24: ("gemma3:12b", LLMOllama),
+            25: ("codellama:7b", LLMOllama),
+            26: ("qwen3.6:35b", LLMOllama),
+            27: ("qwen2.5:32b", LLMOllama),
+            28: ("qwen2.5-coder:32b", LLMOllama),
+            29: ("qwen2.5:14b", LLMOllama),
+            30: ("qwen2.5-coder:14b", LLMOllama),
+            31: ("deepseek-coder-v2:latest", LLMOllama),
+            32: ("codestral:22b", LLMOllama),
+            33: ("deepseek-coder:33b", LLMOllama),
+            34: ("deepseek-coder:6.7b", LLMOllama),
+            35: ("deepseek-coder:1.3b", LLMOllama),
+            36: ("qwen3.6:35b_custom", LLMOllama)
         }
 
         model_name, llm_class = llm_configs[llm_version]

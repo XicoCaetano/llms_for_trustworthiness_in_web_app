@@ -11,6 +11,9 @@ MAX_ATTEMPTS = 5        # retries on timeouts, dropped connections and 5xx error
 # so it is set well above the largest prompt in the experiment (~8k tokens).
 NUM_CTX = 16384
 
+# Disable reasoning/"thinking" (the GPT models in the original experiment did not reason)
+THINK = False
+
 
 class LLMOllama:
     """
@@ -44,6 +47,7 @@ class LLMOllama:
             "model": self.model_name,
             "messages": messages,
             "stream": False,
+            "think": THINK,
             "options": {
                 # Same as ChatOpenAI in LLMChatGPT
                 "temperature": self.temperature,
@@ -81,8 +85,16 @@ class LLMOllama:
                       f"(attempt {attempt}/{MAX_ATTEMPTS})")
                 time.sleep(wait)
 
+        # Models without thinking support may reject the "think" field: retry once without it
+        if response.status_code == 400 and "think" in response.text.lower() and "think" in payload:
+            payload.pop("think")
+            response = requests.post(OLLAMA_ENDPOINT, json=payload, auth=auth, timeout=REQUEST_TIMEOUT)
+
         response.raise_for_status()
         data = response.json()
+
+        if data.get("message", {}).get("thinking"):
+            print("[!] WARNING: the model returned reasoning ('thinking') despite think=false")
 
         prompt_tokens = data.get("prompt_eval_count") or 0
         if prompt_tokens >= NUM_CTX * 0.95:
