@@ -249,7 +249,7 @@ if __name__ == "__main__":
     #     run_universal(i)
 
     # llms = [1, 2, 3, 4, 5]
-    llms = [12]     # Ollama ids: see llm_paths (6–36)
+    llms = [15, 13]     # 15=gemma4:31b  13=qwen3.8:27b  (Ollama ids: see llm_paths, 6–36)
     prompts = [1, 2, 4, 5]
 
     # Optional override from the command line, e.g.: python main2.py --llms 15 --prompts 1 2 4 5
