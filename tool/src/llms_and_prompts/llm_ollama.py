@@ -1,5 +1,9 @@
+import time
 import requests
 from src.config import OLLAMA_ENDPOINT, OLLAMA_USERNAME, OLLAMA_PASSWORD
+
+REQUEST_TIMEOUT = 900   # seconds; a 31B model can take several minutes per answer
+MAX_ATTEMPTS = 5        # retries on timeouts, dropped connections and 5xx errors
 
 
 class LLMOllama:
@@ -39,12 +43,29 @@ class LLMOllama:
             if OLLAMA_USERNAME
             else None
         )
-        response = requests.post(
-            OLLAMA_ENDPOINT,
-            json=payload,
-            auth=auth,
-            timeout=300,
-        )
+        for attempt in range(1, MAX_ATTEMPTS + 1):
+            try:
+                response = requests.post(
+                    OLLAMA_ENDPOINT,
+                    json=payload,
+                    auth=auth,
+                    timeout=REQUEST_TIMEOUT,
+                )
+                if response.status_code >= 500:
+                    response.raise_for_status()
+                break
+            except (
+                requests.exceptions.Timeout,
+                requests.exceptions.ConnectionError,
+                requests.exceptions.HTTPError,
+            ) as e:
+                if attempt == MAX_ATTEMPTS:
+                    raise
+                wait = 60 * attempt
+                print(f"[!] Ollama request failed ({type(e).__name__}) — retrying in {wait}s "
+                      f"(attempt {attempt}/{MAX_ATTEMPTS})")
+                time.sleep(wait)
+
         response.raise_for_status()
         return response.json()["message"]["content"]
 
