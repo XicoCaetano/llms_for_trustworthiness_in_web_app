@@ -65,7 +65,8 @@ class ProcessingPractices:
             33: ("deepseek-coder:33b", LLMOllama),
             34: ("deepseek-coder:6.7b", LLMOllama),
             35: ("deepseek-coder:1.3b", LLMOllama),
-            36: ("qwen3.6:35b_custom", LLMOllama)
+            36: ("qwen3.6:35b_custom", LLMOllama),
+            37: ("gpt-oss:20b", LLMOllama)
         }
 
         model_name, llm_class = llm_configs[llm_version]

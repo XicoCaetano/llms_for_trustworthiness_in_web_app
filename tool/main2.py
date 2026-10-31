@@ -66,11 +66,12 @@ llm_paths = {
     33: "deepseek-coder_33b",
     34: "deepseek-coder_6.7b",
     35: "deepseek-coder_1.3b",
-    36: "qwen3.6_35b_custom"
+    36: "qwen3.6_35b_custom",
+    37: "gpt-oss_20b"
 }
 
 # Ollama models use the same prompts as the GPT models
-OLLAMA_LLM_IDS = set(range(6, 37))
+OLLAMA_LLM_IDS = set(range(6, 38))
 
 def run(llm, prompt):
     try:
@@ -160,7 +161,8 @@ def run_prompt3(llm, prompts):
             33: "deepseek_coder_33b",        # deepseek-coder:33b
             34: "deepseek_coder_6b7",        # deepseek-coder:6.7b
             35: "deepseek_coder_1b3",        # deepseek-coder:1.3b
-            36: "qwen3_6_35b_custom"         # qwen3.6:35b_custom
+            36: "qwen3_6_35b_custom",        # qwen3.6:35b_custom
+            37: "gpt_oss_20b"                # gpt-oss:20b
         }
 
         def get_previous_prompt_result_path(base_name, i, llm_version, llm_suffix):
@@ -249,7 +251,7 @@ if __name__ == "__main__":
     #     run_universal(i)
 
     # llms = [1, 2, 3, 4, 5]
-    llms = [15, 13]     # 15=gemma4:31b  13=qwen3.8:27b  (Ollama ids: see llm_paths, 6–36)
+    llms = [15, 13]     # 15=gemma4:31b  13=qwen3.8:27b  (Ollama ids: see llm_paths, 6–37)
     prompts = [1, 2, 4, 5]
 
     # Optional override from the command line, e.g.: python main2.py --llms 15 --prompts 1 2 4 5
